@@ -35,4 +35,11 @@
         <item>0</item>
     </string-array>
 
+    <declare-styleable name="IntervalSeekBar">
+        <attr name="minI" format="float" />
+        <attr name="maxI" format="float" />
+        <attr name="defaultValueAni" format="float" />
+        <attr name="digits" format="integer" />
+    </declare-styleable>
+
 </resources>
