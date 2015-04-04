@@ -991,15 +991,20 @@ public class SecuritySettings extends SettingsPreferenceFragment
             implements OnPreferenceChangeListener, OwnerInfoPreferenceController.OwnerInfoCallback {
 
         private static final String KEY_VISIBLE_PATTERN = "visiblepattern";
+        private static final String KEY_VISIBLE_ERROR_PATTERN = "visible_error_pattern";
+        private static final String KEY_VISIBLE_DOTS = "visibledots";
         private static final String KEY_LOCK_AFTER_TIMEOUT = "lock_after_timeout";
         private static final String KEY_POWER_INSTANTLY_LOCKS = "power_button_instantly_locks";
 
         // These switch preferences need special handling since they're not all stored in Settings.
         private static final String SWITCH_PREFERENCE_KEYS[] = { KEY_LOCK_AFTER_TIMEOUT,
-                KEY_VISIBLE_PATTERN, KEY_POWER_INSTANTLY_LOCKS };
+                KEY_VISIBLE_PATTERN, KEY_VISIBLE_ERROR_PATTERN, KEY_VISIBLE_DOTS,
+                KEY_POWER_INSTANTLY_LOCKS };
 
         private TimeoutListPreference mLockAfter;
         private SwitchPreference mVisiblePattern;
+        private SwitchPreference mVisibleErrorPattern;
+        private SwitchPreference mVisibleDots;
         private SwitchPreference mPowerButtonInstantlyLocks;
 
         private TrustAgentManager mTrustAgentManager;
@@ -1032,8 +1037,13 @@ public class SecuritySettings extends SettingsPreferenceFragment
             createPreferenceHierarchy();
 
             if (mVisiblePattern != null) {
-                mVisiblePattern.setChecked(mLockPatternUtils.isVisiblePatternEnabled(
-                        MY_USER_ID));
+                mVisiblePattern.setChecked(mLockPatternUtils.isVisiblePatternEnabled(MY_USER_ID));
+            }
+            if (mVisibleErrorPattern != null) {
+                mVisibleErrorPattern.setChecked(mLockPatternUtils.isShowErrorPath(MY_USER_ID));
+            }
+            if (mVisibleDots != null) {
+                mVisibleDots.setChecked(mLockPatternUtils.isVisibleDotsEnabled(MY_USER_ID));
             }
             if (mPowerButtonInstantlyLocks != null) {
                 mPowerButtonInstantlyLocks.setChecked(
@@ -1070,6 +1080,12 @@ public class SecuritySettings extends SettingsPreferenceFragment
 
             // visible pattern
             mVisiblePattern = (SwitchPreference) findPreference(KEY_VISIBLE_PATTERN);
+
+            // visible error pattern
+            mVisibleErrorPattern = (SwitchPreference) findPreference(KEY_VISIBLE_ERROR_PATTERN);
+
+            // visible dots
+            mVisibleDots = (SwitchPreference) findPreference(KEY_VISIBLE_DOTS);
 
             // lock instantly on power key press
             mPowerButtonInstantlyLocks = (SwitchPreference) findPreference(
@@ -1192,6 +1208,10 @@ public class SecuritySettings extends SettingsPreferenceFragment
                 updateLockAfterPreferenceSummary();
             } else if (KEY_VISIBLE_PATTERN.equals(key)) {
                 mLockPatternUtils.setVisiblePatternEnabled((Boolean) value, MY_USER_ID);
+            } else if (KEY_VISIBLE_ERROR_PATTERN.equals(key)) {
+                mLockPatternUtils.setShowErrorPath((Boolean) value, MY_USER_ID);
+            } else if (KEY_VISIBLE_DOTS.equals(key)) {
+                mLockPatternUtils.setVisibleDotsEnabled((Boolean) value, MY_USER_ID);
             }
             return true;
         }
