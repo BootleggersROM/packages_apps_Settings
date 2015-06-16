@@ -83,4 +83,7 @@
 
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Screenshot sound</string>
+
+    <!-- Changelog error -->
+    <string name="changelog_error">Unable to load changelog</string>
 </resources>
