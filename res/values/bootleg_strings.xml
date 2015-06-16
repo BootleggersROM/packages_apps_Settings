@@ -272,4 +272,7 @@
     <!-- Updates section summary -->
     <string name="system_update_settings_summary">Check if there\'s any update for %s</string>
 
+    <!-- Changelog error -->
+    <string name="changelog_error">Unable to load changelog</string>
+
 </resources>
