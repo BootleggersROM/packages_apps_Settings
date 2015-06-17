@@ -212,4 +212,10 @@
     <string name="theme_applied_toast">Theme applied!</string>
     <string name="ui_style_applied_toast">UI style applied!</string>
 
+    <!-- Pass swipe-up-to-unlock -->
+    <string name="lock_directly_show_password">Directly show password entry</string>
+    <string name="lock_directly_show_pattern">Directly show pattern view</string>
+    <string name="lock_directly_show_pin">Directly show PIN entry</string>
+    <string name="lock_directly_show_summary">Skip the swipe up to unlock screen when unlocking the device</string>
+
 </resources>
