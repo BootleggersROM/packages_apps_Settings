@@ -38,4 +38,10 @@
    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
 
+    <!-- Whether to show a check box or switch for manual provision -->
+    <bool name="config_custom_multi_sim_checkbox">false</bool>
+
+    <!-- Whether notify user that switch data service -->
+    <bool name="confirm_to_switch_data_service">false</bool>
+
 </resources>
