@@ -293,5 +293,15 @@
     <string name="tinsulter18">Oh look, something happened the same exact moment you tapped over this and you missed it! Oh damn, sad that you didn\'t saw that.</string>
     <string name="tinsulter19">IT\'S NO USE</string>
 
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotation</string>
+    <string name="display_rotation_disabled">Disabled</string>
+    <string name="display_rotation_unit">degrees</string>
+    <string name="display_rotation_category_title">Rotation modes</string>
+    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_90_title">90 degrees</string>
+    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_270_title">270 degrees</string>
+
 </resources>
 

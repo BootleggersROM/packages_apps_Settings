@@ -139,7 +139,7 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(mFontPickerPreference = new FontPickerPreferenceController(context, lifecycle, fragment));
         controllers.add(mAccentPickerPreference = new AccentPickerPreferenceController(context, lifecycle, fragment));
         controllers.add(new AutoBrightnessPreferenceController(context, KEY_AUTO_BRIGHTNESS));
-        controllers.add(new AutoRotatePreferenceController(context, lifecycle));
+        // controllers.add(new AutoRotatePreferenceController(context, lifecycle));
         controllers.add(new CameraGesturePreferenceController(context));
         controllers.add(new FontSizePreferenceController(context));
         controllers.add(new LiftToWakePreferenceController(context));
