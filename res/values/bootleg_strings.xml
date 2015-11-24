@@ -243,5 +243,7 @@
 
     <!-- Running services -->
     <string name="background_processes_settings_title">Background processes</string>
-
+    <string name="battery_stats_reset">Reset Stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="ok_string">Ok</string>
 </resources>
