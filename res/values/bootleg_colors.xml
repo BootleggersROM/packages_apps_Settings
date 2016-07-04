@@ -31,4 +31,7 @@
     <color name="expanded_button_color_normal">#4CAF50</color>
     <color name="expanded_button_color_close">#F44336</color>
 
+    <!-- Changelog Colors -->
+    <color name="changelog_title_color">@*android:color/accent_device_default_light</color>
+
 </resources>

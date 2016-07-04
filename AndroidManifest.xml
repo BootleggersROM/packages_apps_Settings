@@ -3434,6 +3434,7 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.bootleggers.dumpster.fragments.PowerMenuSettings" />
         </activity>
+	    <activity android:name=".deviceinfo.Changelog" />
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
