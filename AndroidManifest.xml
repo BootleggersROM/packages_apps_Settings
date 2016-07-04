@@ -3347,5 +3347,6 @@
                 android:value="com.bootleggers.dumpster.external.OmniJawsSettings" />
         </activity>
 
+	    <activity android:name=".deviceinfo.Changelog" />
     </application>
 </manifest>
