@@ -175,5 +175,10 @@
     <string name="app_notifications_info_desc">Tap on one of above channels to configure their light colors and other options</string>
     <string name="value_equals_default">Def</string>
     <string name="show_light_on_zen_title">Blink during Do Not Disturb</string>
+
+    <!-- Reset battery stats -->
+    <string name="ok">Ok</string>
+    <string name="menu_stats_reset">Reset stats</string>
+    <string name="reset_stats_msg">Battery history stats are going to be reset</string>
 </resources>
 
