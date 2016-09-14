@@ -156,5 +156,9 @@
     <string name="value_equals_default">Def</string>
     <string name="show_light_on_zen_title">Blink during Do Not Disturb</string>
 
+    <!-- Reset Battery Status -->
+    <string name="menu_stats_reset">Reset stats</string>
+    <string name="reset_stats_msg">Battery history stats are going to be reset</string>
+
 </resources>
 
