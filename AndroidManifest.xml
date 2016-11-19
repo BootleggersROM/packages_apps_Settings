@@ -3439,6 +3439,8 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="com.bootleggers.dumpster.external.HAFRAppListActivity" />
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
