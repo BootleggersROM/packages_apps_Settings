@@ -3306,5 +3306,8 @@
             <meta-data android:name="com.android.settings.summary"
                        android:resource="@string/bootlegdumpster_settings_activity_summary"/>
         </activity>
+
+    <activity android:name="com.bootleggers.dumpster.external.HAFRAppListActivity" />
+
     </application>
 </manifest>
