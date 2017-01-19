@@ -24,4 +24,7 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
 
+    <!-- Dashboard Layout -->
+    <string name="columns_menu">Columns layout</string>
+    <string name="hide_summary_menu">Hide summary</string>
 </resources>
