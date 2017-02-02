@@ -65,4 +65,7 @@
     <!-- Allow to choose lockscreen or Ambient on wake gestures -->
     <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
     <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal lockscreen on wake gestures</string>
+
+    <!-- Allow to quickly open Running Services from QS panel -->
+    <string name="background_processes_settings_title">Background processes</string>
 </resources>
