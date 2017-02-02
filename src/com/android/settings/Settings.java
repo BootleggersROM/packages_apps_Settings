@@ -182,4 +182,7 @@ public class Settings extends SettingsActivity {
 
     // Custom dashboard settings
     public static class PowerMenuSettings extends SettingsActivity { /* empty */ }
+
+    // Custom additions.
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }
