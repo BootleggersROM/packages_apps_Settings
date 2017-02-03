@@ -177,5 +177,5 @@ public class Settings extends SettingsActivity {
     public static class SystemDashboardActivity extends SettingsActivity {}
     public static class BootlegDumpsterActivity extends SettingsActivity {}
     public static class PowerMenuSettings extends SettingsActivity { /* empty */ }
-
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }
