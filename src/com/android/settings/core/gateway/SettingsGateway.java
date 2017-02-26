@@ -129,6 +129,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.bootleggers.dumpster.MainDump;
 import com.bootleggers.dumpster.external.HeadsUpSettings;
+import com.bootleggers.dumpster.external.OmniJawsSettings;
 
 public class SettingsGateway {
 
@@ -249,6 +250,7 @@ public class SettingsGateway {
             LockscreenDashboardFragment.class.getName(),
             MainDump.class.getName(),
             HeadsUpSettings.class.getName(),
+            OmniJawsSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
