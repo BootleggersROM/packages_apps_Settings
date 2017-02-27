@@ -34,6 +34,7 @@ LOCAL_JAVA_LIBRARIES := \
     core-oj \
     telephony-common \
     ims-common \
+    telephony-ext \
     org.dirtyunicorns.utils
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
