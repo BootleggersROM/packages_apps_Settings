@@ -50,6 +50,16 @@
         settings:highlightableMenuKey="@string/menu_key_apps"/>
 
     <com.android.settings.widget.HomepagePreference
+        android:fragment="com.bootleggers.dumpster.MainDump"
+        android:icon="@drawable/ic_settings_bootlegdump"
+        android:key="top_level_dumpster"
+        android:order="-125"
+        android:title="@string/bootleg_dumpster_title"
+        android:summary="@string/bootleg_dumpster_summary"
+        settings:highlightableMenuKey="top_level_bootleg_dumpster"
+        settings:controller="com.bootleggers.dumpster.TopLevelDumpsterEntryPreferenceController"/>
+
+    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.notification.ConfigureNotificationSettings"
         android:icon="@drawable/ic_notifications"
         android:key="top_level_notifications"

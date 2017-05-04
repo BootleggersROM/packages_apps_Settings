@@ -1,0 +1,2 @@
+# Bootleg Dumpster
+-keep class com.bootleggers.dumpster.**
