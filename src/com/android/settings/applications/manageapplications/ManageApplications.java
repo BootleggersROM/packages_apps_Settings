@@ -1273,13 +1273,7 @@ public class ManageApplications extends InstrumentedFragment
         }
 
         public boolean isEnabled(int position) {
-            if (getItemViewType(position) == VIEW_TYPE_EXTRA_VIEW
-                    || mManageApplications.mListType != LIST_TYPE_HIGH_POWER) {
-                return true;
-            }
-            ApplicationsState.AppEntry entry = mEntries.get(position);
-            return !PowerWhitelistBackend.getInstance(mContext)
-                    .isSysWhitelisted(entry.info.packageName);
+            return true;
         }
 
         @Override
