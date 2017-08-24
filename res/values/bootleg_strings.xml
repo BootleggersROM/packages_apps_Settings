@@ -19,4 +19,6 @@
     <string name="bootleg_dumpster_title">Bootleg Dumpster</string>
     <string name="bootleg_dumpster_summary">Where the broken stuff is placed</string>
 
+    <!-- Bootleggers version in About phone -->
+    <string name="rom_version_title">Bootleggers version</string>
 </resources>
