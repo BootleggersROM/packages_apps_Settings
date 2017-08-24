@@ -97,6 +97,12 @@
                 android:title="@string/kernel_version"
                 android:summary="@string/summary_placeholder"/>
 
+        <!-- ROM Version -->
+        <Preference
+                android:key="modversion"
+                android:title="@string/rom_version_title"
+                android:summary="@string/device_info_default"/>
+
         <!-- Detailed build version -->
         <Preference
                 android:key="build_number"
