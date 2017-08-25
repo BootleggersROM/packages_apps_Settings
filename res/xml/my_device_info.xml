@@ -55,6 +55,13 @@
         android:title="@string/emergency_info_title"
         android:summary="@string/summary_placeholder"/>
 
+    <!-- Bootleggers version -->
+    <Preference
+        android:key="bootleggers_version"
+        android:order="5"
+        android:title="@string/bootleggers_version"
+        android:summary="@string/bootleggers_version_default" />
+
     <!-- SIM status -->
     <Preference
         android:key="sim_status"
