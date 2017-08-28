@@ -3287,5 +3287,17 @@
                        android:resource="@string/bootleg_dumpster_summary"/>
         </activity>
 
+        <!-- Global Actions -->
+        <activity android:name="Settings$GlobalActionsSettingsActivity"
+                  android:label="@string/global_actions_title"
+                  android:taskAffinity="com.android.settings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.bootleggers.dumpster.fragments.PowerMenuSettings" />
+        </activity>
+
     </application>
 </manifest>

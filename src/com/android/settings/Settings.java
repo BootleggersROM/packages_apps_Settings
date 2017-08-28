@@ -179,4 +179,7 @@ public class Settings extends SettingsActivity {
 
     // Bootleggers aditional Additions.
     public static class BootlegDumpsterActivity extends SettingsActivity {}
+
+    // Custom dashboard settings
+    public static class PowerMenuSettings extends SettingsActivity { /* empty */ }
 }
