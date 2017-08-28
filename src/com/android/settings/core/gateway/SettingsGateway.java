@@ -138,6 +138,7 @@ import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.bootleggers.dumpster.MainDump;
+import com.bootleggers.dumpster.fragments.PowerMenuSettings;
 
 public class SettingsGateway {
 
@@ -263,7 +264,8 @@ public class SettingsGateway {
             DirectoryAccessDetails.class.getName(),
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
-            MainDump.class.getName()
+            MainDump.class.getName(),
+            PowerMenuSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

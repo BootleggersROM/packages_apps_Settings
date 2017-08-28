@@ -32,4 +32,7 @@
     <string name="display_rotation_180_title">180 degrees</string>
     <string name="display_rotation_270_title">270 degrees</string>
 
+    <!-- Power menu and global actions -->
+    <string name="global_actions_title">Power menu</string>
+
 </resources>
