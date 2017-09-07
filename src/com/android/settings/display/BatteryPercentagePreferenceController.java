@@ -50,7 +50,7 @@ public class BatteryPercentagePreferenceController extends PreferenceController
     @Override
     public void updateState(Preference preference) {
         int setting = Settings.System.getInt(mContext.getContentResolver(),
-                SHOW_BATTERY_PERCENT, 0);
+                SHOW_BATTERY_PERCENT, 1);
 
         ((SwitchPreference) preference).setChecked(setting == 1);
     }
