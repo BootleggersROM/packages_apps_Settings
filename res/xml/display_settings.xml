@@ -131,6 +131,18 @@
         android:summary="@string/doze_summary" />
 
     <SwitchPreference
+        android:key="ambient_doze_auto_brightness"
+        android:title="@string/ambient_doze_auto_brightness_title"
+        android:summary="@string/ambient_doze_auto_brightness_summary"
+        android:dependency="auto_brightness" />
+
+    <com.gzr.wolvesden.preference.CustomSeekBarPreference
+        android:key="ambient_doze_custom_brightness"
+        android:title="@string/ambient_doze_custom_brightness_title"
+        android:max="255"
+        settings:units="" />
+
+    <SwitchPreference
         android:key="tap_to_wake"
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
