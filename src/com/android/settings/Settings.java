@@ -178,4 +178,6 @@ public class Settings extends SettingsActivity {
     public static class AccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
 
+    // Bootleggers aditional Additions.
+    public static class BootlegDumpsterActivity extends SettingsActivity {}
 }
