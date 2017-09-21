@@ -46,7 +46,8 @@ public class AppOpsSummary extends InstrumentedPreferenceFragment {
         AppOpsState.PERSONAL_TEMPLATE,
         AppOpsState.MESSAGING_TEMPLATE,
         AppOpsState.MEDIA_TEMPLATE,
-        AppOpsState.DEVICE_TEMPLATE
+        AppOpsState.DEVICE_TEMPLATE,
+        AppOpsState.BOOTUP_TEMPLATE
     };
 
     int mCurPos;
