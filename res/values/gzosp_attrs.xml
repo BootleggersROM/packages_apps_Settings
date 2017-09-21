@@ -29,7 +29,10 @@
         <item>@string/app_ops_cat_messaging</item>
         <item>@string/app_ops_cat_media</item>
         <item>@string/app_ops_cat_device</item>
+<<<<<<< HEAD
         <item>@string/app_ops_cat_bootup</item>
+=======
+>>>>>>> f958ca0ac5... AppOps: use validus arrays and strings without summaries
     </string-array>
 
     <!-- User display names for app ops codes -->
@@ -174,6 +177,7 @@
         <item>@string/app_ops_app_start_foreground</item>
         <!--OP_ANSWER_PHONE_CALLS -->
         <item>@string/app_ops_answer_phone_calls</item>	
+<<<<<<< HEAD
         <!-- OP_BOOT_COMPLETED -->
         <item>@string/app_ops_boot_completed</item>
     </string-array>
@@ -188,4 +192,7 @@
         <item>@string/volume_steps_5</item>
     </string-array>
 
+=======
+    </string-array>
+>>>>>>> f958ca0ac5... AppOps: use validus arrays and strings without summaries
 </resources>
