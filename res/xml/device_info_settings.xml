@@ -19,7 +19,7 @@
 
         <!-- GZOSP About logo -->
         <PreferenceScreen
-                android:key="gzosp_about"
+                android:key="bootleg_about"
                 android:enabled="false"
                 android:layout="@layout/bootleg_about" />
 
