@@ -268,6 +268,7 @@ public class DashboardSummary extends InstrumentedFragment
 
     private void updateSettings() {
         boolean hideSummary = mAppPreferences.getBoolean(SettingsActivity.KEY_HIDE_SUMMARY, false);
+        boolean hideSuggestions = mAppPreferences.getBoolean(SettingsActivity.KEY_HIDE_SUGGESTIONS, false);
         int numColumns = mAppPreferences.getInt(SettingsActivity.KEY_COLUMNS_COUNT, 1);
         boolean isLandscape = getResources().getConfiguration().orientation
                 == Configuration.ORIENTATION_LANDSCAPE;
@@ -276,6 +277,11 @@ public class DashboardSummary extends InstrumentedFragment
         mLayoutManager.setSpanCount(mNumColumns);
         mAdapter.setNumColumns(mNumColumns);
         mAdapter.setHideSummary(hideSummary);
+        if (mAdapter.setHideSuggestions(hideSuggestions) == true) {
+            // hideSuggestions changed, rebuild the UI
+            Log.d(TAG, "hideSuggestions changed, rebuildUI");
+            rebuildUI();
+        }
         mAdapter.notifyDataSetChanged();
     }
 

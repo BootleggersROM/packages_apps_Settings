@@ -27,6 +27,7 @@
     <!-- Dashboard Layout -->
     <string name="columns_menu">Columns layout</string>
     <string name="hide_summary_menu">Hide summary</string>
+    <string name="hide_suggestions_menu">Hide suggestions</string>
 
     <!-- Unlink Ringtone -->
     <string name="link_volume_option_title">Link ring and notification volume</string>

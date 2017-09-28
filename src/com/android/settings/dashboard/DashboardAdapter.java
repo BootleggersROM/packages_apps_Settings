@@ -68,6 +68,7 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
     // omni additions start
     private int mNumColumns = 1;
     private boolean mHideSummary;
+    private boolean mHideSuggestions = false;
 
     @VisibleForTesting
     DashboardData mDashboardData;
@@ -138,11 +139,18 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
     }
 
     public List<Tile> getSuggestions() {
+        if (mHideSuggestions)
+                return null;
+
         return mDashboardData.getSuggestions();
     }
 
     public void setCategoriesAndSuggestions(List<DashboardCategory> categories,
             List<Tile> suggestions) {
+
+        if (mHideSuggestions)
+                suggestions = null;
+
         // TODO: Better place for tinting?
         final TypedArray a = mContext.obtainStyledAttributes(new int[]{
                 android.R.attr.colorControlNormal});
@@ -170,8 +178,9 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
         List<Tile> shownSuggestions = null;
         switch (mDashboardData.getSuggestionMode()) {
             case DashboardData.SUGGESTION_MODE_DEFAULT:
-                shownSuggestions = suggestions.subList(0,
-                        Math.min(suggestions.size(), DashboardData.DEFAULT_SUGGESTION_COUNT));
+                if (!mHideSuggestions)
+                        shownSuggestions = suggestions.subList(0,
+                                Math.min(suggestions.size(), DashboardData.DEFAULT_SUGGESTION_COUNT));
                 break;
             case DashboardData.SUGGESTION_MODE_EXPANDED:
                 shownSuggestions = suggestions;
@@ -452,6 +461,18 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
 
     public void setHideSummary(boolean hideSummary) {
         mHideSummary = hideSummary;
+    }
+
+    /*
+     * Returns true if the configuration is changed
+     */
+    public boolean setHideSuggestions(boolean hideSuggestions) {
+        boolean hideSuggestions_changed = mHideSuggestions;
+
+        mHideSuggestions = hideSuggestions;
+        if (hideSuggestions_changed != mHideSuggestions)
+            return true;
+        return false;
     }
 
     private static class IconCache {

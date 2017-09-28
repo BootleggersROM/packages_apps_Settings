@@ -25,4 +25,9 @@
         android:title="@string/hide_summary_menu"
         android:showAsAction="never"
         android:checkable="true" />
+    <item
+        android:id="@+id/hide_suggestions_menu"
+        android:title="@string/hide_suggestions_menu"
+        android:showAsAction="never"
+        android:checkable="true" />
 </menu>
