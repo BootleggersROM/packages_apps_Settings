@@ -128,6 +128,7 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.bootleggers.dumpster.MainDump;
+import com.bootleggers.dumpster.external.HeadsUpSettings;
 
 public class SettingsGateway {
 
@@ -247,6 +248,7 @@ public class SettingsGateway {
             WebViewAppPicker.class.getName(),
             LockscreenDashboardFragment.class.getName(),
             MainDump.class.getName(),
+            HeadsUpSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
