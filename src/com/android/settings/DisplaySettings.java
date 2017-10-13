@@ -33,6 +33,7 @@ import com.android.settings.display.FontSizePreferenceController;
 import com.android.settings.display.LiftToWakePreferenceController;
 import com.android.settings.display.NightDisplayPreferenceController;
 import com.android.settings.display.NightModePreferenceController;
+import com.android.settings.display.ProximityOnWakePreferenceController;
 import com.android.settings.display.ScreenSaverPreferenceController;
 import com.android.settings.display.TapToWakePreferenceController;
 import com.android.settings.display.ThemePreferenceController;
@@ -99,6 +100,7 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new LiftToWakePreferenceController(context));
         controllers.add(new NightDisplayPreferenceController(context));
         controllers.add(new NightModePreferenceController(context));
+        controllers.add(new ProximityOnWakePreferenceController(context));        
         controllers.add(new ScreenSaverPreferenceController(context));
         AmbientDisplayConfiguration ambientDisplayConfig = new AmbientDisplayConfiguration(context);
         controllers.add(new PickupGesturePreferenceController(

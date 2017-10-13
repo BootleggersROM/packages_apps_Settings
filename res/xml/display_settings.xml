@@ -111,6 +111,12 @@
         android:fragment="com.android.settings.gestures.PickupGestureSettings" />
 
     <SwitchPreference
+        android:key="proximity_on_wake"
+        android:title="@string/proximity_wake_title"
+        android:summary="@string/proximity_wake_summary"
+        android:defaultValue="true" />
+
+    <SwitchPreference
         android:key="doze"
         android:title="@string/doze_title"
         android:summary="@string/doze_summary" />
