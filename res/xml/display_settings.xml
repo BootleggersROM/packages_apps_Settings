@@ -110,11 +110,10 @@
         android:title="@string/ambient_display_pickup_title"
         android:fragment="com.android.settings.gestures.PickupGestureSettings" />
 
-    <SwitchPreference
+    <com.android.settings.gzosp.SystemSettingSwitchPreference
         android:key="proximity_on_wake"
         android:title="@string/proximity_wake_title"
-        android:summary="@string/proximity_wake_summary"
-        android:defaultValue="true" />
+        android:summary="@string/proximity_wake_summary" />
 
     <SwitchPreference
         android:key="doze"

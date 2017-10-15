@@ -19,6 +19,7 @@ import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.Preference;
 
 import com.android.settings.core.PreferenceController;
+import com.android.settings.gzosp.SystemSettingSwitchPreference;
 
 public class ProximityOnWakePreferenceController extends PreferenceController implements
         Preference.OnPreferenceChangeListener {
