@@ -28,5 +28,9 @@
     <string name="proximity_wake_title">Prevent accidental wake up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
 
+    <!-- Encryption and credential -->
+    <string name="custom_encryption_and_credential_settings_summary_on">Device is encrypted</string>
+    <string name="custom_encryption_and_credential_settings_summary_off">Device is decrypted</string>
+
 </resources>
 
