@@ -68,4 +68,7 @@
 
     <!-- Allow to quickly open Running Services from QS panel -->
     <string name="background_processes_settings_title">Background processes</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
 </resources>
