@@ -27,6 +27,11 @@
         <intent android:action="com.android.intent.action.SHOW_BRIGHTNESS_DIALOG" />
     </Preference>
 
+    <Preference
+        android:key="daynight"
+        android:fragment="com.android.settings.display.DayNightSettings"
+        android:title="@string/daynight_title"/>
+
     <com.android.settings.display.NightDisplayPreference
         android:key="night_display"
         android:title="@string/night_display_title"
