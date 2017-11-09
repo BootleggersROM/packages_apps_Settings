@@ -31,4 +31,7 @@
 
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
     <string name="suggestion_button_close">Close</string>
+
+    <!-- Device specific doze package -->
+    <string name="config_customDozePackage" translatable="false"></string>
 </resources>
