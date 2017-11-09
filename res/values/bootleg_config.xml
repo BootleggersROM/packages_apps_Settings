@@ -30,4 +30,7 @@
 
     <!-- Does the device support color inversion -->
     <bool name="config_displayInversionAvailable">true</bool>
+
+    <!-- Device specific doze package -->
+    <string name="config_customDozePackage" translatable="false"></string>
 </resources>
