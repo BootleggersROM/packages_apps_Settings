@@ -20,7 +20,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Rom version -->
-    <string name="rom_version_title">GZOSP version</string>
+    <string name="rom_version_title">Bootleggers version</string>
 
     <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
 
