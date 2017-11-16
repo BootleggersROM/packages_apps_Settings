@@ -21,7 +21,7 @@
         <PreferenceScreen
                 android:key="gzosp_about"
                 android:enabled="false"
-                android:layout="@layout/gzosp_about" />
+                android:layout="@layout/bootleg_about" />
 
         <!-- System update settings - launches activity -->
         <Preference android:key="additional_system_update_settings"
