@@ -19,9 +19,11 @@
     android:orientation="horizontal" >
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/gzosp_about"
+            android:layout_width="600dp"
+            android:layout_height="100dp"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:src="@drawable/bootleg_aboutlogo"
         />
 
 </LinearLayout>

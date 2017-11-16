@@ -15,15 +15,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:gravity="center"
-    android:orientation="horizontal" >
+    android:gravity="center" >
 
         <ImageView
-            android:layout_width="600dp"
-            android:layout_height="100dp"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
-            android:src="@drawable/gzosp_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bootleg_aboutlogo"
         />
 
 </LinearLayout>
