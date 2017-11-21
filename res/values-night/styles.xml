@@ -16,7 +16,7 @@
     </style>
 
     <style name="Theme.SettingsBase" parent="@*android:style/Theme.Material">
-        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
+        <item name="android:colorBackground">#000000</item>
         <item name="android:windowBackground">@*android:color/background_dark</item>
         <item name="android:textColorPrimaryInverse">#ffffffff</item>
     </style>
@@ -25,10 +25,10 @@
     <style name="Theme.AlertDialog" parent="@*android:style/Theme.Material.Dialog.Alert">
         <item name="android:textColorPrimary">#ffffffff</item>
         <item name="android:textColorSecondary">#ffdddddd</item>
-        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
-        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="android:colorBackground">#000000</item>
+        <item name="android:colorPrimary">#000000</item>
         <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
-        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+        <item name="android:colorAccent">#FAFAFA</item>
     </style>
 
 
@@ -39,7 +39,7 @@
     <style name="FallbackHome" parent="@*android:style/Theme.DeviceDefault" />
     <style name="PreferenceFragmentListSinglePane" parent="@*android:style/PreferenceFragmentList">
         <item name="android:scrollbarStyle">outsideOverlay</item>
-        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:background">#000000</item>
     </style>
 
     <style name="Theme.SettingsAlertDialog" parent="@*android:style/Theme.Material.Dialog.Alert" />
