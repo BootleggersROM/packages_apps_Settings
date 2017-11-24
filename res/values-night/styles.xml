@@ -47,6 +47,6 @@
     <style name="Theme.SettingsDialog" parent="@*android:style/Theme.Material.Dialog.NoActionBar" />
     <style name="Theme.SettingsLicenseActivity" parent="@*android:style/Theme.Material.Panel" />
     <style name="Theme.AppPicker" parent="@*android:style/Theme.Material.Dialog" />
-    <style name="Theme.SmartBar.Dialog" parent="@*android:style/Theme.Material.Dialog.Alert" />
+    <style name="Theme.SmartBar.Dialog" parent="@*android:style/Theme.Material.DayNight.Dialog.Alert" />
 
 </resources>
