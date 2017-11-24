@@ -115,6 +115,7 @@
     <string name="app_ops_answer_phone_calls">answer calls</string>
     <string name="app_ops_boot_completed">auto start</string>
 
+<<<<<<< HEAD
     <!-- Custom light color -->
     <string name="light_customization">Led light notification</string>
     <string name="custom_light_title">Light color</string>
@@ -158,4 +159,6 @@
     <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
     <string name="supersu_title">SuperSU</string>
 
+=======
+>>>>>>> 3d03c6d6a6... Do Not Merge! Squash: app-ops
 </resources>
