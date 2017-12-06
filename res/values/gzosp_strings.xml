@@ -22,5 +22,7 @@
     <!-- Rom version -->
     <string name="rom_version_title">GZOSP version</string>
 
+    <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
+
 </resources>
 
