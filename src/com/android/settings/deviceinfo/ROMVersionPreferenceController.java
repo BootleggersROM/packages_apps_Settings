@@ -22,9 +22,11 @@ import android.support.v7.preference.PreferenceScreen;
 import android.text.TextUtils;
 
 import com.android.settings.R;
-import com.android.settings.core.PreferenceController;
+import com.android.settings.core.PreferenceControllerMixin;
+import com.android.settingslib.core.AbstractPreferenceController;
 
-public class ROMVersionPreferenceController extends PreferenceController {
+public class ROMVersionPreferenceController extends AbstractPreferenceController
+        implements PreferenceControllerMixin {
 
     private static final String PROPERTY_GZOSP_VERSION = "ro.gzosp.version";
     private static final String KEY_GZOSP_VERSION = "modversion";
