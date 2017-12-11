@@ -1038,4 +1038,23 @@
         <item>never</item>
     </string-array>
 
+    <string-array name="bootleg_insults" translatable="false">
+        <item>@string/tinsulter01</item>
+        <item>@string/tinsulter02</item>
+        <item>@string/tinsulter03</item>
+        <item>@string/tinsulter04</item>
+        <item>@string/tinsulter05</item>
+        <item>@string/tinsulter06</item>
+        <item>@string/tinsulter07</item>
+        <item>@string/tinsulter08</item>
+        <item>@string/tinsulter09</item>
+        <item>@string/tinsulter10</item>
+        <item>@string/tinsulter11</item>
+        <item>@string/tinsulter12</item>
+        <item>@string/tinsulter13</item>
+        <item>@string/tinsulter14</item>
+        <item>@string/tinsulter15</item>
+        <item>@string/tinsulter16</item>
+    </string-array>
+
 </resources>

@@ -272,5 +272,23 @@
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
 
+    <!-- Toast Insulter // Our rendition -->
+    <string name="tinsulter01">Please step away from the device!</string>
+    <string name="tinsulter02">Congratulations! You have enabled VoLTE Advanced Settings.</string>
+    <string name="tinsulter03">You know, i\'m getting tired about people playing with me.</string>
+    <string name="tinsulter04">Wow sur, u thug pro dev enabled hax0rz settings. Can u phix Bholthe pls?</string>
+    <string name="tinsulter05">If somebody gave me a penny every time this happens...</string>
+    <string name="tinsulter06">Oh no, what are you doing?</string>
+    <string name="tinsulter07">Just VoLTE.</string>
+    <string name="tinsulter08">Remember the old times when you didn\'t know that option exists? I miss those times</string>
+    <string name="tinsulter09">Call my name and save me from the dark</string>
+    <string name="tinsulter10">Perhaps this Android thing is not for you...</string>
+    <string name="tinsulter11">Wew sur, u thug!</string>
+    <string name="tinsulter12">Clifford the Big Red Dog is an eponymously titled American children\'s book series about a giant red dog named Clifford. It was first published in 1963 and was written by Norman Bridwell (1928–2014). The series helped establish Scholastic as a premier publishing company,and Clifford himself is Scholastic\'s official mascot.</string>
+    <string name="tinsulter13">Um, you could be setting up the ROM instead of wasting time tapping this option... </string>
+    <string name="tinsulter14">Man, do you remember the ugly UI that Gingerbread got? Welp, i\'m glad that those times are gone.</string>
+    <string name="tinsulter15">Are you even trying?!</string>
+    <string name="tinsulter16">Why don\'t you put some chill music while we get ready for the action?</string>
+
 </resources>
 
