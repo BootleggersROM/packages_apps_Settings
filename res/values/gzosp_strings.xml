@@ -201,5 +201,11 @@
     <!-- Encryption and credential -->
     <string name="custom_encryption_and_credential_settings_summary_on">Device is encrypted</string>
     <string name="custom_encryption_and_credential_settings_summary_off">Device is decrypted</string>
-</resources>
 
+    <!-- Themes -->
+    <string name="system_theme_style_title">UI style</string>
+    <string name="system_theme_style_auto">Wallpaper based</string>
+    <string name="system_theme_style_light">Light UI</string>
+    <string name="system_theme_style_dark">Dark UI</string>
+
+</resources>
