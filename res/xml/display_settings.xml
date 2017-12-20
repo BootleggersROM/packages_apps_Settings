@@ -52,6 +52,13 @@
             android:targetClass="@string/config_wallpaper_picker_class" />
     </com.android.settingslib.RestrictedPreference>
 
+    <ListPreference
+        android:key="system_theme_style"
+        android:title="@string/system_theme_style_title"
+        android:persistent="false"
+        android:entries="@array/system_theme_style_entries"
+        android:entryValues="@array/system_theme_style_values" />
+
     <!-- Cross-listed item, if you change this, also change it in power_usage_summary.xml -->
     <com.android.settings.TimeoutListPreference
         android:key="screen_timeout"

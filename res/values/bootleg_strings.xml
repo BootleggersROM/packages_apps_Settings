@@ -177,5 +177,11 @@
     <string name="volume_steps_7" translatable="false">7</string>
     <string name="volume_steps_5" translatable="false">5</string>
 
+    <!-- Themes -->
+    <string name="system_theme_style_title">UI style</string>
+    <string name="system_theme_style_auto">Wallpaper based</string>
+    <string name="system_theme_style_light">Light UI</string>
+    <string name="system_theme_style_dark">Dark UI</string>
+
 </resources>
 
