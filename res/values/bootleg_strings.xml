@@ -35,4 +35,9 @@
     <!-- Power menu and global actions -->
     <string name="global_actions_title">Power menu</string>
 
+    <!-- Themes -->
+    <string name="system_theme_style_auto">Wallpaper based</string>
+    <string name="system_theme_style_light">Light UI</string>
+    <string name="system_theme_style_dark">Dark UI</string>
+
 </resources>
