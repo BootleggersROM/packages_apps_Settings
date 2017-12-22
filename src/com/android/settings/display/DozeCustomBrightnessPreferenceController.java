@@ -21,7 +21,7 @@ import android.provider.Settings;
 import android.support.v7.preference.Preference;
 import android.text.TextUtils;
 
-import com.gzr.wolvesden.preference.CustomSeekBarPreference;
+import com.bootleggers.dumpster.preferences.CustomSeekBarPreference;
 import com.android.settings.core.PreferenceController;
 import com.android.settings.core.instrumentation.MetricsFeatureProvider;
 import com.android.settings.overlay.FeatureFactory;
