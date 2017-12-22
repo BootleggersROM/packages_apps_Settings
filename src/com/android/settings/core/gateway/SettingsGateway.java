@@ -131,7 +131,7 @@ import com.bootleggers.dumpster.MainDump;
 import com.bootleggers.dumpster.external.HeadsUpSettings;
 import com.bootleggers.dumpster.external.OmniJawsSettings;
 import com.bootleggers.dumpster.external.dui.FlingSettings;
-import com.bootleggers.dumpster.external.dui.NavbarSettings;
+import com.bootleggers.dumpster.fragments.NavbarSettings;
 import com.bootleggers.dumpster.external.dui.PulseSettings;
 import com.bootleggers.dumpster.external.dui.SmartbarSettings;
 

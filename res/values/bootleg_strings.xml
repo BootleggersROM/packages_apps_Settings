@@ -44,10 +44,7 @@
     <string name="app_ops_cat_messaging">Messaging</string>
     <string name="app_ops_cat_media">Media</string>
     <string name="app_ops_cat_device">Device</string>
-<<<<<<< HEAD
     <string name="app_ops_cat_bootup">Bootup</string>
-=======
->>>>>>> f958ca0ac5... AppOps: use validus arrays and strings without summaries
 
     <!-- [CHAR LIMIT=NONE] App ops labels -->
     <string name="app_ops_access_camera">camera</string>
@@ -116,7 +113,6 @@
     <string name="app_ops_picture_in_picture">pip</string>
     <string name="app_ops_app_start_foreground">start foreground</string>
     <string name="app_ops_answer_phone_calls">answer calls</string>
-<<<<<<< HEAD
     <string name="app_ops_boot_completed">auto start</string>
 
     <!-- Custom light color -->
@@ -161,7 +157,5 @@
 
     <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
     <string name="supersu_title">SuperSU</string>
-=======
->>>>>>> f958ca0ac5... AppOps: use validus arrays and strings without summaries
 
 </resources>
