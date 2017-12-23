@@ -136,7 +136,7 @@
         android:summary="@string/ambient_doze_auto_brightness_summary"
         android:dependency="auto_brightness" />
 
-    <com.gzr.wolvesden.preference.CustomSeekBarPreference
+    <com.bootleggers.dumpster.preferences.CustomSeekBarPreference
         android:key="ambient_doze_custom_brightness"
         android:title="@string/ambient_doze_custom_brightness_title"
         android:max="255"

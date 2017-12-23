@@ -58,7 +58,7 @@
             android:title="@string/custom_light_title"
             settings:defaultColorValue="0x00FFFFFF" />
 
-        <com.gzr.wolvesden.preference.CustomSeekBarPreference
+        <com.bootleggers.dumpster.preferences.CustomSeekBarPreference
             android:key="custom_light_on_time"
             android:title="@string/custom_light_on_time_title"
             android:defaultValue="0"
@@ -68,7 +68,7 @@
             settings:interval="100"
             settings:units="" />
 
-        <com.gzr.wolvesden.preference.CustomSeekBarPreference
+        <com.bootleggers.dumpster.preferences.CustomSeekBarPreference
             android:key="custom_light_off_time"
             android:title="@string/custom_light_off_time_title"
             android:defaultValue="0"
