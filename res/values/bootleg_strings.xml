@@ -269,4 +269,7 @@
     <string name="ringtone1_title">Phone ringtone - SIM 1</string>
     <string name="ringtone2_title">Phone ringtone - SIM 2</string>
 
+    <!-- Updates section summary -->
+    <string name="system_update_settings_summary">Check if there\'s any update for %s</string>
+
 </resources>
