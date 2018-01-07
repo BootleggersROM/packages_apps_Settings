@@ -30,7 +30,6 @@
 
         <ImageView
             android:id="@android:id/icon"
-            android:tint="@*android:color/accent_device_default_light"
             android:layout_width="@dimen/dashboard_tile_image_size"
             android:layout_height="@dimen/dashboard_tile_image_size"
             android:tint="@color/suggestion_card_icon_tint_color"
