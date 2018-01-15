@@ -52,6 +52,7 @@
         <item>@string/system_theme_style_black</item>
         <item>@string/system_theme_style_shishu</item>
         <item>@string/system_theme_style_shishunights</item>
+        <item>@string/system_theme_style_shishuillusion</item>
     </string-array>
 
     <string-array name="system_theme_style_values" translatable="false">
@@ -61,6 +62,7 @@
         <item>3</item>
         <item>4</item>
         <item>5</item>
+        <item>6</item>
     </string-array>
 </resources>
 
