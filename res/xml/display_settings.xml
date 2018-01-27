@@ -59,6 +59,11 @@
         android:entries="@array/system_theme_style_entries"
         android:entryValues="@array/system_theme_style_values" />
 
+    <ListPreference
+        android:key="theme"
+        android:title="@string/device_theme"
+        android:summary="@string/summary_placeholder" />
+
     <!-- Cross-listed item, if you change this, also change it in power_usage_summary.xml -->
     <com.android.settings.TimeoutListPreference
         android:key="screen_timeout"
@@ -130,11 +135,6 @@
         android:key="tap_to_wake"
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
-
-    <ListPreference
-        android:key="theme"
-        android:title="@string/device_theme"
-        android:summary="@string/summary_placeholder" />
 
     <Preference
         android:key="vr_display_pref"
