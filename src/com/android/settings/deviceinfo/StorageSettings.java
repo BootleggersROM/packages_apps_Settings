@@ -108,6 +108,7 @@ public class StorageSettings extends SettingsPreferenceFragment implements Index
         super.onCreate(icicle);
 
         final Context context = getActivity();
+        COLOR_PRIVATE[0] = getResources().getColor(R.color.storage_bar_private_tint_color, null);
 
         mStorageManager = context.getSystemService(StorageManager.class);
         mStorageManager.registerListener(mStorageListener);
