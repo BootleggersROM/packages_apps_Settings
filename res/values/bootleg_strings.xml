@@ -183,8 +183,6 @@
     <string name="system_theme_style_light">Light UI</string>
     <string name="system_theme_style_dark">Dark UI</string>
     <string name="system_theme_style_black">Black UI</string>
-    <string name="theme_applied_toast">Theme applied!</string>
-    <string name="ui_style_applied_toast">UI style applied!</string>
 
     <!-- Sizes for pattern lockscreen -->
     <string name="lock_pattern_size_3" translatable="false">3 \u00d7 3</string>
