@@ -131,7 +131,7 @@
           android:title="@string/docking_sounds_title" />
 
         <!-- Screenshot sound -->
-	<org.aospextended.extensions.preference.SystemSettingSwitchPreference
+	<com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
           android:key="screenshot_sound"
           android:title="@string/screenshot_sound_title"
           android:defaultValue="true" />
