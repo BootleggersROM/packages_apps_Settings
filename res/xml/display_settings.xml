@@ -59,6 +59,10 @@
         android:entries="@array/system_theme_style_entries"
         android:entryValues="@array/system_theme_style_values" />
 
+    <Preference
+        android:key="accent_picker"
+        android:title="@string/theme_accent_picker_title" />
+
     <ListPreference
         android:key="theme"
         android:title="@string/device_theme"
