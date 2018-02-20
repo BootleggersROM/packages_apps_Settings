@@ -38,6 +38,7 @@
     <!-- Themes -->
     <string name="theme_applied_toast">Theme applied.</string>
     <string name="applying_theme_toast">Applying theme, please wait...</string>
+    <string name="substratum_installed_title">This option is disabled due to some overlay being applied to Android System with substratum. If you want to use this feature, be sure to uninstall all those overlays. </string>
     <string name="system_theme_style_auto">Wallpaper based</string>
     <string name="system_theme_style_light">Light UI</string>
     <string name="system_theme_style_dark">Dark UI</string>
