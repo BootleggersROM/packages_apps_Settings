@@ -60,7 +60,7 @@ public class BatteryMeterView extends ImageView {
 
         int userStyle = Settings.Secure.getInt(mContext.getContentResolver(),
                 Settings.Secure.STATUS_BAR_BATTERY_STYLE, BatteryMeterDrawableBase.BATTERY_STYLE_PORTRAIT);
-        if (userStyle >= BatteryMeterDrawableBase.BATTERY_STYLE_TEXT) {
+        if (userStyle >= BatteryMeterDrawableBase.BATTERY_STYLE_SQUARE) {
              userStyle = BatteryMeterDrawableBase.BATTERY_STYLE_PORTRAIT;
         }
         mDrawable = new BatteryMeterDrawable(context, frameColor, userStyle);
