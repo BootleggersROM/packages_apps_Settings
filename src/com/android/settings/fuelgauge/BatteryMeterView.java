@@ -105,16 +105,12 @@ public class BatteryMeterView extends ImageView {
                     setShowPercent(false);
                     break;
                 case BatteryMeterDrawableBase.BATTERY_STYLE_CIRCLE:
-                case BatteryMeterDrawableBase.BATTERY_STYLE_BIG_CIRCLE:
                     mIntrinsicWidth = mContext.getResources().getDimensionPixelSize(R.dimen.battery_meter_height);
                     mIntrinsicHeight = mContext.getResources().getDimensionPixelSize(R.dimen.battery_meter_height);
-                    showPercentInsideCircle(false);
                     break;
                 case BatteryMeterDrawableBase.BATTERY_STYLE_DOTTED_CIRCLE:
-                case BatteryMeterDrawableBase.BATTERY_STYLE_BIG_DOTTED_CIRCLE:
                     mIntrinsicWidth = mContext.getResources().getDimensionPixelSize(R.dimen.battery_meter_height);
                     mIntrinsicHeight = mContext.getResources().getDimensionPixelSize(R.dimen.battery_meter_height);
-                    showPercentInsideCircle(false);
                     setDashEffect(new float[]{18,10}, 0);
                     break;
             }
