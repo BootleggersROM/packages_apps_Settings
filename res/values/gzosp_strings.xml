@@ -267,4 +267,8 @@
     <string name="tinsulter18">Oh look, something happened the same exact moment you tapped over this and you missed it! Oh damn, sad that you didn\'t saw that.</string>
     <string name="tinsulter19">IT\'S NO USE</string>
 
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Automagically unlock when the correct PIN/password is entered</string>
+
 </resources>
