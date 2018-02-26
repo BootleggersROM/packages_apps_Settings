@@ -216,5 +216,9 @@
    <string name="menu_show_substratum">Show overlays</string>
    <string name="menu_hide_substratum">Hide overlays</string>
 
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Automagically unlock when the correct PIN/password is entered</string>
+
 </resources>
 
