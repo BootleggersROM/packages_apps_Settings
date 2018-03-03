@@ -276,10 +276,10 @@
     <string name="tinsulter01">Please step away from the device!</string>
     <string name="tinsulter02">Congratulations! You have enabled VoLTE Advanced Settings.</string>
     <string name="tinsulter03">You know, i\'m getting tired about people playing with me.</string>
-    <string name="tinsulter04">Wow sur, u thug pro dev enabled hax0rz settings. Can u phix Bholthe pls?</string>
+    <string name="tinsulter04">Wow sur, u thug pro dev enabled hax0rz settings.</string>
     <string name="tinsulter05">If somebody gave me a penny every time this happens...</string>
     <string name="tinsulter06">Oh no, what are you doing?</string>
-    <string name="tinsulter07">Just VoLTE.</string>
+    <string name="tinsulter07">Just Monika.</string>
     <string name="tinsulter08">Remember the old times when you didn\'t know that option exists? I miss those times</string>
     <string name="tinsulter09">Call my name and save me from the dark</string>
     <string name="tinsulter10">Perhaps this Android thing is not for you...</string>
@@ -289,6 +289,9 @@
     <string name="tinsulter14">Man, do you remember the ugly UI that Gingerbread got? Welp, i\'m glad that those times are gone.</string>
     <string name="tinsulter15">Are you even trying?!</string>
     <string name="tinsulter16">Why don\'t you put some chill music while we get ready for the action?</string>
+    <string name="tinsulter17">Can you stop touching me now? This is getting really awkward</string>
+    <string name="tinsulter18">Oh look, something happened the same exact moment you tapped over this and you missed it! Oh damn, sad that you didn\'t saw that.</string>
+    <string name="tinsulter19">IT\'S NO USE</string>
 
 </resources>
 

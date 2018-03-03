@@ -1055,6 +1055,9 @@
         <item>@string/tinsulter14</item>
         <item>@string/tinsulter15</item>
         <item>@string/tinsulter16</item>
+        <item>@string/tinsulter17</item>
+        <item>@string/tinsulter18</item>
+        <item>@string/tinsulter19</item>
     </string-array>
 
 </resources>
