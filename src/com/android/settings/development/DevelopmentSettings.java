@@ -713,8 +713,8 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             // to debug settings being enabled, so the user knows there is
             // stuff enabled and can turn it all off if they want.
             mSettingsEnabler.enableDevelopmentSettings();
-            mSwitchBar.setChecked(lastEnabledState);
-            setPrefsEnabledState(lastEnabledState);
+            mSwitchBar.setChecked(true);
+            setPrefsEnabledState(true);
         }
         mSwitchBar.show();
 
@@ -2794,7 +2794,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         }
     }
 
-    private static boolean isPackageInstalled(Context context, String packageName) {
+    public static boolean isPackageInstalled(Context context, String packageName) {
         try {
             return context.getPackageManager().getPackageInfo(packageName, 0) != null;
         } catch (NameNotFoundException e) {

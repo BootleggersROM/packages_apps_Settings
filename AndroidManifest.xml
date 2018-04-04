@@ -373,7 +373,6 @@
         <activity android:name="Settings$ApnSettingsActivity"
                 android:label="@string/apn_settings"
                 android:launchMode="singleTask"
-                android:taskAffinity="com.android.settings"
                 android:configChanges="orientation|keyboardHidden|screenSize"
                 android:parentActivityName="Settings$NetworkDashboardActivity"
                 android:process="com.android.phone">
@@ -1900,6 +1899,12 @@
                 android:exported="true"
                 android:permission="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
 
+        <receiver android:name=".deviceinfo.UsbModeChooserReceiver">
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_STATE"/>
+            </intent-filter>
+        </receiver>>
+
         <activity android:name="Settings$ApnEditorActivity"
                 android:configChanges="orientation|keyboardHidden|screenSize"
                 android:label="@string/apn_edit">
@@ -2852,7 +2857,6 @@
         </activity>
 
         <activity android:name=".sim.SimDialogActivity"
-                android:theme="@*android:style/Theme.DeviceDefault.Settings.Dialog.NoActionBar"
                 android:label="@string/sim_settings_title"
                 android:excludeFromRecents="true">
             <intent-filter>
