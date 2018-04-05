@@ -31,6 +31,12 @@
                     android:targetClass="@string/additional_system_update_menu" />
         </Preference>
 
+        <!-- About Bootleg redirection -->
+        <Preference android:key="device_info_about_bootleg"
+                android:title="@string/about_bootleg_title"
+                android:summary="@string/about_bootleg_summary"
+                android:fragment="com.bootleggers.dumpster.fragments.AboutBootleggers" />
+
         <!-- Device status - launches activity -->
         <Preference android:key="status_info"
                 android:title="@string/device_status"
