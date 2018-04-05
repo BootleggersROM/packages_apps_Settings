@@ -117,4 +117,7 @@
 
     <!-- Notification log --> 
     <string name="notification_log_summary">Show notifications history log</string>
+
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 </resources>
