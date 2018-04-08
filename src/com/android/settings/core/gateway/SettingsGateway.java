@@ -139,6 +139,7 @@ import com.bootleggers.dumpster.external.dui.FlingSettings;
 import com.bootleggers.dumpster.fragments.NavbarSettings;
 import com.bootleggers.dumpster.external.dui.PulseSettings;
 import com.bootleggers.dumpster.external.dui.SmartbarSettings;
+import com.bootleggers.dumpster.external.SmartPixels;
 
 public class SettingsGateway {
 
@@ -268,6 +269,7 @@ public class SettingsGateway {
             SmartbarSettings.class.getName(),
             PulseSettings.class.getName(),
             RunningServices.class.getName(),
+            SmartPixels.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -312,5 +314,6 @@ public class SettingsGateway {
             Settings.SmartbarSettingsActivity.class.getName(),
             Settings.PulseSettingsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
     };
 }
