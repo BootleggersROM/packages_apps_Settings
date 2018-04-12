@@ -29,11 +29,9 @@ import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
 import android.os.Vibrator;
-import android.provider.Settings;
 import android.util.Log;
 
 import com.android.internal.annotations.VisibleForTesting;
-import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.notification.VolumeSeekBarPreference.Callback;
 import com.android.settingslib.core.lifecycle.Lifecycle;
@@ -47,8 +45,8 @@ public class RingVolumePreferenceController extends VolumeSeekBarPreferenceContr
 
     private AudioManager mAudioManager;
     private Vibrator mVibrator;
-    protected int mRingerMode = -1;
-    protected ComponentName mSuppressor;
+    private int mRingerMode = -1;
+    private ComponentName mSuppressor;
     private final RingReceiver mReceiver = new RingReceiver();
     private final H mHandler = new H();
     private AudioHelper mHelper;
@@ -111,7 +109,7 @@ public class RingVolumePreferenceController extends VolumeSeekBarPreferenceContr
         updatePreferenceIcon();
     }
 
-    protected boolean wasRingerModeVibrate() {
+    private boolean wasRingerModeVibrate() {
         return mVibrator != null && mRingerMode == AudioManager.RINGER_MODE_SILENT
             && mAudioManager.getLastAudibleStreamVolume(AudioManager.STREAM_RING) == 0;
     }
@@ -127,21 +125,13 @@ public class RingVolumePreferenceController extends VolumeSeekBarPreferenceContr
         updatePreferenceIcon();
     }
 
-    protected void updatePreferenceIcon() {
+    private void updatePreferenceIcon() {
         if (mPreference != null) {
             mPreference.showIcon(mSuppressor != null
                 ? com.android.internal.R.drawable.ic_audio_ring_notif_mute
                 : mRingerMode == AudioManager.RINGER_MODE_VIBRATE || wasRingerModeVibrate()
                     ? com.android.internal.R.drawable.ic_audio_ring_notif_vibrate
                     : com.android.internal.R.drawable.ic_audio_ring_notif);
-
-            final boolean linkEnabled = Settings.System.getInt(mContext.getContentResolver(),
-                    Settings.System.VOLUME_LINK_NOTIFICATION, 1) == 1;
-            if (!linkEnabled) {
-                mPreference.setTitle(R.string.ring_volume_option_title);
-            } else {
-                mPreference.setTitle(R.string.ring_notification_volume_option_title);
-            }
         }
     }
 

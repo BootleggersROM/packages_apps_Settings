@@ -62,11 +62,6 @@
     <string name="night_bright_low">Low brightness</string>
     <string name="night_bright_medium">Medium brightness</string>
 
-    <!-- Notification volume -->
-    <string name="link_volume_option_title">Link ring and notification volume</string>
-    <string name="notification_volume_option_title">Notification volume</string>
-    <string name="ring_notification_volume_option_title">Ring and notification volume</string>
-
     <!-- Sizes for pattern lockscreen -->
     <string name="lock_pattern_size_3" translatable="false">3 \u00d7 3</string>
     <string name="lock_pattern_size_4" translatable="false">4 \u00d7 4</string>
