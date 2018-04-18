@@ -18,7 +18,6 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="bootlegdumpster_settings_activity">Bootleg 设置</string>
   <string name="bootlegdumpster_settings_activity_summary">自定义个性化设置</string>
   <!-- About phone screen, device maintainer name -->
   <string name="device_maintainer">谁是主要负责人(维护者)</string>

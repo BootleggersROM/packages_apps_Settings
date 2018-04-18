@@ -19,10 +19,29 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Rom version -->
+  <string name="rom_version_title">Versi Bootleggers</string>
   <!-- Manual provisioning support -->
+  <string name="sim_disabled">dinonaktifkan</string>
+  <string name="sim_missing">hilang atau rusak</string>
+  <string name="sim_enabler_need_disable_sim">Kartu SIM akan dinonaktifkan. Apakah Anda ingin melanjutkan?</string>
+  <string name="sim_enabler_will_disable_sim_title">Perhatian</string>
+  <string name="sim_enabler_both_inactive">Tidak dapat menonaktifkan semua kartu SIM</string>
+  <string name="sim_enabler_enabling">Mengaktifkan\u2026</string>
+  <string name="sim_enabler_disabling">Menonaktifkan\u2026</string>
+  <string name="sub_activate_success">SIM diaktifkan.</string>
+  <string name="sub_activate_failed">Aktivasi gagal.</string>
+  <string name="sub_deactivate_success">SIM dinonaktifkan.</string>
+  <string name="sub_deactivate_failed">Penonaktifan gagal.</string>
   <!-- Expanded desktop -->
+  <string name="power_menu_expanded_desktop">Perluas desktop</string>
+  <string name="expanded_hide_nothing">Tidak menyembunyikan apapun</string>
+  <string name="expanded_hide_both">Sembunyikan keduanya</string>
+  <string name="expanded_enabled_for_all">Aktifkan untuk semua</string>
+  <string name="expanded_user_configurable">Dapat dikonfigurasi pengguna</string>
   <!-- Advanced night mode brightness -->
+  <string name="night_brightness_category">Kecerahan</string>
   <string name="night_bright_disabled">Dinonaktifkan</string>
+  <string name="night_bright_minimum">Kecerahan minimal</string>
   <!-- Sizes for pattern lockscreen -->
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
@@ -30,22 +49,67 @@
   <string name="lockscreen_vibrate_enabled_title">Getar</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
+  <string name="app_ops_cat_personal">Personal</string>
+  <string name="app_ops_cat_messaging">Pesan</string>
+  <string name="app_ops_cat_media">Media</string>
+  <string name="app_ops_cat_device">Perangkat</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
+  <string name="app_ops_access_camera">kamera</string>
+  <string name="app_ops_access_location">lokasi</string>
+  <string name="app_ops_access_notifications">notifikasi</string>
+  <string name="app_ops_activate_vpn">VPN</string>
+  <string name="app_ops_auto_start">mulai otomatis</string>
+  <string name="app_ops_delete_call_log">hapus catatan panggilan</string>
+  <string name="app_ops_delete_contacts">hapus kontak</string>
+  <string name="app_ops_delete_mms">hapus MMS</string>
+  <string name="app_ops_delete_sms">hapus SMS</string>
+  <string name="app_ops_write_mms">tulis MMS</string>
+  <string name="app_ops_write_sms">tulis SMS</string>
+  <string name="app_ops_use_fingerprint">sidik jari</string>
+  <string name="app_ops_add_voicemail">pesan suara</string>
+  <string name="app_ops_read_phone_state">akses status ponsel</string>
+  <string name="app_ops_scan_wifi">Memindai jaringan WiFi</string>
+  <string name="app_ops_assist_screenshot">tangkapan layar</string>
+  <string name="app_ops_picture_in_picture">pip</string>
+  <string name="app_ops_answer_phone_calls">menjawab panggilan</string>
+  <string name="app_ops_boot_completed">mulai otomatis</string>
   <!-- Root Management -->
+  <string name="rootmanagement_title">Pengelolaan root</string>
+  <string name="rootmanagement_dashboard_summary">Kelola akses root</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+  <string name="show_cpu_info">Tampilkan informasi CPU</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
   <!-- Screenshot sound -->
   <!-- Custom light color -->
   <!-- Reset battery stats -->
+  <string name="ok">Ok</string>
+  <string name="menu_stats_reset">Atur ulang statistik</string>
   <!-- Volume Steps -->
   <!-- Encryption and credential -->
   <!-- Themes -->
+  <string name="system_theme_style_shishuillusion">Shishu Illusion UI</string>
   <!-- Pass swipe-up-to-unlock -->
   <!-- Notification log -->
+  <string name="notification_log_summary">Tampilkan riwayat notifikasi</string>
   <!-- Display : Rotation -->
   <string name="display_rotation_disabled">Dinonaktifkan</string>
+  <string name="display_rotation_0_title">0 derajat</string>
+  <string name="display_rotation_90_title">90 derajat</string>
+  <string name="display_rotation_180_title">180 derajat</string>
+  <string name="display_rotation_270_title">270 derajat</string>
   <!-- Toast Insulter // Our rendition -->
+  <string name="tinsulter01">Harap menjauh dari perangkat!</string>
+  <string name="tinsulter02">Selamat! Anda telah mengaktifkan pengaturan tambahan VoLTE.</string>
+  <string name="tinsulter03">Kau tahu, aku mulai lelah karena orang-orang bermain denganku.</string>
+  <string name="tinsulter05">Jika saja seseorang memberikan aku koin tiap kali hal ini terjadi...</string>
+  <string name="tinsulter06">Oh tidak, apa yang kau lakukan?</string>
+  <string name="tinsulter07">Hanya Monika.</string>
+  <string name="tinsulter08">Ingat zaman dahulu ketika kau tidak tahu opsi ini ada? Aku rindu masa-masa itu</string>
+  <string name="tinsulter09">Panggil namaku dan selamatkan aku dari kegelapan</string>
+  <string name="tinsulter17">Bisakah kau berhenti menyentuhku? Ini semakin awkward</string>
+  <string name="tinsulter18">Lihat, sesuatu telah terjadi tepat saat kau mengetuk ini dan kau kehilangan itu! Sedih, kau tidak sempat melihatnya.</string>
+  <string name="tinsulter19">INI TIDAK BERGUNA</string>
   <!-- Quick unlock -->
 </resources>

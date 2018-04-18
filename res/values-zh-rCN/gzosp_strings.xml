@@ -187,6 +187,7 @@
   <string name="system_theme_style_black">黑色界面</string>
   <string name="system_theme_style_shishu">Shishu梦想界面</string>
   <string name="system_theme_style_shishunights">Shishu晚上界面</string>
+  <string name="system_theme_style_shishuillusion">Shishu半透明界面</string>
   <string name="applying_theme_toast">正在应用主题，请稍等......</string>
   <string name="substratum_installed_title">此选项被禁用是因为某些叠加层被Substratum应用于Android系统。如果您需要使用此功能，请卸载所有叠加层。 </string>
   <!-- Pass swipe-up-to-unlock -->

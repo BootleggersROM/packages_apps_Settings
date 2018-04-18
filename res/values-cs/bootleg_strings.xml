@@ -18,10 +18,9 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="bootlegdumpster_settings_activity">Bootleg Dumpster</string>
   <string name="bootlegdumpster_settings_activity_summary">Kde jsou umístěny rozbité věci</string>
   <!-- About phone screen, device maintainer name -->
-  <string name="device_maintainer">Who to blame (Správce)</string>
+  <string name="device_maintainer">Kdo za to může (Správce)</string>
   <!-- App details: open play store link if app is user installed -->
   <string name="app_play_store">Obchod Play</string>
   <!-- Unlink ring & notification volume -->

@@ -20,6 +20,6 @@
   <string name="force_authorize_substratum_packages_summary">Permitir aplicativos de temas de fontes desconhecidas</string>
   <!-- Manage applications: show substratum overlays -->
   <string name="filter_substratum_apps">Camadas do substratum</string>
-  <string name="menu_show_substratum">Mostrar camadas do Substratum</string>
-  <string name="menu_hide_substratum">Ocultar camadas do Substratum</string>
+  <string name="menu_show_substratum">Mostrar camadas</string>
+  <string name="menu_hide_substratum">Ocultar camadas</string>
 </resources>

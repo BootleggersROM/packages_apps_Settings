@@ -188,6 +188,7 @@
   <string name="system_theme_style_shishu">Interfaccia utente Shishu Dreams</string>
   <string name="system_theme_style_shishunights">UI Shishu scura</string>
   <string name="system_theme_style_shishuillusion">Interfaccia utente Shishu Illusions</string>
+  <string name="theme_applied_toast">Tema applicato. Riavvia il SystemUI per far sì che il tema venga applicato correttamente.</string>
   <string name="applying_theme_toast">Applicazione del tema, si prega di attendere...</string>
   <string name="substratum_installed_title">Questa opzione è disabilitata a causa della sovrapposizione applicata al Sistema Android con substrato. Se si desidera utilizzare questa funzione, assicurati di disinstallare tutte quelle sovrapposizioni. </string>
   <!-- Pass swipe-up-to-unlock -->

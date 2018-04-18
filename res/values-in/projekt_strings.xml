@@ -16,5 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">Paksa otorisasi setiap aplikasi tema</string>
+  <string name="force_authorize_substratum_packages_summary">Izinkan aplikasi tema dari sumber tidak dikenal</string>
   <!-- Manage applications: show substratum overlays -->
 </resources>

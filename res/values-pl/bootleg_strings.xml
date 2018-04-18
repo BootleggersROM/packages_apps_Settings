@@ -18,10 +18,9 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="bootlegdumpster_settings_activity">Wysypisko Podróbek</string>
-  <string name="bootlegdumpster_settings_activity_summary">Gdzie zepsute rzeczy są kładzione</string>
+  <string name="bootlegdumpster_settings_activity_summary">Gdzie zepsute rzeczy się znajdują</string>
   <!-- About phone screen, device maintainer name -->
-  <string name="device_maintainer">Kto winien (opiekun)</string>
+  <string name="device_maintainer">Kogo obwiniać (Opiekun)</string>
   <!-- App details: open play store link if app is user installed -->
   <string name="app_play_store">Sklep Google Play</string>
   <!-- Unlink ring & notification volume -->
