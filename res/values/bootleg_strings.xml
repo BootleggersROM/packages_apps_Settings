@@ -23,7 +23,7 @@
     <string name="rom_version_title">Bootleggers version</string>
 
     <!-- Bootleg Dumpster -->
-    <string name="bootlegdumpster_settings_activity">Bootleg Dumpster</string>
+    <string name="bootlegdumpster_settings_activity" translatable="false">Bootleg Dumpster</string>
     <string name="bootlegdumpster_settings_activity_summary">Where the broken stuff is placed</string>
 
     <!-- About phone screen, device maintainer name -->
