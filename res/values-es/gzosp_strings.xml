@@ -187,7 +187,7 @@
   <string name="system_theme_style_black">UI Negra</string>
   <string name="system_theme_style_shishu">Shishu Dreams UI</string>
   <string name="system_theme_style_shishunights">Shishu Nights UI</string>
-  <string name="system_theme_style_shishuillusion">Interfaz de Usuario Shishu Illusions</string>
+  <string name="system_theme_style_shishuillusion">Shishu Illusions UI</string>
   <string name="theme_applied_toast">Tema aplicado. Por favor, reinicie la SystemUI para que el tema se aplique correctamente.</string>
   <string name="applying_theme_toast">Aplicando tema, por favor espere...</string>
   <string name="substratum_installed_title">Esta opción esta desactivada debido a que hay capas aplicadas al Sistema de Android en substratum. Si quieres usar esta opción, asegúrese de desinstalar esas capas. </string>
