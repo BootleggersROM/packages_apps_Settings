@@ -6659,7 +6659,13 @@
     <string name="screen_locking_sounds_title">Screen locking sounds</string>
 
     <!-- Sound: Other sounds: Title for the option enabling charging sounds. [CHAR LIMIT=30] -->
-    <string name="charging_sounds_title">Charging sounds</string>
+    <string name="charging_sounds_settings_title">Charging sounds</string>
+    <string name="charging_sounds_enabled_title">Enable</string>
+    <string name="charging_sounds_enabled_summary">Play a sound when connecting or disconnecting a power source</string>
+    <string name="vibration_on_charge_state_changed_title">Vibrate</string>
+    <string name="charging_sounds_ringtone_title">Notification sound</string>
+    <string name="charging_sounds_ringtone_silent">Silent</string>
+
 
     <!-- Sound: Other sounds: Title for the option enabling docking sounds. [CHAR LIMIT=30] -->
     <string name="docking_sounds_title">Docking sounds</string>

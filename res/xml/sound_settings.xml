@@ -121,9 +121,11 @@
           android:title="@string/screen_locking_sounds_title" />
 
         <!-- Charging sounds -->
-        <SwitchPreference
-          android:key="charging_sounds"
-          android:title="@string/charging_sounds_title" />
+        <PreferenceScreen
+          android:key="charging_sounds_settings"
+          android:title="@string/charging_sounds_title"
+          android:fragment="com.android.settings.bootleg.ChargingSoundsSettings" />
+
 
         <!-- Docking sounds -->
         <SwitchPreference
