@@ -17,6 +17,7 @@
 package com.android.settings.homepage.contextualcards.conditional;
 
 import android.content.Context;
+import android.provider.Settings;
 import android.util.Log;
 
 import androidx.annotation.NonNull;
@@ -41,12 +42,14 @@ public class ConditionManager {
 
     private static final long DISPLAYABLE_CHECKER_TIMEOUT_MS = 20;
 
+    private static Context mContext;
     private final Context mAppContext;
     private final ConditionListener mListener;
 
     private boolean mIsListeningToStateChange;
 
     public ConditionManager(Context context, ConditionListener listener) {
+        mContext = context;
         mAppContext = context.getApplicationContext();
         mCardControllers = new ArrayList<>();
         mListener = listener;
@@ -175,7 +178,9 @@ public class ConditionManager {
 
         @Override
         public ContextualCard call() throws Exception {
-            return mController.isDisplayable() ? mController.buildContextualCard() : null;
+            return (mController.isDisplayable()
+                    && (Settings.System.getInt(mContext.getContentResolver(),
+                       Settings.System.SETTINGS_SHOW_CONDITIONS, 1) == 1)) ? mController.buildContextualCard() : null;
         }
     }
 }
