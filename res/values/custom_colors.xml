@@ -22,4 +22,7 @@
     <color name="expanded_button_color_normal">#4CAF50</color>
     <color name="expanded_button_color_close">#F44336</color>
 
+    <!-- Searchbar overlays -->
+    <color name="searchBarBackgroundColor">@android:color/transparent</color>
+
 </resources>

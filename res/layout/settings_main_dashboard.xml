@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/search_bar_margin"
             app:cardCornerRadius="@dimen/settings_search_bar_corner_radius"
-            app:cardBackgroundColor="?android:attr/colorBackground"
+            app:cardBackgroundColor="@color/searchBarBackgroundColor"
             app:cardElevation="@dimen/settings_search_bar_elevation">
             <Toolbar
                 android:id="@+id/search_action_bar"
