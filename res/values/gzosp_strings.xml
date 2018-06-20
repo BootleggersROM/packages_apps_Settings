@@ -216,9 +216,9 @@
     <string name="system_theme_style_light">Light UI</string>
     <string name="system_theme_style_dark">Dark UI</string>
     <string name="system_theme_style_black">Black UI</string>
-    <string name="system_theme_style_shishu">Shishu Dreams UI</string>
-    <string name="system_theme_style_shishunights">Shishu Nights UI</string>
-    <string name="system_theme_style_shishuillusion">Shishu Illusions UI</string>
+    <string name="system_theme_style_shishu" translatable="false">Shishu Dreams UI</string>
+    <string name="system_theme_style_shishunights" translatable="false">Shishu Nights UI</string>
+    <string name="system_theme_style_shishuillusion" translatable="false">Shishu Illusions UI</string>
     <string name="theme_applied_toast">Theme applied. Please, restart SystemUI to get the theme applied correctly.</string>
     <string name="applying_theme_toast">Applying theme, please wait...</string>
     <string name="substratum_installed_title">This option is disabled due to some overlay being applied to Android System with substratum. If you want to use this feature, be sure to uninstall all those overlays. </string>
