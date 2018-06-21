@@ -89,7 +89,6 @@
   <!-- Volume Steps -->
   <!-- Encryption and credential -->
   <!-- Themes -->
-  <string name="system_theme_style_shishuillusion">Shishu Illusion UI</string>
   <!-- Pass swipe-up-to-unlock -->
   <!-- Notification log -->
   <string name="notification_log_summary">Tampilkan riwayat notifikasi</string>
@@ -112,4 +111,9 @@
   <string name="tinsulter18">Lihat, sesuatu telah terjadi tepat saat kau mengetuk ini dan kau kehilangan itu! Sedih, kau tidak sempat melihatnya.</string>
   <string name="tinsulter19">INI TIDAK BERGUNA</string>
   <!-- Quick unlock -->
+  <!-- Running services -->
+  <!-- Per-app data restrictions -->
+  <!-- [CHAR LIMIT=80]-->
+  <!--  [CHAR LIMIT=160]-->
+  <!-- Fingerprint quick pulldown -->
 </resources>

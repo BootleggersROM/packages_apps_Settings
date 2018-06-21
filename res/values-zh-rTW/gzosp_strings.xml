@@ -21,11 +21,14 @@
   <!-- Rom version -->
   <!-- Manual provisioning support -->
   <!-- Expanded desktop -->
+  <string name="power_menu_expanded_desktop">擴充桌面</string>
   <!-- Advanced night mode brightness -->
+  <string name="night_bright_disabled">已停用</string>
   <!-- Sizes for pattern lockscreen -->
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
   <!-- Lock screen vibrate settings -->
+  <string name="lockscreen_vibrate_enabled_title">振動</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
   <!-- [CHAR LIMIT=NONE] App ops labels -->
@@ -38,11 +41,18 @@
   <!-- Custom light color -->
   <!-- Reset battery stats -->
   <!-- Volume Steps -->
+  <string name="volume_steps_reset">重置</string>
   <!-- Encryption and credential -->
   <!-- Themes -->
   <!-- Pass swipe-up-to-unlock -->
   <!-- Notification log -->
   <!-- Display : Rotation -->
+  <string name="display_rotation_disabled">已停用</string>
   <!-- Toast Insulter // Our rendition -->
   <!-- Quick unlock -->
+  <!-- Running services -->
+  <!-- Per-app data restrictions -->
+  <!-- [CHAR LIMIT=80]-->
+  <!--  [CHAR LIMIT=160]-->
+  <!-- Fingerprint quick pulldown -->
 </resources>

@@ -49,4 +49,9 @@
   <string name="display_rotation_disabled">Desactivado</string>
   <!-- Toast Insulter // Our rendition -->
   <!-- Quick unlock -->
+  <!-- Running services -->
+  <!-- Per-app data restrictions -->
+  <!-- [CHAR LIMIT=80]-->
+  <!--  [CHAR LIMIT=160]-->
+  <!-- Fingerprint quick pulldown -->
 </resources>

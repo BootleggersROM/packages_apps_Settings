@@ -41,6 +41,7 @@
   <!-- Custom light color -->
   <!-- Reset battery stats -->
   <!-- Volume Steps -->
+  <string name="volume_steps_reset">Réinitialiser</string>
   <!-- Encryption and credential -->
   <!-- Themes -->
   <!-- Pass swipe-up-to-unlock -->
@@ -49,4 +50,9 @@
   <string name="display_rotation_disabled">Désactiver</string>
   <!-- Toast Insulter // Our rendition -->
   <!-- Quick unlock -->
+  <!-- Running services -->
+  <!-- Per-app data restrictions -->
+  <!-- [CHAR LIMIT=80]-->
+  <!--  [CHAR LIMIT=160]-->
+  <!-- Fingerprint quick pulldown -->
 </resources>

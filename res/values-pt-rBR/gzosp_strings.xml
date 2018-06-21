@@ -175,7 +175,7 @@
   <string name="volume_steps_ring_title">Níveis de volume: Toque</string>
   <string name="volume_steps_system_title">Níveis de volume: Sistema</string>
   <string name="volume_steps_voice_call_title">Níveis de volume: Chamada de Voz</string>
-  <string name="volume_steps_reset">Reiniciar</string>
+  <string name="volume_steps_reset">Redefinir</string>
   <!-- Encryption and credential -->
   <string name="custom_encryption_and_credential_settings_summary_on">O dispositivo está criptografado</string>
   <string name="custom_encryption_and_credential_settings_summary_off">O dispositivo está descriptografado</string>
@@ -185,9 +185,6 @@
   <string name="system_theme_style_light">Interface clara</string>
   <string name="system_theme_style_dark">Interface escura</string>
   <string name="system_theme_style_black">Interface preta</string>
-  <string name="system_theme_style_shishu">Shishu Dreams UI</string>
-  <string name="system_theme_style_shishunights">Shishu Nights UI</string>
-  <string name="system_theme_style_shishuillusion">Shishu Illusions UI</string>
   <string name="theme_applied_toast">Tema aplicado. Por favor, reinicie a SystemUI para que o tema seja aplicado corretamente.</string>
   <string name="applying_theme_toast">Aplicando o tema, por favor aguarde...</string>
   <string name="substratum_installed_title">Esta opção está desativada devido a alguma sobreposição sendo aplicada ao sistema Android com substrato. Se você quiser usar esse recurso, certifique-se de desinstalar todas as sobreposições. </string>
@@ -229,4 +226,18 @@
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
   <string name="unlock_quick_unlock_control_summary">Desbloqueie automaticamente quando o PIN/Senha correto for digitado</string>
+  <!-- Running services -->
+  <string name="background_processes_settings_title">Processos em segundo plano</string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data">Dados de celular</string>
+  <string name="data_usage_app_restrict_data_summary">Permitir o uso de dados móveis</string>
+  <string name="data_usage_app_restrict_wifi">Dados Wi\u2011Fi</string>
+  <string name="data_usage_app_restrict_wifi_summary">Permitir o uso de dados Wi-Fi</string>
+  <!-- [CHAR LIMIT=80]-->
+  <string name="fp_swipe_to_dismiss_notifications_title">Deslize a digital para a esquerda ou direita para dispensar as notificações</string>
+  <!--  [CHAR LIMIT=160]-->
+  <string name="fp_swipe_to_dismiss_notifications_summary">Para descartar suas notificações, deslize para esquerda ou direita no sensor de impressões digitais na parte de trás do seu telefone.</string>
+  <!-- Fingerprint quick pulldown -->
+  <string name="fp_quick_pulldown_title">Deslizar rápido para baixo com impressão digital</string>
+  <string name="fp_quick_pulldown_summary">Expandir o painel de configurações rápidas com apenas um deslize no sensor de impressões digitais.</string>
 </resources>

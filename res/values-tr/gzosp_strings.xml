@@ -24,9 +24,9 @@
   <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_disabled">devre dışı</string>
   <string name="sim_missing">eksik veya hatalı</string>
-  <string name="sim_enabler_need_disable_sim">SIM kart devre dışı bırakılacak. Devam etmek istiyor musunuz?</string>
+  <string name="sim_enabler_need_disable_sim">SIM kart devre dışı bırakılacak. Devam etmek istermisiniz?</string>
   <string name="sim_enabler_will_disable_sim_title">Dikkat</string>
-  <string name="sim_enabler_need_switch_data_service">SIM devre dışı bırakılacak ve SIM <xliff:g id="slotid">%1$s</xliff:g> veri servisleri için kullanılacak.Devam etmek istiyormusunuz?</string>
+  <string name="sim_enabler_need_switch_data_service">SIM devre dışı bırakılacak ve SIM <xliff:g id="slotid">%1$s</xliff:g> veri servisleri için kullanılacak.Devam etmek istermisiniz?</string>
   <string name="sim_enabler_airplane_on">Uçak modu açıkken işlem yapılamıyor.</string>
   <string name="sim_enabler_in_call">Arama sırasında işlem yapılamıyor.</string>
   <string name="sim_enabler_both_inactive">Tüm SIM kartları devre dışı bırakılamıyor</string>
@@ -37,7 +37,7 @@
   <string name="sub_deactivate_success">SIM devre dışı bırakıldı.</string>
   <string name="sub_deactivate_failed">Devre dışı bırakma başarısız.</string>
   <!-- Expanded desktop -->
-  <string name="power_menu_expanded_desktop">Genişletilmiş ekran</string>
+  <string name="power_menu_expanded_desktop">Genişletilmiş masaüstü</string>
   <string name="expanded_hide_nothing">Hiçbir şeyi gizleme</string>
   <string name="expanded_hide_status">Durum çubuğunu gizle</string>
   <string name="expanded_hide_navigation">Gezinme çubuğunu gizle</string>
@@ -143,7 +143,7 @@
   <string name="app_ops_boot_completed">otomatik başlat</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Root yönetimi</string>
-  <string name="rootmanagement_dashboard_summary">Root erişimini yönetme</string>
+  <string name="rootmanagement_dashboard_summary">Root erişimini yönetin</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <string name="local_backup_password_title">Masaüstü yedekleme şifresi</string>
@@ -153,7 +153,7 @@
   <string name="show_cpu_info_summary">Geçerli işlemci bilgisini gösteren ekran yer paylaşımı</string>
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">Ekran görüntüsü sesi</string>
-  <string name="screenshot_sound_summary">Ekran görüntüsü alındığında ses çıkar</string>
+  <string name="screenshot_sound_summary">Ekran görüntüsü alınırken ses çıkar</string>
   <!-- Custom light color -->
   <string name="light_customization">Bildirim ışığı</string>
   <string name="custom_light_title">Işık rengi</string>
@@ -185,9 +185,6 @@
   <string name="system_theme_style_light">Aydınlık arayüz</string>
   <string name="system_theme_style_dark">Karanlık arayüz</string>
   <string name="system_theme_style_black">Siyah arayüz</string>
-  <string name="system_theme_style_shishu">Shishu dreams arayüzü</string>
-  <string name="system_theme_style_shishunights">Shishu gece arayüzü</string>
-  <string name="system_theme_style_shishuillusion">Shishu Illusions arayüzü</string>
   <string name="theme_applied_toast">Tema uygulandı. Temanın doğru şekilde uygulanmasını sağlamak için lütfen Sistem arayüzünü yeniden başlatın.</string>
   <string name="applying_theme_toast">Tema uygulanıyor, lütfen bekleyin...</string>
   <string name="substratum_installed_title">Alt tabaka ile Android Sistemine uygulanan bazı yer paylaşımları nedeniyle bu seçenek devre dışı bırakılmıştır. Bu özelliği kullanmak istiyorsanız, tüm bu katmanları kaldırdığınızdan emin olun. </string>
@@ -208,25 +205,39 @@
   <string name="display_rotation_270_title">270 derece</string>
   <!-- Toast Insulter // Our rendition -->
   <string name="tinsulter01">Lütfen cihazdan uzak durun!</string>
-  <string name="tinsulter02">Tebrik ederiz! VoLTE Gelişmiş Ayarları\'nı etkinleştirdiniz.</string>
+  <string name="tinsulter02">Tebrik ederiz! VoLTE Gelişmiş Ayarları etkinleştirdiniz.</string>
   <string name="tinsulter03">Biliyorsun benimle oynayan insanlar için yoruldum.</string>
-  <string name="tinsulter04">Wow sur, u thug pro dev hax0rz ayarlarını etkinleştirdi.</string>
+  <string name="tinsulter04">Vay canına, u haydut pro dev hax0rz ayarlarını etkinleştirdiniz.</string>
   <string name="tinsulter05">Biri bana her defasında bir kuruş verirse...</string>
   <string name="tinsulter06">Oh hayır, ne yapıyorsun?</string>
   <string name="tinsulter07">Sadece Monika.</string>
   <string name="tinsulter08">Bu seçeneği bilmiyorsanız eski zamanları hatırlıyor musunuz? o günleri özlüyorum</string>
   <string name="tinsulter09">Adımı ara ve beni karanlıktan kurtar</string>
   <string name="tinsulter10">Belki bu Android olayı senin için değil...</string>
-  <string name="tinsulter11">Wew sur, haydut!</string>
+  <string name="tinsulter11">Vay canına, haydut!</string>
   <string name="tinsulter12">Clifford the Big Red Dog, Clifford isminde dev bir kızıl köpekle ilgili bir Amerikan çocuk kitabı dizisi. İlk kez 1963\'te basıldı ve Norman Bridwell (1928–2014) tarafından yazılmıştır. Seri, Scholastic\'in önde gelen bir yayıncılık şirketi olmasına yardımcı oldu ve Clifford\'un kendisi de Scholastic\'in resmi maskotu.</string>
-  <string name="tinsulter13">Um, bu seçeneği dokunarak zaman harcamak yerine ROM\'u kuruyor olabilirsiniz... </string>
-  <string name="tinsulter14">Adamım, Gingerbread\'ın aldığı çirkin UI\'yi hatırlıyor musun? Welp, o zamanların gittiğine sevindim.</string>
+  <string name="tinsulter13">Bu seçeneği dokunarak zaman harcamak yerine ROM kurulumu yapabilirsiniz... </string>
+  <string name="tinsulter14">Adamım, Gingerbread\'ın aldığı çirkin arayüzü hatırlıyor musun? O zamanların gittiğine sevindim.</string>
   <string name="tinsulter15">Deniyor musun?!</string>
   <string name="tinsulter16">Neden harekete hazırlanırken niye biraz müzik çalmıyorsun?</string>
-  <string name="tinsulter17">Şimdi bana dokunmayı bırakabilir misin? Bu gerçekten garipleşiyor</string>
+  <string name="tinsulter17">Şimdi bana dokunmayı bırakabilir misin? Bu gerçekten sinirimi bozuyor</string>
   <string name="tinsulter18">Oh bak, bir şeyin üzerinde tam olarak aynı şey oldu ve bunu kaçırdın! Kahretsin, bunu görmediğin için üzgünüm.</string>
   <string name="tinsulter19">FAYDASIZ</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Hızlı kilit açma</string>
   <string name="unlock_quick_unlock_control_summary">Doğru PIN/Şifre girildiğinde otomatik olarak kilidi aç</string>
+  <!-- Running services -->
+  <string name="background_processes_settings_title">Arkaplan işlemleri</string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data">Hücresel veri</string>
+  <string name="data_usage_app_restrict_data_summary">Hücresel veri kullanımını etkinleştir</string>
+  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi veri</string>
+  <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi veri kullanımını etkinleştir</string>
+  <!-- [CHAR LIMIT=80]-->
+  <string name="fp_swipe_to_dismiss_notifications_title">Bildirimleri kapat</string>
+  <!--  [CHAR LIMIT=160]-->
+  <string name="fp_swipe_to_dismiss_notifications_summary">Bildirimlerinizi kapatmak için, parmağınızı parmak izi sönsöründe sola veya sağa doğru kaydırın.</string>
+  <!-- Fingerprint quick pulldown -->
+  <string name="fp_quick_pulldown_title">Parmak izi ile hızlı aşağı çekme</string>
+  <string name="fp_quick_pulldown_summary">Parmak izi sensöründe parmağınızı yalnızca bir kez kaydırarak hızlı ayarlar paneli genişletin.</string>
 </resources>

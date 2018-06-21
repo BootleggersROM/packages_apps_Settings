@@ -185,10 +185,7 @@
   <string name="system_theme_style_light">Jasny interfejs użytkownika</string>
   <string name="system_theme_style_dark">Ciemny interfejs użytkownika</string>
   <string name="system_theme_style_black">Czarny interfejs użytkownika</string>
-  <string name="system_theme_style_shishu">Shishu Dreams UI</string>
-  <string name="system_theme_style_shishunights">Shishu Nights UI</string>
-  <string name="system_theme_style_shishuillusion">Iluzja Shishu UI</string>
-  <string name="theme_applied_toast">Motyw zastosowany. Proszę uruchomić ponownie SystemUI aby motyw został prawidłowo zastosowany.</string>
+  <string name="theme_applied_toast">Motyw zastosowany. Proszę uruchomić ponownie SystemUI, aby motyw został prawidłowo zastosowany.</string>
   <string name="applying_theme_toast">Włączanie motywu, proszę czekać...</string>
   <string name="substratum_installed_title">Ta opcja jest wyłączona ze względu na niektóre nakładki stosowane do systemu Android z substratum. Jeśli chcesz użyć tej funkcji, należy odinstalować wszystkie te nakładki. </string>
   <!-- Pass swipe-up-to-unlock -->
@@ -209,9 +206,9 @@
   <!-- Toast Insulter // Our rendition -->
   <string name="tinsulter01">Odejdź od urządzenia!</string>
   <string name="tinsulter02">Gratulacje! Włączyłeś ustawienia zaawansowane VoLTE.</string>
-  <string name="tinsulter03">Wiesz, mam już dość ludzi grających ze mną.</string>
-  <string name="tinsulter04">Wow sur, twój spoko pro dev włączył ustawienia hax0rz.</string>
-  <string name="tinsulter05">Jeśli ktoś nieda mi ani grosza za każdym razem to się dzieje...</string>
+  <string name="tinsulter03">Wiesz co, mam już dość ludzi igrających ze mną.</string>
+  <string name="tinsulter04">O kurde typie, twój spoko pro dev włączył ustawienia hax0rz.</string>
+  <string name="tinsulter05">Jeśli ktoś nie da mi ani grosza, dzieje się to za każdym razem...</string>
   <string name="tinsulter06">Och nie, co ty robisz?</string>
   <string name="tinsulter07">Po prostu Monika.</string>
   <string name="tinsulter08">Pamiętasz dawne czasy, kiedy nie wiedziałeś, że ta opcja istnieje? Tęsknię za tamtymi czasami</string>
@@ -225,8 +222,22 @@
   <string name="tinsulter16">Dlaczego nie puścisz spokojnej muzyki, kiedy będziemy gotowi na akcję?</string>
   <string name="tinsulter17">Czy możesz teraz przestać mnie dotykać? To staje się naprawdę niezręczne</string>
   <string name="tinsulter18">Och, spójrz, coś się wydarzyło dokładnie w tym samym momencie, w którym się nad tym natknąłeś, i tęskniłeś za tym! Och, cholera, smutno, że tego nie widziałeś.</string>
-  <string name="tinsulter19">NIE MA SENSU</string>
+  <string name="tinsulter19">TO NIE MA SENSU</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Szybkie odblokowanie</string>
   <string name="unlock_quick_unlock_control_summary">Odblokuj automatycznie, gdy wprowadzony zostanie poprawny PIN/hasło</string>
+  <!-- Running services -->
+  <string name="background_processes_settings_title">Procesy w tle</string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data">Dane komórkowe</string>
+  <string name="data_usage_app_restrict_data_summary">Włącz dane komórkowe</string>
+  <string name="data_usage_app_restrict_wifi">Dane Wi-Fi</string>
+  <string name="data_usage_app_restrict_wifi_summary">Włącz użycie danych Wi\u2011Fi</string>
+  <!-- [CHAR LIMIT=80]-->
+  <string name="fp_swipe_to_dismiss_notifications_title">Przesuń palcem po czytniku w lewo lub prawo, aby pominąć powiadomienia</string>
+  <!--  [CHAR LIMIT=160]-->
+  <string name="fp_swipe_to_dismiss_notifications_summary">Aby pominąć powiadomienia, przesuń w lewo lub w prawo palec na czytniku linii papilarnych na plecach telefonu.</string>
+  <!-- Fingerprint quick pulldown -->
+  <string name="fp_quick_pulldown_title">Szybkie rozwinięcie za pomocą odcisku palca</string>
+  <string name="fp_quick_pulldown_summary">Rozwiń panel szybkich ustawień jednym przesunięciem po czytniku linii papilarnych.</string>
 </resources>

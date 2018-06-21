@@ -183,11 +183,8 @@
   <string name="system_theme_style_title">Estilo de la UI</string>
   <string name="system_theme_style_auto">Basado en el Fondo de Pantalla</string>
   <string name="system_theme_style_light">UI Clara</string>
-  <string name="system_theme_style_dark">UI Osucra</string>
+  <string name="system_theme_style_dark">UI Oscura</string>
   <string name="system_theme_style_black">UI Negra</string>
-  <string name="system_theme_style_shishu">Shishu Dreams UI</string>
-  <string name="system_theme_style_shishunights">Shishu Nights UI</string>
-  <string name="system_theme_style_shishuillusion">Shishu Illusions UI</string>
   <string name="theme_applied_toast">Tema aplicado. Por favor, reinicie la SystemUI para que el tema se aplique correctamente.</string>
   <string name="applying_theme_toast">Aplicando tema, por favor espere...</string>
   <string name="substratum_installed_title">Esta opción esta desactivada debido a que hay capas aplicadas al Sistema de Android en substratum. Si quieres usar esta opción, asegúrese de desinstalar esas capas. </string>
@@ -229,4 +226,18 @@
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
   <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente cuando se introduce el PIN/clave correcto</string>
+  <!-- Running services -->
+  <string name="background_processes_settings_title">Procesos en segundo plano</string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data">Datos móviles</string>
+  <string name="data_usage_app_restrict_data_summary">Habilitar el uso de datos móviles</string>
+  <string name="data_usage_app_restrict_wifi">Datos Wi\u2011Fi</string>
+  <string name="data_usage_app_restrict_wifi_summary">Habilitar el uso de datos Wi\u2011Fi</string>
+  <!-- [CHAR LIMIT=80]-->
+  <string name="fp_swipe_to_dismiss_notifications_title">Deslice el dedo a la derecha o izquierda para borrar las notificaciones</string>
+  <!--  [CHAR LIMIT=160]-->
+  <string name="fp_swipe_to_dismiss_notifications_summary">Para borrar las notificaciones, deslice el dedo a la izquierda o derecha en el lector de huellas de su teléfono.</string>
+  <!-- Fingerprint quick pulldown -->
+  <string name="fp_quick_pulldown_title">Abrir ajustes rapidos con el sensor de huella</string>
+  <string name="fp_quick_pulldown_summary">Expanda el panel de configuración rápida con sólo un toque del sensor de huellas.</string>
 </resources>

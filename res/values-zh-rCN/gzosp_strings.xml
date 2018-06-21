@@ -38,7 +38,7 @@
   <string name="sub_deactivate_failed">取消激活失败</string>
   <!-- Expanded desktop -->
   <string name="power_menu_expanded_desktop">扩展桌面</string>
-  <string name="expanded_hide_nothing">什么都不隐藏</string>
+  <string name="expanded_hide_nothing">不隐藏</string>
   <string name="expanded_hide_status">隐藏状态栏</string>
   <string name="expanded_hide_navigation">隐藏导航栏</string>
   <string name="expanded_hide_both">同时隐藏</string>
@@ -54,8 +54,8 @@
   <string name="night_brightness_value_title">夜间模式时更低亮度</string>
   <string name="night_bright_disabled">禁用</string>
   <string name="night_bright_minimum">最低亮度</string>
-  <string name="night_bright_low">低亮度</string>
-  <string name="night_bright_medium">中等亮度</string>
+  <string name="night_bright_low">中等亮度</string>
+  <string name="night_bright_medium">正常亮度</string>
   <!-- Sizes for pattern lockscreen -->
   <string name="lock_settings_picker_pattern_size_message">选择图案大小</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -185,9 +185,7 @@
   <string name="system_theme_style_light">亮色界面</string>
   <string name="system_theme_style_dark">暗色界面</string>
   <string name="system_theme_style_black">黑色界面</string>
-  <string name="system_theme_style_shishu">Shishu梦想界面</string>
-  <string name="system_theme_style_shishunights">Shishu晚上界面</string>
-  <string name="system_theme_style_shishuillusion">Shishu半透明界面</string>
+  <string name="theme_applied_toast">应用主题。请重新启动系统界面以使主题正确应用。</string>
   <string name="applying_theme_toast">正在应用主题，请稍等......</string>
   <string name="substratum_installed_title">此选项被禁用是因为某些叠加层被Substratum应用于Android系统。如果您需要使用此功能，请卸载所有叠加层。 </string>
   <!-- Pass swipe-up-to-unlock -->
@@ -228,4 +226,9 @@
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">快速解锁</string>
   <string name="unlock_quick_unlock_control_summary">当输入正确的 PIN 码或密码后自动解锁</string>
+  <!-- Running services -->
+  <!-- Per-app data restrictions -->
+  <!-- [CHAR LIMIT=80]-->
+  <!--  [CHAR LIMIT=160]-->
+  <!-- Fingerprint quick pulldown -->
 </resources>

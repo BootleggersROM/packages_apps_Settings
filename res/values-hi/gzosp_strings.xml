@@ -78,11 +78,15 @@
   <string name="volume_steps_reset">रीसेट करें</string>
   <!-- Encryption and credential -->
   <!-- Themes -->
-  <string name="system_theme_style_shishuillusion">Shishu भ्रम यूआई</string>
   <!-- Pass swipe-up-to-unlock -->
   <!-- Notification log -->
   <!-- Display : Rotation -->
   <string name="display_rotation_disabled">चालू नहीं है</string>
   <!-- Toast Insulter // Our rendition -->
   <!-- Quick unlock -->
+  <!-- Running services -->
+  <!-- Per-app data restrictions -->
+  <!-- [CHAR LIMIT=80]-->
+  <!--  [CHAR LIMIT=160]-->
+  <!-- Fingerprint quick pulldown -->
 </resources>

@@ -16,5 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Force authorize substratum packages -->
+  <string name="force_authorize_substratum_packages_title">أجبار السماح لكل تطبيقات السمات</string>
+  <string name="force_authorize_substratum_packages_summary">السماح لتطبيقات السمات من المصادر غير المعروفة</string>
   <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">طبقات Substratum</string>
+  <string name="menu_show_substratum">أظهر الطبقات</string>
+  <string name="menu_hide_substratum">أخفِ الطبقات</string>
 </resources>

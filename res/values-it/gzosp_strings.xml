@@ -185,9 +185,6 @@
   <string name="system_theme_style_light">Chiara</string>
   <string name="system_theme_style_dark">Scura</string>
   <string name="system_theme_style_black">Nera</string>
-  <string name="system_theme_style_shishu">Interfaccia utente Shishu Dreams</string>
-  <string name="system_theme_style_shishunights">UI Shishu scura</string>
-  <string name="system_theme_style_shishuillusion">Interfaccia utente Shishu Illusions</string>
   <string name="theme_applied_toast">Tema applicato. Riavvia il SystemUI per far sì che il tema venga applicato correttamente.</string>
   <string name="applying_theme_toast">Applicazione del tema, si prega di attendere...</string>
   <string name="substratum_installed_title">Questa opzione è disabilitata a causa della sovrapposizione applicata al Sistema Android con substrato. Se si desidera utilizzare questa funzione, assicurati di disinstallare tutte quelle sovrapposizioni. </string>
@@ -229,4 +226,18 @@
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Sblocco rapido</string>
   <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando viene immesso il PIN/password corretta</string>
+  <!-- Running services -->
+  <string name="background_processes_settings_title">Processi in background</string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data">Rete dati</string>
+  <string name="data_usage_app_restrict_data_summary">Abilita l\'utilizzo dei dati del cellulare</string>
+  <string name="data_usage_app_restrict_wifi">Dati Wi\u2011Fi</string>
+  <string name="data_usage_app_restrict_wifi_summary">Abilita l\'uso dei dati del Wi\u2011Fi</string>
+  <!-- [CHAR LIMIT=80]-->
+  <string name="fp_swipe_to_dismiss_notifications_title">Scorri a sinistra o destra sul sensore d\'impronte per rimuovere le notifiche</string>
+  <!--  [CHAR LIMIT=160]-->
+  <string name="fp_swipe_to_dismiss_notifications_summary">Per rimuovere le notifiche, scorri a sinistra o destra sul sensore d\'impronte posto sul retro del tuo dispositivo.</string>
+  <!-- Fingerprint quick pulldown -->
+  <string name="fp_quick_pulldown_title">Discesa rapida con il sensore d\'impronte</string>
+  <string name="fp_quick_pulldown_summary">Espandi il pannello impostazioni rapide scorrendo una sola volta sul sensore di impronte digitali.</string>
 </resources>

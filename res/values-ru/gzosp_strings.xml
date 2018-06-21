@@ -19,7 +19,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Rom version -->
-  <string name="rom_version_title">Самогонщики версия</string>
+  <string name="rom_version_title">Версия Bootleggers</string>
   <!-- Manual provisioning support -->
   <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_disabled">выключено</string>
@@ -158,7 +158,7 @@
   <string name="light_customization">Led-Уведомления</string>
   <string name="custom_light_title">Цвет</string>
   <string name="custom_light_on_time_title">"Время паузы светодиода во время пульсации (мс)"</string>
-  <string name="custom_light_off_time_title">"Время отключенного LED (мс)"</string>
+  <string name="custom_light_off_time_title">"Время паузы светодиода во время пульсации (мс)"</string>
   <string name="app_notifications_info_desc">Нажмите на один из каналов выше, чтобы настроить их цвета и другие настройки </string>
   <string name="value_equals_default">По умолчанию</string>
   <string name="show_light_on_zen_title">LED-индикация во время режима \"Не Беспокоить\"</string>
@@ -185,9 +185,6 @@
   <string name="system_theme_style_light">Светлый стиль</string>
   <string name="system_theme_style_dark">Темный стиль</string>
   <string name="system_theme_style_black">Чёрный стиль</string>
-  <string name="system_theme_style_shishu">Стиль \"Shishu Dreams\"</string>
-  <string name="system_theme_style_shishunights">Стиль \"Shishu Nights\"</string>
-  <string name="system_theme_style_shishuillusion">Прозрачность интерфейса Shishu UI</string>
   <string name="theme_applied_toast">Тема применена. Пожалуйста перезагрузите SystemUI, чтобы не было проблем.</string>
   <string name="applying_theme_toast">Применение темы, пожалуйста, подождите...</string>
   <string name="substratum_installed_title">Этот параметр отключен из-за некоторых слоёв, применяемых к системе Android с Substratum. Если вы хотите использовать эту функцию, обязательно удалите все эти слои. </string>
@@ -229,4 +226,9 @@
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
   <string name="unlock_quick_unlock_control_summary">Автоматическая разблокировка при вводе правильного пароля или PIN-кода</string>
+  <!-- Running services -->
+  <!-- Per-app data restrictions -->
+  <!-- [CHAR LIMIT=80]-->
+  <!--  [CHAR LIMIT=160]-->
+  <!-- Fingerprint quick pulldown -->
 </resources>
