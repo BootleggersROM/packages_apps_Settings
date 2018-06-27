@@ -56,6 +56,12 @@
             android:targetClass="@string/config_wallpaper_picker_class" />
     </com.android.settingslib.RestrictedPreference>
 
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="force_allow_system_themes"
+        android:title="@string/force_allow_system_themes_title"
+        android:summary="@string/force_allow_system_themes_summary"
+        android:defaultValue="false" />
+
     <ListPreference
         android:key="system_theme_style"
         android:title="@string/device_theme"

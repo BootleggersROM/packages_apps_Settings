@@ -49,4 +49,10 @@
     <string name="system_theme_style_shishuimmensity" translatable="false">Shishu Immensity UI</string>
     <string name="system_theme_style_shishuamalgamation" translatable="false">Shishu Amalgamation UI</string>
 
+    <!-- Force use system themes even with subs overlays -->
+    <string name="force_allow_system_themes_title">Allow system themes and fonts alongside substratum</string>
+    <string name="force_allow_system_themes_summary">Allows you to use following themes and fonts options despite of substratum android overlays installed.</string>
+    <string name="force_theme_warning_title">Careful!</string>
+    <string name="force_theme_warning_message">This block is placed to avoid people to report bugs related to themes to us or to themers when you start mixing subs stuff with our stuff. So, by enabling this, you agree on be the responsible of everything that may happen, and not blame us in any way.</string>
+
 </resources>
