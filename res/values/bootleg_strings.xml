@@ -261,5 +261,11 @@
     <string name="font_picker_title">Font</string>
     <string name="font_picker_progress">Applying new font\u2026</string>
 
+    <!-- Force use system themes even with subs overlays -->
+    <string name="force_allow_system_themes_title">Allow system themes and fonts alongside substratum</string>
+    <string name="force_allow_system_themes_summary">Allows you to use following themes and fonts options despite of substratum android overlays installed.</string>
+    <string name="force_theme_warning_title">Careful!</string>
+    <string name="force_theme_warning_message">This block was to avoid people messing up with the system stuff and subs and then blaming us or themers about stuff being wrong applied. So, by disabling this, you agree on be the responsible of everything that may happen, and not blame us in any way.</string>
+
 </resources>
 
