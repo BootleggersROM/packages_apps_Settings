@@ -268,5 +268,9 @@
     <string name="force_theme_warning_title">Careful!</string>
     <string name="force_theme_warning_message">This block was to avoid people messing up with the system stuff and subs and then blaming us or themers about stuff being wrong applied. So, by disabling this, you agree on be the responsible of everything that may happen, and not blame us in any way.</string>
 
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+
 </resources>
 
