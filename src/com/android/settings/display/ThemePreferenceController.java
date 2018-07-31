@@ -152,7 +152,9 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
                         !infos.get(i).packageName.equals("com.android.system.theme.dark") &&
                         !infos.get(i).packageName.equals("com.android.system.theme.black") &&
                         !infos.get(i).packageName.equals("com.android.system.theme.shishu") &&
-                        !infos.get(i).packageName.equals("com.android.system.theme.shishunights")) {
+                        !infos.get(i).packageName.equals("com.android.system.theme.shishunights") &&
+                        !infos.get(i).packageName.equals("com.android.system.theme.shishuillusions") &&
+                        !infos.get(i).packageName.equals("com.android.system.theme.shishuimmensity")) {
                     return infos.get(i).packageName;
                 }
             }
@@ -185,7 +187,9 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
                     if (!infos.get(i).packageName.equals("com.android.system.theme.dark") && 
                         !infos.get(i).packageName.equals("com.android.system.theme.black") && 
                         !infos.get(i).packageName.equals("com.android.system.theme.shishu") && 
-                        !infos.get(i).packageName.equals("com.android.system.theme.shishunights"))
+                        !infos.get(i).packageName.equals("com.android.system.theme.shishunights") &&
+                        !infos.get(i).packageName.equals("com.android.system.theme.shishuillusions") &&
+                        !infos.get(i).packageName.equals("com.android.system.theme.shishuimmensity"))
                         pkgs.add(infos.get(i).packageName);
                 }
             }

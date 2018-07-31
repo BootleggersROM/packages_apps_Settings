@@ -185,6 +185,8 @@
     <string name="system_theme_style_black">Black UI</string>
     <string name="system_theme_style_shishu" translatable="false">Shishu Dreams UI</string>
     <string name="system_theme_style_shishunights" translatable="false">Shishu Nights UI</string>
+    <string name="system_theme_style_shishuillusions" translatable="false">Shishu Illusions UI</string>
+    <string name="system_theme_style_shishuimmensity" translatable="false">Shishu Immensity UI</string>
     <string name="theme_applied_toast">Theme applied.</string>
     <string name="applying_theme_toast">Applying theme, please wait...</string>
 
