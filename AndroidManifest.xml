@@ -3329,8 +3329,8 @@
         <!-- Bootleg Dumpster -->
         <activity android:name=".Settings$BootlegDumpsterActivity"
             android:label="@string/bootleg_dumpster_title"
-            android:icon="@drawable/ic_settings_bootlegdump"
-            android:taskAffinity="">
+            android:icon="@drawable/ic_homepage_bootlegdump"
+            android:taskAffinity="com.android.settings">
             <intent-filter android:priority="1">
                 <action android:name="com.bootleggers.dumpster.MainDump" />
                 <category android:name="android.intent.category.DEFAULT" />
