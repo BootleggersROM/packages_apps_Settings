@@ -154,7 +154,8 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
                         !infos.get(i).packageName.equals("com.android.system.theme.shishu") &&
                         !infos.get(i).packageName.equals("com.android.system.theme.shishunights") &&
                         !infos.get(i).packageName.equals("com.android.system.theme.shishuillusions") &&
-                        !infos.get(i).packageName.equals("com.android.system.theme.shishuimmensity")) {
+                        !infos.get(i).packageName.equals("com.android.system.theme.shishuimmensity") &&
+                        !infos.get(i).packageName.equals("com.android.system.theme.shishuamalgamation")) {
                     return infos.get(i).packageName;
                 }
             }
@@ -190,7 +191,8 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
                         !infos.get(i).packageName.equals("com.android.system.theme.shishu") && 
                         !infos.get(i).packageName.equals("com.android.system.theme.shishunights") &&
                         !infos.get(i).packageName.equals("com.android.system.theme.shishuillusions") &&
-                        !infos.get(i).packageName.equals("com.android.system.theme.shishuimmensity"))
+                        !infos.get(i).packageName.equals("com.android.system.theme.shishuimmensity") &&
+                        !infos.get(i).packageName.equals("com.android.system.theme.shishuamalgamation"))
                         pkgs.add(infos.get(i).packageName);
                 }
             }
