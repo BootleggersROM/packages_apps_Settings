@@ -21,6 +21,13 @@
     android:key="my_device_info_pref_screen"
     android:title="@string/about_settings">
 
+    <!-- Bootleggers About logo -->
+    <PreferenceScreen
+        android:key="bootleg_about"
+        android:enabled="false"
+        android:order="-1"
+        android:layout="@layout/bootleg_about" />
+
     <com.android.settings.applications.LayoutPreference
         android:key="my_device_info_header"
         android:order="0"
