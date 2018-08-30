@@ -15,6 +15,7 @@
  */
 package com.android.settings.deviceinfo;
 
+import android.app.Fragment;
 import android.content.Context;
 import android.os.SystemProperties;
 import android.support.v7.preference.Preference;
@@ -24,15 +25,18 @@ import android.text.TextUtils;
 import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
+import com.android.settings.deviceinfo.bootleggersinfo.BootleggersInfoDialogFragment;
 
 public class BootleggersVersionPreferenceController extends AbstractPreferenceController implements
         PreferenceControllerMixin {
 
     private static final String PROPERTY_BOOTLEGGERS_VERSION = "ro.bootleggers.version";
     private static final String KEY_BOOTLEGGERS_VERSION = "bootleggers_version";
+    private final Fragment mFragment;
 
-    public BootleggersVersionPreferenceController(Context context) {
+    public BootleggersVersionPreferenceController(Context context, Fragment fragment) {
         super(context);
+        mFragment = fragment;
     }
 
     @Override
@@ -54,5 +58,16 @@ public class BootleggersVersionPreferenceController extends AbstractPreferenceCo
     public String getPreferenceKey() {
         return KEY_BOOTLEGGERS_VERSION;
     }
+
+    @Override
+    public boolean handlePreferenceTreeClick(Preference preference) {
+        if (!TextUtils.equals(preference.getKey(), getPreferenceKey())) {
+            return false;
+        }
+
+        BootleggersInfoDialogFragment.show(mFragment);
+        return true;
+    }
+
 }
 

@@ -130,7 +130,7 @@ public class MyDeviceInfoFragment extends DashboardFragment
         controllers.add(new FccEquipmentIdPreferenceController(context));
         controllers.add(
                 new BuildNumberPreferenceController(context, activity, fragment, lifecycle));
-        controllers.add(new BootleggersVersionPreferenceController(context));
+        controllers.add(new BootleggersVersionPreferenceController(context, fragment));
         return controllers;
     }
 

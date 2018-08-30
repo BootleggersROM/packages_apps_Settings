@@ -55,4 +55,10 @@
     <string name="force_theme_warning_title">Careful!</string>
     <string name="force_theme_warning_message">This block is placed to avoid people to report bugs related to themes to us or to themers when you start mixing subs stuff with our stuff. So, by enabling this, you agree on be the responsible of everything that may happen, and not blame us in any way.</string>
 
+
+    <!-- Bootleggers Dialog -->
+    <!-- Build date, parsed? -->
+    <string name="bootleggers_build_date">Build date</string>
+    <!-- About phone screen, device maintainer name -->
+    <string name="device_maintainer">Who to blame (Maintainer)</string>
 </resources>
