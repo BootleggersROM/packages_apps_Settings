@@ -22,6 +22,7 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.SystemProperties;
@@ -161,9 +162,25 @@ public class BootleggersInfoDialogFragment  extends InstrumentedDialogFragment {
     private void initializeSystemProperties() {
         // Time to get the strings
         bootleggersVersion = SystemProperties.get(BOOTLEGGERS_VERSION);
-        bootleggersRelease = SystemProperties.get(BOOTLEGGERS_RELEASETYPE);
         bootleggersMaintainer = SystemProperties.get(BOOTLEGGERS_MAINTAINER);
         bootleggersMusiCodename = SystemProperties.get(BOOTLEGGERS_MUSICODENAME);
+
+        // Build type case for the explaining situation
+        Resources res = getResources();
+        String buildType = SystemProperties.get(BOOTLEGGERS_RELEASETYPE);
+        switch (buildType) {
+            case "Shishufied":
+                bootleggersRelease = res.getString(R.string.bootleggers_releasetype_skeleton, buildType, res.getString(R.string.bootleg_type_official));
+                break;
+
+            case "Unshishufied":
+                bootleggersRelease = res.getString(R.string.bootleggers_releasetype_skeleton, buildType, res.getString(R.string.bootleg_type_unofficial));
+                break;
+
+            default:
+                bootleggersRelease = res.getString(R.string.bootleggers_releasetype_skeleton, buildType, res.getString(R.string.bootleg_type_unknown));
+                break;
+        }
 
         //Preparing the date string, taken from com.android.settingslib.DeviceInfoUtils
         String zipbuildate = bootleggersVersion.substring(bootleggersVersion.length() - 8);
