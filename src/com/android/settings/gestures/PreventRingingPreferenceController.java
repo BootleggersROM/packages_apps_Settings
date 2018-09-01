@@ -79,7 +79,7 @@ public class PreventRingingPreferenceController extends BasePreferenceController
             if (preference instanceof ListPreference) {
                 ListPreference pref = (ListPreference) preference;
                 int value = Settings.Secure.getInt(
-                        mContext.getContentResolver(), SECURE_KEY, VOLUME_HUSH_VIBRATE);
+                        mContext.getContentResolver(), SECURE_KEY, VOLUME_HUSH_OFF);
                 switch (value) {
                     case VOLUME_HUSH_VIBRATE:
                         pref.setValue(String.valueOf(value));
@@ -97,7 +97,7 @@ public class PreventRingingPreferenceController extends BasePreferenceController
     @Override
     public CharSequence getSummary() {
         int value = Settings.Secure.getInt(
-                mContext.getContentResolver(), SECURE_KEY, VOLUME_HUSH_VIBRATE);
+                mContext.getContentResolver(), SECURE_KEY, VOLUME_HUSH_OFF);
         int summary;
         switch (value) {
             case VOLUME_HUSH_VIBRATE:
