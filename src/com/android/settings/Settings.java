@@ -443,4 +443,5 @@ public class Settings extends SettingsActivity {
      * Bootleggers custom activities
      */
     public static class BootlegDumpsterActivity extends SettingsActivity {}
+    public static class OmniJawsSettingsActivity extends SettingsActivity { /* empty */ }
 }
