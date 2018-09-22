@@ -116,6 +116,10 @@
         settings:controller="com.android.settings.display.FontSizePreferenceController"
         settings:keywords="@string/keywords_display_font_size" />
 
+    <com.android.settings.display.DensityPreference
+        android:key="density"
+        android:title="@string/developer_smallest_width" />
+
     <com.android.settings.display.ScreenZoomPreference
         android:key="display_settings_screen_zoom"
         android:title="@string/screen_zoom_title"
