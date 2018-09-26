@@ -27,6 +27,7 @@ import android.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
+import android.graphics.PorterDuff;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -248,6 +249,11 @@ public class EntityHeaderController {
         if (iconView != null) {
             iconView.setImageDrawable(mIcon);
             iconView.setContentDescription(mIconContentDescription);
+
+            // Only tint the icon if an image is not set
+            if (mIcon == null) {
+                iconView.setColorFilter(activity.getResources().getColor(R.color.about_phone_avatar), PorterDuff.Mode.SRC_IN);
+            }
         }
         setText(R.id.entity_header_title, mLabel);
         setText(R.id.entity_header_summary, mSummary);
