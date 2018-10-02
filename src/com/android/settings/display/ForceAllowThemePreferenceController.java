@@ -25,6 +25,8 @@ import com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference;
 import com.android.settings.display.AccentPickerPreferenceController;
 import com.android.settings.display.DarkUIPreferenceController;
 
+import static com.android.settings.display.ThemeUtils.isSubstratumOverlayInstalled;
+
 import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -44,7 +46,7 @@ PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
 
     @Override
     public boolean isAvailable() {
-        return true;
+        return isSubstratumOverlayInstalled(mContext);
     }
 
     @Override
