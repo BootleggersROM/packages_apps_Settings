@@ -25,6 +25,7 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.SELinux;
 import android.os.SystemProperties;
 import android.text.TextUtils;
 import android.text.format.DateFormat;
@@ -56,6 +57,7 @@ public class BootleggersInfoDialogFragment  extends InstrumentedDialogFragment {
     static final String BOOTLEGGERS_RELEASETYPE = "ro.bootleggers.releasetype";
     static final String BOOTLEGGERS_MUSICODENAME = "ro.bootleggers.songcodename";
     static final String BOOTLEGGERS_MUSICODENAME_URL = "ro.bootleggers.songcodeurl";
+    static final String PROPERTY_SELINUX_STATUS = "ro.boot.selinux";
     static final int BOOTLEGGERS_VERSION_TITLE = R.id.bootleggers_buildzip_label;
     static final int BOOTLEGGERS_VERSION_PREFERENCE = R.id.bootleggers_buildzip_value;
     static final int BOOTLEGGERS_DATE_TITLE = R.id.bootleggers_build_date;
@@ -66,6 +68,8 @@ public class BootleggersInfoDialogFragment  extends InstrumentedDialogFragment {
     static final int BOOTLEGGERS_RELEASE_PREFERENCE = R.id.bootleggers_release_value;
     static final int BOOTLEGGERS_MUSICODENAME_TITLE = R.id.bootleggers_musicodename;
     static final int BOOTLEGGERS_MUSICODENAME_PREFERENCE = R.id.bootleggers_musicodename_value;
+    static final int SELINUX_STATUS_TITLE = R.id.selinux_status;
+    static final int SELINUX_STATUS_PREFERENCE = R.id.selinux_status_value;
     private static final Uri INTENT_BOOTLEG_MUSICODE = Uri.parse(SystemProperties.get(BOOTLEGGERS_MUSICODENAME_URL));
 
 
@@ -75,6 +79,7 @@ public class BootleggersInfoDialogFragment  extends InstrumentedDialogFragment {
     private String bootleggersMaintainer;
     private String bootleggersRelease;
     private String bootleggersMusiCodename;
+    private String selinuxStatus;
 
     public static void show(Fragment host) {
         final FragmentManager manager = host.getChildFragmentManager();
@@ -109,6 +114,7 @@ public class BootleggersInfoDialogFragment  extends InstrumentedDialogFragment {
         showPreferenceWhenAvaliable(BOOTLEGGERS_MAINTAINER_TITLE,BOOTLEGGERS_MAINTAINER_PREFERENCE, bootleggersMaintainer);
         showPreferenceWhenAvaliable(BOOTLEGGERS_RELEASE_TITLE,BOOTLEGGERS_RELEASE_PREFERENCE, bootleggersRelease);
         showPreferenceWhenAvaliable(BOOTLEGGERS_MUSICODENAME_TITLE,BOOTLEGGERS_MUSICODENAME_PREFERENCE, bootleggersMusiCodename);
+        showPreferenceWhenAvaliable(SELINUX_STATUS_TITLE,SELINUX_STATUS_PREFERENCE, selinuxStatus);
         return builder.setView(mRootView).create();
     }
 
@@ -192,6 +198,18 @@ public class BootleggersInfoDialogFragment  extends InstrumentedDialogFragment {
                 bootleggersDate = DateFormat.format(format, buildDate).toString();
             } catch (ParseException e) {
                 // broken parse; fall through and use the raw string
+            }
+        }
+
+        //SELinux status check, taken from SELinuxPreferenceController.java
+        String selinuxStatusProp =  SystemProperties.get(PROPERTY_SELINUX_STATUS);
+        if (selinuxStatusProp != null || SELinux.isSELinuxEnabled()) {
+            if (SELinux.isSELinuxEnforced()) {
+                selinuxStatus = res.getString(R.string.selinux_status_enforcing);
+            } else if (!SELinux.isSELinuxEnforced()) {
+                selinuxStatus = res.getString(R.string.selinux_status_permissive);
+            } else {
+                selinuxStatus = res.getString(R.string.selinux_status_disabled);
             }
         }
     }

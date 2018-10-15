@@ -1205,6 +1205,7 @@
     <string name="baseband_version" msgid="1848990160763524801">"बेसबँड आवृत्ती"</string>
     <string name="kernel_version" msgid="9192574954196167602">"कर्नेल आवृत्ती"</string>
     <string name="build_number" msgid="3075795840572241758">"बिल्ड नंबर"</string>
+    <string name="selinux_status" msgid="6212165375172061672">"SELinux स्थिती"</string>
     <string name="device_info_not_available" msgid="8062521887156825182">"उपलब्ध नाही"</string>
     <string name="device_status_activity_title" msgid="1411201799384697904">"स्थिती"</string>
     <string name="device_status" msgid="607405385799807324">"स्थिती"</string>
@@ -2748,6 +2749,9 @@
     <string name="backup_pw_set_button_text" msgid="2387480910044648795">"बॅकअप पासवर्ड सेट करा"</string>
     <string name="backup_pw_cancel_button_text" msgid="8845630125391744615">"रद्द करा"</string>
     <string name="additional_system_update_settings_list_item_title" msgid="214987609894661992">"अतिरिक्त सिस्टम अपडेट"</string>
+    <string name="selinux_status_disabled" msgid="924551035552323327">"अक्षम"</string>
+    <string name="selinux_status_permissive" msgid="6004965534713398778">"मुक्ताचारी"</string>
+    <string name="selinux_status_enforcing" msgid="2252703756208463329">"अंमलबजावणी"</string>
     <string name="ssl_ca_cert_warning" msgid="2045866713601984673">"नेटवर्कचे परीक्षण केले जाऊ शकते"</string>
     <string name="done_button" msgid="1991471253042622230">"पूर्ण झाले"</string>
     <plurals name="ssl_ca_cert_dialog_title" formatted="false" msgid="7145092748045794650">
