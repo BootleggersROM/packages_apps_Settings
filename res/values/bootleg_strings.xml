@@ -265,4 +265,8 @@
     <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
     <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
 
+    <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
+    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
+    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+
 </resources>
