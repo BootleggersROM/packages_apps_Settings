@@ -334,6 +334,7 @@
         <item name="android:layout_alignParentStart">false</item>
         <item name="android:layout_marginStart">@dimen/suggestion_card_icon_side_margin</item>
         <item name="android:layout_marginEnd">@dimen/suggestion_card_icon_side_margin</item>
+        <item name="android:tint">@*android:color/accent_device_default_light</item>
     </style>
 
     <style name="SuggestionCardButton">
