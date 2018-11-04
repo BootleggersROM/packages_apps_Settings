@@ -50,6 +50,7 @@
         <item>@string/system_theme_style_shishuimmensity</item>
         <item>@string/system_theme_style_shishuamalgamation</item>
         <item>@string/system_theme_style_shishucosmos</item>
+        <item>@string/system_theme_style_shishuprotostar</item>
     </string-array>
 
      <string-array name="system_theme_style_values" translatable="false">
@@ -63,6 +64,7 @@
         <item>7</item>
         <item>8</item>
         <item>9</item>
+        <item>10</item>
     </string-array>
 
     <!-- Names of categories of app ops tabs -->
