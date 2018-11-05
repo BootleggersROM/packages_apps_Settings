@@ -225,6 +225,13 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         updateBatteryTipFlag(icicle);
     }
 
+    public void onActivityCreated(Bundle outState) {
+        super.onActivityCreated(outState);
+        if (outState != null) {
+            mBatteryHeaderPreferenceController.saveInstanceState(outState);
+        }
+    }
+
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
         if (KEY_BATTERY_HEADER.equals(preference.getKey())) {
