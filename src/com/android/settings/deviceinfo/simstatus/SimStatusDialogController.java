@@ -22,6 +22,7 @@ import static android.content.Context.TELEPHONY_SERVICE;
 
 import android.Manifest;
 import android.content.BroadcastReceiver;
+import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
@@ -30,6 +31,7 @@ import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.os.UserHandle;
+import android.provider.Settings;
 import android.support.annotation.NonNull;
 import android.support.annotation.VisibleForTesting;
 import android.telephony.CarrierConfigManager;
@@ -336,16 +338,9 @@ public class SimStatusDialogController implements LifecycleObserver, OnResume, O
             voiceNetworkTypeName = mTelephonyManager.getNetworkTypeName(actualVoiceNetworkType);
         }
 
-        boolean show4GForLTE = false;
-        try {
-            final Context con = mContext.createPackageContext(
-                    "com.android.systemui", 0 /* flags */);
-            final int id = con.getResources().getIdentifier("config_show4GForLTE",
-                    "bool" /* default type */, "com.android.systemui" /* default package */);
-            show4GForLTE = con.getResources().getBoolean(id);
-        } catch (PackageManager.NameNotFoundException e) {
-            Log.e(TAG, "NameNotFoundException for show4GForLTE");
-        }
+        ContentResolver resolver = mContext.getContentResolver();
+        boolean show4GForLTE = Settings.System.getIntForUser(resolver,
+                                        Settings.System.SHOW_FOURG, 0, UserHandle.USER_CURRENT) == 1;
 
         if (show4GForLTE) {
             if ("LTE".equals(dataNetworkTypeName)) {
