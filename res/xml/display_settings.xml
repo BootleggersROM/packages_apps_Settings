@@ -78,6 +78,11 @@
         android:title="@string/color_theme"
         android:summary="@string/summary_placeholder" />
 
+	<com.android.settings.display.FontDialogPreference
+            android:key="custom_font"
+            android:title="@string/font_picker_title"
+            android:persistent="false" />    
+
     <!-- Cross-listed item, if you change this, also change it in power_usage_summary.xml -->
     <com.android.settings.TimeoutListPreference
         android:key="screen_timeout"
