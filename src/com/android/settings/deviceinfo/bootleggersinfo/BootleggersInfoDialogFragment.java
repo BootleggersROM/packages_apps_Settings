@@ -169,7 +169,6 @@ public class BootleggersInfoDialogFragment  extends InstrumentedDialogFragment {
         // Time to get the strings
         bootleggersVersion = SystemProperties.get(BOOTLEGGERS_VERSION);
         bootleggersMaintainer = SystemProperties.get(BOOTLEGGERS_MAINTAINER);
-        bootleggersMusiCodename = SystemProperties.get(BOOTLEGGERS_MUSICODENAME);
 
         // Build type case for the explaining situation
         Resources res = getResources();
@@ -211,6 +210,16 @@ public class BootleggersInfoDialogFragment  extends InstrumentedDialogFragment {
             } else {
                 selinuxStatus = res.getString(R.string.selinux_status_disabled);
             }
+        }
+
+        //Musical Codename method to use spacing, as it's a dumb thing and additional props doesn't have support for spaces. So, let's do a method to parse text
+        String musicodenameProp = SystemProperties.get(BOOTLEGGERS_MUSICODENAME);
+        if (musicodenameProp.contains("niceparse")) {
+            String musicFinal = musicodenameProp.substring(musicodenameProp.lastIndexOf(".") + 1);
+            bootleggersMusiCodename = musicFinal.replace('_',' ');
+        } else {
+            //Fallback musical codename
+            bootleggersMusiCodename = musicodenameProp;
         }
     }
 }
