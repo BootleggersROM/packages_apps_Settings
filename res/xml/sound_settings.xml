@@ -243,6 +243,13 @@
              android:key="audio_panel_view_bt_sco"
              android:title="@string/audio_panel_view_bt_sco_title"
              android:defaultValue="false"/>
+
+         <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+             android:key="audio_panel_view_position"
+             android:title="@string/volume_panel_on_left_title"
+             android:summary="@string/volume_panel_on_left_summary"
+             android:defaultValue="false" />
+
      </PreferenceCategory>
 
     <com.android.settings.widget.WorkOnlyCategory
