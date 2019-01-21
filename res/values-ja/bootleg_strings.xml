@@ -18,55 +18,240 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Rom version -->
-  <!-- Bootleg Dumpster -->
-  <string name="bootlegdumpster_settings_activity_summary">壊れたものが置かれた場所</string>
-  <!-- About phone screen, device maintainer name -->
-  <string name="device_maintainer">責任者（メンテナー）</string>
-  <!-- App details: open play store link if app is user installed -->
-  <string name="app_play_store">Google Play</string>
-  <!-- Unlink ring & notification volume -->
-  <string name="link_volume_option_title">着信と通知の音量をリンク</string>
-  <!-- Expanded desktop -->
-  <string name="power_menu_expanded_desktop">拡張デスクトップ</string>
-  <!-- Advanced night mode brightness -->
-  <string name="night_bright_disabled">無効</string>
-  <!-- App Ops Settings -->
-  <!-- App Ops Categories -->
-  <string name="app_ops_cat_location">位置情報</string>
-  <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_activate_vpn">VPN</string>
-  <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
-  <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-  <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-  <!-- Screenshot sound -->
-  <!-- Custom light color -->
-  <!-- Reset Battery Status -->
-  <!-- Volume Steps -->
-  <string name="volume_steps_reset">リセット</string>
-  <!-- Themes -->
-  <string name="system_theme_style_title">UIのスタイル</string>
-  <string name="system_theme_style_light">明るいUI</string>
-  <string name="system_theme_style_dark">暗いUI</string>
-  <string name="system_theme_style_black">黒いUI</string>
-  <!-- Sizes for pattern lockscreen -->
-  <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-  <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-  <!-- Lock screen vibrate settings -->
-  <string name="lockscreen_vibrate_enabled_title">振動</string>
-  <!-- Force authorize substratum packages -->
-  <!-- Manage applications: show substratum overlays -->
-  <!-- Quick unlock -->
-  <!-- Running services -->
-  <!-- Per-app data restrictions -->
-  <!-- [CHAR LIMIT=80]-->
-  <!--  [CHAR LIMIT=160]-->
-  <!-- Fingerprint quick pulldown -->
-  <!-- Multisim Toggle -->
-  <!-- Font picker -->
-  <!-- Force use system themes even with subs overlays -->
-  <!-- Scramble PIN Layout on Lockscreen -->
-  <!-- Toast Insulter // Our rendition -->
-  <!-- Display : Rotation -->
-  <string name="display_rotation_disabled">無効</string>
+    <!-- Rom version -->
+    <string name="rom_version_title">Bootleggers バージョン</string>
+    <!-- Bootleg Dumpster -->
+    <string name="bootlegdumpster_settings_activity_summary">壊れたものが置かれた場所</string>
+    <!-- About phone screen, device maintainer name -->
+    <string name="device_maintainer">責任者（メンテナー）</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Unlink ring & notification volume -->
+    <string name="link_volume_option_title">着信と通知の音量をリンク</string>
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">拡張デスクトップ</string>
+    <string name="expanded_hide_nothing">非表示にしない</string>
+    <string name="expanded_hide_status">ステータスバーを隠す</string>
+    <string name="expanded_hide_navigation">ナビゲーションバーを隠す</string>
+    <string name="expanded_hide_both">両方を隠す</string>
+    <string name="expanded_nothing_to_show">アプリごとの拡張の状態のカスタム設定を追加するには「全て拡張」をオフにしてください</string>
+    <string name="expanded_desktop_state">拡張デスクトップの状態</string>
+    <string name="expanded_enabled_for_all">全て拡張</string>
+    <string name="expanded_user_configurable">ユーザー設定</string>
+    <string name="expanded_desktop_style">拡張デスクトップのスタイル</string>
+    <string name="expanded_desktop_style_description">既定の拡張デスクトップスタイルを選択する</string>
+    <string name="expanded_desktop_title">拡張デスクトップの設定</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">明るさ</string>
+    <string name="night_brightness_value_title">夜の場合は明るさを下げる</string>
+    <string name="night_bright_disabled">無効</string>
+    <string name="night_bright_minimum">最低輝度</string>
+    <string name="night_bright_low">低輝度</string>
+    <string name="night_bright_medium">中輝度</string>
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">位置情報</string>
+    <string name="app_ops_cat_personal">個人情報</string>
+    <string name="app_ops_cat_messaging">メッセージ</string>
+    <string name="app_ops_cat_media">メディア</string>
+    <string name="app_ops_cat_device">端末</string>
+    <string name="app_ops_cat_bootup">ブート時の実行</string>
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">カメラ</string>
+    <string name="app_ops_access_location">位置情報</string>
+    <string name="app_ops_access_notifications">通知</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">自動起動</string>
+    <string name="app_ops_delete_call_log">通話履歴の削除</string>
+    <string name="app_ops_delete_contacts">連絡先の削除</string>
+    <string name="app_ops_delete_mms">MMSの削除</string>
+    <string name="app_ops_delete_sms">SMSの削除</string>
+    <string name="app_ops_draw_on_top">上部に描画</string>
+    <string name="app_ops_get_usage_stats">使用統計の取得</string>
+    <string name="app_ops_keep_device_awake">スリープモードにしない</string>
+    <string name="app_ops_make_phone_call">発信</string>
+    <string name="app_ops_modify_calendar">カレンダーの更新</string>
+    <string name="app_ops_modify_call_log">通話履歴の更新</string>
+    <string name="app_ops_modify_clipboard">クリップボードの変更</string>
+    <string name="app_ops_modify_contacts">連絡先の更新</string>
+    <string name="app_ops_modify_settings">設定の更新</string>
+    <string name="app_ops_mute_unmute_microphone">マイクの有効/無効</string>
+    <string name="app_ops_play_audio">音声の再生</string>
+    <string name="app_ops_post_notification">通知の配信</string>
+    <string name="app_ops_project_media">メディアの投影</string>
+    <string name="app_ops_read_calendar">カレンダーの読み取り</string>
+    <string name="app_ops_read_call_log">通話履歴の読み取り</string>
+    <string name="app_ops_read_clipboard">クリップボードの読み取り</string>
+    <string name="app_ops_read_contacts">連絡先の読み取り</string>
+    <string name="app_ops_read_mms">MMSの読み取り</string>
+    <string name="app_ops_read_sms">SMSの読み取り</string>
+    <string name="app_ops_receive_sms">SMSの受信</string>
+    <string name="app_ops_record_audio">音声の録音</string>
+    <string name="app_ops_send_mms">MMSの送信</string>
+    <string name="app_ops_send_sms">SMSの送信</string>
+    <string name="app_ops_toast_window">トーストメッセージ</string>
+    <string name="app_ops_use_alarm_volume">アラームの音量</string>
+    <string name="app_ops_use_audio_focus">音声フォーカス</string>
+    <string name="app_ops_use_bluetooth_volume">Bluetoothの音量</string>
+    <string name="app_ops_use_master_volume">主音量</string>
+    <string name="app_ops_use_media_buttons">メディアボタン</string>
+    <string name="app_ops_use_media_volume">メディアの音量</string>
+    <string name="app_ops_use_notification_volume">通知の音量</string>
+    <string name="app_ops_use_ring_volume">着信の音量</string>
+    <string name="app_ops_use_vibrate">振動フィードバック</string>
+    <string name="app_ops_use_voice_volume">音声通話の音量</string>
+    <string name="app_ops_write_mms">MMSの書き込み</string>
+    <string name="app_ops_write_sms">SMSの書き込み</string>
+    <string name="app_ops_use_fingerprint">指紋認証</string>
+    <string name="app_ops_add_voicemail">ボイスメール</string>
+    <string name="app_ops_read_phone_state">端末の状態へのアクセス</string>
+    <string name="app_ops_scan_wifi">WiFiネットワークのスキャン</string>
+    <string name="app_ops_change_wallpaper">壁紙の変更</string>
+    <string name="app_ops_assist_structure">ストラクチャーのアシスト</string>
+    <string name="app_ops_assist_screenshot">スクリーンショット</string>
+    <string name="app_ops_use_body_sensors">ボディーセンサー</string>
+    <string name="app_ops_read_cell_broadcasts">緊急警報</string>
+    <string name="app_ops_mock_location">仮想位置情報</string>
+    <string name="app_ops_read_external_storage">外部ストレージの読み取り</string>
+    <string name="app_ops_write_external_storage">外部ストレージの書き込み</string>
+    <string name="app_ops_turn_on_screen">画面の点灯</string>
+    <string name="app_ops_get_accounts">端末のアカウント</string>
+    <string name="app_ops_run_in_background">バックグラウンドで実行する</string>
+    <string name="app_ops_accessibility_volume">ユーザー補助の音量</string>
+    <string name="app_ops_read_phone_numbers">電話番号の読み取り</string>
+    <string name="app_ops_request_install_packages">パッケージのインストール</string>
+    <string name="app_ops_picture_in_picture">ピクチャーインピクチャー</string>
+    <string name="app_ops_app_start_foreground">フォアグラウンドで起動する</string>
+    <string name="app_ops_answer_phone_calls">着信への応答</string>
+    <string name="app_ops_boot_completed">自動実行</string>
+    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+    <string name="local_backup_password_title">PCバックアップパスワード</string>
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">CPU情報を表示</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">現在のCPU情報をオーバーレイ表示する</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">スクリーンショットの音</string>
+    <string name="screenshot_sound_summary">スクリーンショットを取得した際に効果音を鳴らす</string>
+    <!-- Custom light color -->
+    <string name="light_customization">LEDライトの通知</string>
+    <string name="custom_light_title">ライトカラー</string>
+    <string name="custom_light_on_time_title">"LEDの点滅している時の光っている時間（ms）"</string>
+    <string name="custom_light_off_time_title">"LEDの点滅している時の消えている時間（ms）"</string>
+    <string name="app_notifications_info_desc">上記のいずれかのチャンネルをタップして、LEDの色やその他のオプションを設定します。</string>
+    <string name="value_equals_default">既定</string>
+    <string name="show_light_on_zen_title">マナーモードの間はライトを点滅させる</string>
+    <!-- Reset Battery Status -->
+    <string name="menu_stats_reset">統計をリセット</string>
+    <string name="reset_stats_msg">バッテリーの使用統計はリセットされます</string>
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">ボリュームステップ</string>
+    <string name="volume_steps_alarm_title">音量レベル : アラーム</string>
+    <string name="volume_steps_dtmf_title">音量レベル：DTMF</string>
+    <string name="volume_steps_music_title">音量レベル：音楽</string>
+    <string name="volume_steps_notification_title">音量レベル：通知</string>
+    <string name="volume_steps_ring_title">音量レベル : 着信音</string>
+    <string name="volume_steps_system_title">音量レベル：システム</string>
+    <string name="volume_steps_voice_call_title">音量レベル：音声通話</string>
+    <string name="volume_steps_reset">リセット</string>
+    <!-- Themes -->
+    <string name="system_theme_style_title">UIのスタイル</string>
+    <string name="system_theme_style_auto">壁紙基調</string>
+    <string name="system_theme_style_light">明るいUI</string>
+    <string name="system_theme_style_dark">暗いUI</string>
+    <string name="system_theme_style_black">黒いUI</string>
+    <string name="theme_applied_toast">テーマが適用されました</string>
+    <string name="applying_theme_toast">テーマを適用中です。しばらくお待ちください...</string>
+    <string name="substratum_installed_title">Substratum適応中のAndroidシステムにオーバーレイが適用されているため、このオプションは無効になります。この機能を使用する場合は、全てのオーバーレイをアンインストールしてください。</string>
+    <!-- Sizes for pattern lockscreen -->
+    <string name="lock_settings_picker_pattern_size_message">パターンサイズを選択する</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">間違えたパターンを表示</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">パターンのドットを表示</string>
+    <!-- Lock screen vibrate settings -->
+    <string name="lockscreen_vibrate_enabled_title">振動</string>
+    <string name="lockscreen_vibrate_enabled_head">ロック解除時に振動させる</string>
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">全てのテーマアプリを強制的に承認する</string>
+    <string name="force_authorize_substratum_packages_summary">提供元不明のテーマアプリのインストールを許可する</string>
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">Substratumオーバーレイ</string>
+    <string name="menu_show_substratum">オーバーレイを表示</string>
+    <string name="menu_hide_substratum">オーバーレイを非表示</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
+    <string name="unlock_quick_unlock_control_summary">正しいPIN/パスワードが入力されると自動的にロックが解除されます</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">バックグラウンドプロセス</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">モバイルデータ</string>
+    <string name="data_usage_app_restrict_data_summary">モバイルデータ使用量を有効化する</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fiデータ使用量</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fiデータ使用量を有効化する</string>
+    <!-- [CHAR LIMIT=80]-->
+    <string name="fp_swipe_to_dismiss_notifications_title">指紋センサーで左右にスワイプして通知を削除</string>
+    <!--  [CHAR LIMIT=160]-->
+    <string name="fp_swipe_to_dismiss_notifications_summary">通知を削除するには、端末裏側の指紋センサー上で左右にスワイプしてください。</string>
+    <!-- Fingerprint quick pulldown -->
+    <string name="fp_quick_pulldown_title">指紋センサーでクイックプルダウン</string>
+    <string name="fp_quick_pulldown_summary">指紋センサーのスワイプでクイック設定を開く</string>
+    <!-- Multisim Toggle -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g>は<xliff:g id="status" example="disabled">%2$s</xliff:g>です</string>
+    <string name="sim_enabled">有効</string>
+    <string name="sim_disabled">無効</string>
+    <string name="sim_missing">挿入されていないか、問題があります。</string>
+    <string name="sim_enabler_need_disable_sim">SIMカードはアクティベート解除されます。続けますか？</string>
+    <string name="sim_enabler_will_disable_sim_title">注意</string>
+    <string name="sim_enabler_need_switch_data_service">このSIMは無効になり、SIM <xliff:g id="slotid">%1$s</xliff:g>がデータサービスに使用されます。続けてもよろしいですか？</string>
+    <string name="sim_enabler_airplane_on">機内モードがオンになっている間はこの操作を実行することはできません</string>
+    <string name="sim_enabler_in_call">通話中はこの操作を実行することはできません</string>
+    <string name="sim_enabler_both_inactive">全てのSIMカードを無効にはできません</string>
+    <string name="sim_enabler_enabling">アクティベート中\u2026</string>
+    <string name="sim_enabler_disabling">アクティベート解除中\u2026</string>
+    <string name="sub_activate_success">SIMをアクティベートしました</string>
+    <string name="sub_activate_failed">アクティベーションに失敗しました</string>
+    <string name="sub_deactivate_success">SIMをアクティベート解除しました</string>
+    <string name="sub_deactivate_failed">アクティベート解除に失敗しました</string>
+    <!-- Font picker -->
+    <string name="disable_fonts_installed_title">フォントピッカーはSubstratumとの競合のため使用できません。フォントピッカーを使用したい場合はSubstratumをアンインストールしてください。</string>
+    <string name="font_picker_title">フォント</string>
+    <string name="font_picker_progress">新しいフォントの適用中\u2026</string>
+    <!-- Force use system themes even with subs overlays -->
+    <string name="force_allow_system_themes_title">Substratumと一緒にシステムのテーマとフォントを許可する</string>
+    <string name="force_allow_system_themes_summary">Substratumオーバーレイのインストールの有無に関わらずのテーマとフォントオプションの使用を許可する</string>
+    <string name="force_theme_warning_title">注意</string>
+    <string name="force_theme_warning_message">このブロックは、あなたが私たちの主機能に副機能を混在させる時に、テーマに関連するバグを私たちやテーマ作成者に報告するのを避けるために配置されています。よって、これを有効にすることによって、あなたは起こりうる全ての責任を負うことに同意し、いかなる方法でも私たちは責任を負いません。</string>
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">ランダムなレイアウト</string>
+    <string name="unlock_scramble_pin_layout_summary">端末のロック解除時にPINレイアウトをランダムにする</string>
+    <!-- Toast Insulter // Our rendition -->
+    <string name="tinsulter01">端末から離れて下さい！</string>
+    <string name="tinsulter02">おめでとうございます！ VoLTEの詳細設定が有効になりました。</string>
+    <string name="tinsulter03">あなたは知っている、私と遊んでいる人々は疲れていることを。</string>
+    <string name="tinsulter04">うわー、プロの開発者がhax0rz設定を有効にしました。</string>
+    <string name="tinsulter05">もしこれが発生するたびに、誰かが私にペニーをくれたなら...</string>
+    <string name="tinsulter06">おいおい、何してるの？</string>
+    <string name="tinsulter07">ただのモニカ。</string>
+    <string name="tinsulter08">そのオプションが存在することをあなたが知らなかった昔のことを思い出してください。私はそれらの時が恋しいです。</string>
+    <string name="tinsulter09">私の名前を呼び、暗闇から私を救ってくれ。</string>
+    <string name="tinsulter10">多分このAndroidはあなたのものではありません...</string>
+    <string name="tinsulter11">うわー、あなたは凶悪犯です！</string>
+    <string name="tinsulter12">Clifford the Big Red Dogは、Cliffordと名付けられた巨大な赤い犬についてのアメリカの児童書のシリーズです。それは1963年に最初に出版され、Norman Bridwell（1928-2014）によって書かれました。シリーズは最高の出版会社としてのScholasticの設立に寄与し、Clifford自身がScholasticの公式マスコットとなっています。</string>
+    <string name="tinsulter13">あなたはこのオプションをタップして時間を無駄にしている間に、ROMをセットアップすることができたのではないでしょうか...</string>
+    <string name="tinsulter14">そこのあなた、Gingerbreadの醜いUIを覚えていますか？はぁ、私はその時が過ぎ去って嬉しいです。</string>
+    <string name="tinsulter15">あなたも試そうとしていますか？</string>
+    <string name="tinsulter16">私たちがそのアクションの準備をしている間、いくつか静かな音楽を流してみませんか？</string>
+    <string name="tinsulter17">今私に触れることをやめてもらえませんか？非常に不愉快です。</string>
+    <string name="tinsulter18">ああ、タップしたと同時に何かが起こって、あなたはそれを見逃した！ああ、あなたがそれを見ていないことが悲しいです。</string>
+    <string name="tinsulter19">無駄だね</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">回転</string>
+    <string name="display_rotation_disabled">無効</string>
+    <string name="display_rotation_unit">角度</string>
+    <string name="display_rotation_category_title">回転モード</string>
+    <string name="display_rotation_0_title">0度</string>
+    <string name="display_rotation_90_title">90度</string>
+    <string name="display_rotation_180_title">180度</string>
+    <string name="display_rotation_270_title">270度</string>
 </resources>

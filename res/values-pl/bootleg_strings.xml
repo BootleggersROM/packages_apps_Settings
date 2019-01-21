@@ -18,55 +18,240 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Rom version -->
-  <!-- Bootleg Dumpster -->
-  <string name="bootlegdumpster_settings_activity_summary">Gdzie zepsute rzeczy się znajdują</string>
-  <!-- About phone screen, device maintainer name -->
-  <string name="device_maintainer">Kogo obwiniać (Opiekun)</string>
-  <!-- App details: open play store link if app is user installed -->
-  <string name="app_play_store">Sklep Google Play</string>
-  <!-- Unlink ring & notification volume -->
-  <string name="link_volume_option_title">Połącz dźwięk połączeń i powiadomień</string>
-  <!-- Expanded desktop -->
-  <string name="power_menu_expanded_desktop">Rozszerzony pulpit</string>
-  <!-- Advanced night mode brightness -->
-  <string name="night_bright_disabled">Wyłączony</string>
-  <!-- App Ops Settings -->
-  <!-- App Ops Categories -->
-  <string name="app_ops_cat_location">Lokalizacja</string>
-  <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_activate_vpn">VPN</string>
-  <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
-  <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-  <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-  <!-- Screenshot sound -->
-  <!-- Custom light color -->
-  <!-- Reset Battery Status -->
-  <!-- Volume Steps -->
-  <string name="volume_steps_reset">Reset</string>
-  <!-- Themes -->
-  <string name="system_theme_style_title">Styl interfejsu</string>
-  <string name="system_theme_style_light">Jasny interfejs użytkownika</string>
-  <string name="system_theme_style_dark">Ciemny interfejs użytkownika</string>
-  <string name="system_theme_style_black">Czarny interfejs użytkownika</string>
-  <!-- Sizes for pattern lockscreen -->
-  <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-  <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-  <!-- Lock screen vibrate settings -->
-  <string name="lockscreen_vibrate_enabled_title">Wibracje</string>
-  <!-- Force authorize substratum packages -->
-  <!-- Manage applications: show substratum overlays -->
-  <!-- Quick unlock -->
-  <!-- Running services -->
-  <!-- Per-app data restrictions -->
-  <!-- [CHAR LIMIT=80]-->
-  <!--  [CHAR LIMIT=160]-->
-  <!-- Fingerprint quick pulldown -->
-  <!-- Multisim Toggle -->
-  <!-- Font picker -->
-  <!-- Force use system themes even with subs overlays -->
-  <!-- Scramble PIN Layout on Lockscreen -->
-  <!-- Toast Insulter // Our rendition -->
-  <!-- Display : Rotation -->
-  <string name="display_rotation_disabled">Wyłączony</string>
+    <!-- Rom version -->
+    <string name="rom_version_title">Wersja Bootleggers</string>
+    <!-- Bootleg Dumpster -->
+    <string name="bootlegdumpster_settings_activity_summary">Gdzie zepsute rzeczy się znajdują</string>
+    <!-- About phone screen, device maintainer name -->
+    <string name="device_maintainer">Kogo obwiniać (Opiekun)</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Sklep Google Play</string>
+    <!-- Unlink ring & notification volume -->
+    <string name="link_volume_option_title">Połącz dźwięk połączeń i powiadomień</string>
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Rozszerzony pulpit</string>
+    <string name="expanded_hide_nothing">Nic nie ukrywaj</string>
+    <string name="expanded_hide_status">Ukryj pasek statusu</string>
+    <string name="expanded_hide_navigation">Ukryj pasek nawigacji</string>
+    <string name="expanded_hide_both">Ukryj obydwa</string>
+    <string name="expanded_nothing_to_show">Aby dodać własną konfigurację trybu rozszerzonego dla wybranej aplikacji, wyłącz opcję \"Włączone dla wszystkich\"</string>
+    <string name="expanded_desktop_state">Tryb rozszerzony</string>
+    <string name="expanded_enabled_for_all">Włączone dla wszystkich</string>
+    <string name="expanded_user_configurable">Konfigurowane przez użytkownika</string>
+    <string name="expanded_desktop_style">Styl rozszerzonego pulpitu</string>
+    <string name="expanded_desktop_style_description">Wybierz domyślny styl rozszerzonego pulpitu</string>
+    <string name="expanded_desktop_title">Opcje rozszerzonego pulpitu</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">Jasność</string>
+    <string name="night_brightness_value_title">Mniejsza jasność przy nocnym świetle</string>
+    <string name="night_bright_disabled">Wyłączony</string>
+    <string name="night_bright_minimum">Minimalna jasność</string>
+    <string name="night_bright_low">Niska jasność</string>
+    <string name="night_bright_medium">Średnia jasność</string>
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Lokalizacja</string>
+    <string name="app_ops_cat_personal">Osobiste</string>
+    <string name="app_ops_cat_messaging">Wiadomości</string>
+    <string name="app_ops_cat_media">Multimedia</string>
+    <string name="app_ops_cat_device">Urządzenie</string>
+    <string name="app_ops_cat_bootup">Rozruch</string>
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">aparat</string>
+    <string name="app_ops_access_location">lokalizacja</string>
+    <string name="app_ops_access_notifications">powiadomienia</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">autostart</string>
+    <string name="app_ops_delete_call_log">usuwanie dziennika połączeń</string>
+    <string name="app_ops_delete_contacts">usuwanie kontaktów</string>
+    <string name="app_ops_delete_mms">usuwanie MMS</string>
+    <string name="app_ops_delete_sms">usuwanie SMS-ów</string>
+    <string name="app_ops_draw_on_top">rysowanie na wierzchu</string>
+    <string name="app_ops_get_usage_stats">uzyskiwanie statystyk użytkowania</string>
+    <string name="app_ops_keep_device_awake">nieusypianie</string>
+    <string name="app_ops_make_phone_call">wykonywanie połączeń</string>
+    <string name="app_ops_modify_calendar">aktualizowanie kalendarza</string>
+    <string name="app_ops_modify_call_log">aktualizowanie rejestru połączeń</string>
+    <string name="app_ops_modify_clipboard">modyfikowanie zawartości schowka</string>
+    <string name="app_ops_modify_contacts">aktualizowanie kontaktów</string>
+    <string name="app_ops_modify_settings">aktualizowanie ustawień</string>
+    <string name="app_ops_mute_unmute_microphone">wyciszanie/odciszanie mikrofonu</string>
+    <string name="app_ops_play_audio">odtwarzanie audio</string>
+    <string name="app_ops_post_notification">wysyłanie powiadomienia</string>
+    <string name="app_ops_project_media">wyświetlanie multimediów</string>
+    <string name="app_ops_read_calendar">czytanie kalendarza</string>
+    <string name="app_ops_read_call_log">czytanie rejestru połączeń</string>
+    <string name="app_ops_read_clipboard">odczytywanie schowka</string>
+    <string name="app_ops_read_contacts">odczyt kontaktów</string>
+    <string name="app_ops_read_mms">odczyt MMS-ów</string>
+    <string name="app_ops_read_sms">odczyt SMS-ów</string>
+    <string name="app_ops_receive_sms">odbieranie SMS-ów</string>
+    <string name="app_ops_record_audio">nagrywanie dźwięku</string>
+    <string name="app_ops_send_mms">wysyłanie MMS-ów</string>
+    <string name="app_ops_send_sms">wysyłanie SMS-ów</string>
+    <string name="app_ops_toast_window">wiadomości toast</string>
+    <string name="app_ops_use_alarm_volume">głośność alarmu</string>
+    <string name="app_ops_use_audio_focus">ostrość dzwięku</string>
+    <string name="app_ops_use_bluetooth_volume">głośność Bluetooth</string>
+    <string name="app_ops_use_master_volume">głośność ogólna</string>
+    <string name="app_ops_use_media_buttons">przyciski multimediów</string>
+    <string name="app_ops_use_media_volume">głośność multimediów</string>
+    <string name="app_ops_use_notification_volume">głośność powiadomień</string>
+    <string name="app_ops_use_ring_volume">głośność dzwonka</string>
+    <string name="app_ops_use_vibrate">wibracja przy naciśnięciu</string>
+    <string name="app_ops_use_voice_volume">głośność rozmów głosowych</string>
+    <string name="app_ops_write_mms">pisanie MMS-ów</string>
+    <string name="app_ops_write_sms">pisanie SMS-ów</string>
+    <string name="app_ops_use_fingerprint">odcisk palca</string>
+    <string name="app_ops_add_voicemail">poczta głosowa</string>
+    <string name="app_ops_read_phone_state">dostęp do stanu telefonu</string>
+    <string name="app_ops_scan_wifi">skanowanie sieci Wi-Fi</string>
+    <string name="app_ops_change_wallpaper">zmiana tapety</string>
+    <string name="app_ops_assist_structure">wspomaganie struktury</string>
+    <string name="app_ops_assist_screenshot">zrzut ekranu</string>
+    <string name="app_ops_use_body_sensors">czujniki na ciele</string>
+    <string name="app_ops_read_cell_broadcasts">transmisje komórkowe</string>
+    <string name="app_ops_mock_location">pozorowanie lokalizacji</string>
+    <string name="app_ops_read_external_storage">odczyt pamięci zew.</string>
+    <string name="app_ops_write_external_storage">odczyt pamięci wewn.</string>
+    <string name="app_ops_turn_on_screen">włączenie ekranu</string>
+    <string name="app_ops_get_accounts">konta na urządzeniu</string>
+    <string name="app_ops_run_in_background">uruchamianie w tle</string>
+    <string name="app_ops_accessibility_volume">ułatwienia dostępu</string>
+    <string name="app_ops_read_phone_numbers">odczyt numeru telefonu</string>
+    <string name="app_ops_request_install_packages">instalacja pakietów</string>
+    <string name="app_ops_picture_in_picture">obraz w obrazie</string>
+    <string name="app_ops_app_start_foreground">uruchamianie na pierwszym planie</string>
+    <string name="app_ops_answer_phone_calls">odbieranie połączeń</string>
+    <string name="app_ops_boot_completed">autostart</string>
+    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+    <string name="local_backup_password_title">Hasło do tworzenia kopii zapasowych na komputerze</string>
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Pokaż informacje o CPU</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Nakładka pokazująca bieżące wykorzystanie CPU</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Dźwięk zrzutu ekranu</string>
+    <string name="screenshot_sound_summary">Odtwarza dźwięk, kiedy został wykonany zrzut ekranu</string>
+    <!-- Custom light color -->
+    <string name="light_customization">Powiadomienia LED</string>
+    <string name="custom_light_title">Kolor diody</string>
+    <string name="custom_light_on_time_title">"Czas świecenia LED podczas pulsowania (ms)"</string>
+    <string name="custom_light_off_time_title">"Czas nieświecenia LED podczas pulsowania (ms)"</string>
+    <string name="app_notifications_info_desc">Naciśnij jedną z powyższych ustawień, aby skonfigurować inne opcje i ich kolory</string>
+    <string name="value_equals_default">Domyślne</string>
+    <string name="show_light_on_zen_title">Mrugająca dioda podczas trybu Nie przeszkadzać</string>
+    <!-- Reset Battery Status -->
+    <string name="menu_stats_reset">Zresetuj statystyki</string>
+    <string name="reset_stats_msg">Statystyki baterii zostaną zresetowane</string>
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Poziomy głośności</string>
+    <string name="volume_steps_alarm_title">Poziom głośności: Alarm</string>
+    <string name="volume_steps_dtmf_title">Poziom głośności: Klawiatura numeryczna</string>
+    <string name="volume_steps_music_title">Poziom głośności: Muzyka</string>
+    <string name="volume_steps_notification_title">Poziom głośności: Powiadomienia</string>
+    <string name="volume_steps_ring_title">Poziom głośności: Dzwonek</string>
+    <string name="volume_steps_system_title">Poziom głośności: System</string>
+    <string name="volume_steps_voice_call_title">Poziom głośności: Rozmowa głosowa</string>
+    <string name="volume_steps_reset">Reset</string>
+    <!-- Themes -->
+    <string name="system_theme_style_title">Styl interfejsu</string>
+    <string name="system_theme_style_auto">Oparty na tapecie</string>
+    <string name="system_theme_style_light">Jasny interfejs użytkownika</string>
+    <string name="system_theme_style_dark">Ciemny interfejs użytkownika</string>
+    <string name="system_theme_style_black">Czarny interfejs użytkownika</string>
+    <string name="theme_applied_toast">Zastosowano motyw.</string>
+    <string name="applying_theme_toast">Stosowanie motywu, proszę czekać...</string>
+    <string name="substratum_installed_title">Ta opcja jest wyłączona ze względu na niektóre nakładki stosowane do systemu Android z substratum. Jeśli chcesz użyć tej funkcji, należy odinstalować wszystkie te nakładki. </string>
+    <!-- Sizes for pattern lockscreen -->
+    <string name="lock_settings_picker_pattern_size_message">Wybierz rozmiar wzoru</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Pokazuj błędny wzór</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Pokazuj punkty wzoru</string>
+    <!-- Lock screen vibrate settings -->
+    <string name="lockscreen_vibrate_enabled_title">Wibracje</string>
+    <string name="lockscreen_vibrate_enabled_head">Wibruj podczas odblokowania</string>
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">Zezwalaj na instalowanie motywów z nieznanych źródeł</string>
+    <string name="force_authorize_substratum_packages_summary">Zezwalaj na motywy aplikacji z nieznanych zródeł</string>
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">Nakładki Substratum</string>
+    <string name="menu_show_substratum">Pokaż nakładki</string>
+    <string name="menu_hide_substratum">Ukryj nakładki</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Szybkie odblokowanie</string>
+    <string name="unlock_quick_unlock_control_summary">Odblokuj automatycznie, gdy wprowadzony zostanie poprawny PIN/hasło</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Procesy pracujące w tle</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Dane komórkowe</string>
+    <string name="data_usage_app_restrict_data_summary">Włącz użycie danych komórkowych</string>
+    <string name="data_usage_app_restrict_wifi">Dane Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Włącz użycie danych Wi\u2011Fi</string>
+    <!-- [CHAR LIMIT=80]-->
+    <string name="fp_swipe_to_dismiss_notifications_title">Przesuń palcem po czytniku w lewo lub prawo, aby pominąć powiadomienia</string>
+    <!--  [CHAR LIMIT=160]-->
+    <string name="fp_swipe_to_dismiss_notifications_summary">Aby pominąć powiadomienia, przesuń w lewo lub w prawo palec na czytniku linii papilarnych na plecach telefonu.</string>
+    <!-- Fingerprint quick pulldown -->
+    <string name="fp_quick_pulldown_title">Szybkie rozwinięcie za pomocą odcisku palca</string>
+    <string name="fp_quick_pulldown_summary">Rozwiń panel szybkich ustawień jednym przesunięciem po czytniku linii papilarnych.</string>
+    <!-- Multisim Toggle -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> jest <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabled">włączona</string>
+    <string name="sim_disabled">wyłączona</string>
+    <string name="sim_missing">brakująca lub uszkodzona</string>
+    <string name="sim_enabler_need_disable_sim">Karta SIM zostanie wyłączona. Kontynuować?</string>
+    <string name="sim_enabler_will_disable_sim_title">Uwaga</string>
+    <string name="sim_enabler_need_switch_data_service">Ta karta SIM zostanie wyłączona i SIM <xliff:g id="slotid">%1$s</xliff:g> będzie używana do transmisji danych, Kontynuować?</string>
+    <string name="sim_enabler_airplane_on">Nie można wykonać operacji, podczas gdy włączony jest tryb samolotowy.</string>
+    <string name="sim_enabler_in_call">Nie można wykonać operacji w czasie rozmowy.</string>
+    <string name="sim_enabler_both_inactive">Nie można wyłączyć wszystkich kart SIM</string>
+    <string name="sim_enabler_enabling">Aktywowanie\u2026</string>
+    <string name="sim_enabler_disabling">Dezaktywowanie\u2026</string>
+    <string name="sub_activate_success">SIM aktywowana.</string>
+    <string name="sub_activate_failed">Aktywacja nie powiodła się.</string>
+    <string name="sub_deactivate_success">SIM dezaktywowana.</string>
+    <string name="sub_deactivate_failed">Dezaktywacja nie powiodła się.</string>
+    <!-- Font picker -->
+    <string name="disable_fonts_installed_title">Wybór czcionek jest niedostępny w celu uniknięcia konfliktów z Substratum. Odinstaluj Substratum, jeśli chcesz używać innych czcionek.</string>
+    <string name="font_picker_title">Czcionka</string>
+    <string name="font_picker_progress">Stosowanie nowej czcionki\u2026</string>
+    <!-- Force use system themes even with subs overlays -->
+    <string name="force_allow_system_themes_title">Zezwala na systemowe motywy i czcionki obok Substratum</string>
+    <string name="force_allow_system_themes_summary">Pozwala ci na użycie systemowych motywów i czcionek pomimo zainstalowanego Substratum.</string>
+    <string name="force_theme_warning_title">Bądź ostrożny!</string>
+    <string name="force_theme_warning_message">Ta wiadomość jest umieszczona w celu uniknięcia zgłaszania bugów związanych z motywami do nas bądź do twórców motywów, gdy zaczynasz mieszać swoje elementy z naszymi. Włączając tą funkcję, zgadzasz się na to, że jesteś w pełni odpowiedzialny za to, co może się zdarzyć, i nie obwiniaj nas za niedziałanie czegokolwiek w jakikolwiek sposób.</string>
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Pomieszany układ</string>
+    <string name="unlock_scramble_pin_layout_summary">Pomieszaj układ cyfr przy wpisywaniu kodu PIN</string>
+    <!-- Toast Insulter // Our rendition -->
+    <string name="tinsulter01">Odejdź od urządzenia!</string>
+    <string name="tinsulter02">Gratulacje! Włączyłeś zaawansowane ustawienia VoLTE.</string>
+    <string name="tinsulter03">Wiesz co, mam już dość ludzi igrających ze mną.</string>
+    <string name="tinsulter04">O kurde typie, twój spoko pro dev włączył ustawienia hax0rz!</string>
+    <string name="tinsulter05">To się dzieje za każdym razem, Jeśli ktoś nie da mi ani grosza...</string>
+    <string name="tinsulter06">Och nie, co ty robisz?</string>
+    <string name="tinsulter07">Po prostu Monika.</string>
+    <string name="tinsulter08">Pamiętasz dawne czasy, kiedy nie wiedziałeś, że ta opcja istnieje? Tęsknię za tamtymi czasami</string>
+    <string name="tinsulter09">Wezwij moje imię i uratuj mnie z ciemności</string>
+    <string name="tinsulter10">Być może ten Android nie jest dla Ciebie...</string>
+    <string name="tinsulter11">Wow panie, ale z ciebie zbir!</string>
+    <string name="tinsulter12">Clifford - wielki czerwony pies to eponimicznie zatytułowana amerykańska seria książek dla dzieci o ogromnym czerwonym psie o imieniu Clifford. Została ona po raz pierwszy opublikowana w 1963 roku i napisana przez Normana Bridwella (1928-2014). Serial pomógł ustanowić Scholastic jako wiodącą firmę wydawniczą, a sam Clifford jest oficjalną maskotką Scholastica.</string>
+    <string name="tinsulter13">Um, możesz ustawić sobie ten ROM zamiast tracić czas, dotykając ciągle tej opcji... </string>
+    <string name="tinsulter14">Ziom, czy pamiętasz brzydki interfejs, który miał Gingerbread? Uff, cieszę się, że te czasy minęły.</string>
+    <string name="tinsulter15">Czy ty chociaż próbujesz?!</string>
+    <string name="tinsulter16">Dlaczego nie puścisz spokojnej muzyki, kiedy będziemy gotowi na akcję?</string>
+    <string name="tinsulter17">Czy możesz teraz przestać mnie dotykać? To staje się naprawdę niezręczne</string>
+    <string name="tinsulter18">Och, spójrz, coś się wydarzyło dokładnie w tym samym momencie, w którym się nad tym natknąłeś, i tęskniłeś za tym! Och, cholera, smutno, że tego nie widziałeś.</string>
+    <string name="tinsulter19">TO NIE MA SENSU</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Obrót</string>
+    <string name="display_rotation_disabled">Wyłączony</string>
+    <string name="display_rotation_unit">stopni</string>
+    <string name="display_rotation_category_title">Tryby obracania</string>
+    <string name="display_rotation_0_title">0 stopni</string>
+    <string name="display_rotation_90_title">90 stopni</string>
+    <string name="display_rotation_180_title">180 stopni</string>
+    <string name="display_rotation_270_title">270 stopni</string>
 </resources>

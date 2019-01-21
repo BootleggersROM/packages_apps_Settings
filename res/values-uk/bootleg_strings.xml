@@ -18,40 +18,47 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Rom version -->
-  <!-- Bootleg Dumpster -->
-  <!-- About phone screen, device maintainer name -->
-  <!-- App details: open play store link if app is user installed -->
-  <!-- Unlink ring & notification volume -->
-  <!-- Expanded desktop -->
-  <!-- Advanced night mode brightness -->
-  <!-- App Ops Settings -->
-  <!-- App Ops Categories -->
-  <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
-  <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-  <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-  <!-- Screenshot sound -->
-  <!-- Custom light color -->
-  <!-- Reset Battery Status -->
-  <!-- Volume Steps -->
-  <!-- Themes -->
-  <!-- Sizes for pattern lockscreen -->
-  <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-  <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-  <!-- Lock screen vibrate settings -->
-  <!-- Force authorize substratum packages -->
-  <!-- Manage applications: show substratum overlays -->
-  <!-- Quick unlock -->
-  <!-- Running services -->
-  <!-- Per-app data restrictions -->
-  <!-- [CHAR LIMIT=80]-->
-  <!--  [CHAR LIMIT=160]-->
-  <!-- Fingerprint quick pulldown -->
-  <!-- Multisim Toggle -->
-  <!-- Font picker -->
-  <!-- Force use system themes even with subs overlays -->
-  <!-- Scramble PIN Layout on Lockscreen -->
-  <!-- Toast Insulter // Our rendition -->
-  <!-- Display : Rotation -->
+    <!-- Rom version -->
+    <!-- Bootleg Dumpster -->
+    <!-- About phone screen, device maintainer name -->
+    <!-- App details: open play store link if app is user installed -->
+    <!-- Unlink ring & notification volume -->
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Розширений робочий стіл</string>
+    <!-- Advanced night mode brightness -->
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_activate_vpn">VPN</string>
+    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <!-- Screenshot sound -->
+    <!-- Custom light color -->
+    <!-- Reset Battery Status -->
+    <!-- Volume Steps -->
+    <!-- Themes -->
+    <string name="system_theme_style_title">Стиль інтерфейсу</string>
+    <string name="system_theme_style_light">Світлий інтерфейс</string>
+    <string name="system_theme_style_dark">Темний інтерфейс</string>
+    <string name="system_theme_style_black">Чорний інтерфейс</string>
+    <!-- Sizes for pattern lockscreen -->
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <!-- Lock screen vibrate settings -->
+    <string name="lockscreen_vibrate_enabled_title">Вібрація</string>
+    <!-- Force authorize substratum packages -->
+    <!-- Manage applications: show substratum overlays -->
+    <!-- Quick unlock -->
+    <!-- Running services -->
+    <!-- Per-app data restrictions -->
+    <!-- [CHAR LIMIT=80]-->
+    <!--  [CHAR LIMIT=160]-->
+    <!-- Fingerprint quick pulldown -->
+    <!-- Multisim Toggle -->
+    <!-- Font picker -->
+    <!-- Force use system themes even with subs overlays -->
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <!-- Toast Insulter // Our rendition -->
+    <!-- Display : Rotation -->
 </resources>
