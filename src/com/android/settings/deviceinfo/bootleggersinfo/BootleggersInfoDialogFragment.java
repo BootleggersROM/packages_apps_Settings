@@ -25,7 +25,10 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.os.SELinux;
+import android.os.SystemClock;
 import android.os.SystemProperties;
 import android.text.TextUtils;
 import android.text.format.DateFormat;
@@ -70,6 +73,9 @@ public class BootleggersInfoDialogFragment  extends InstrumentedDialogFragment {
     static final int BOOTLEGGERS_MUSICODENAME_PREFERENCE = R.id.bootleggers_musicodename_value;
     static final int SELINUX_STATUS_TITLE = R.id.selinux_status;
     static final int SELINUX_STATUS_PREFERENCE = R.id.selinux_status_value;
+    static final int SYSTEM_UPTIME_TITLE = R.id.status_up_time;
+    static final int SYSTEM_UPTIME_PREFERENCE = R.id.status_up_time_value;
+    static final int EVENT_UPDATE_TIME = 500;
     private static final Uri INTENT_BOOTLEG_MUSICODE = Uri.parse(SystemProperties.get(BOOTLEGGERS_MUSICODENAME_URL));
 
 
@@ -80,6 +86,16 @@ public class BootleggersInfoDialogFragment  extends InstrumentedDialogFragment {
     private String bootleggersRelease;
     private String bootleggersMusiCodename;
     private String selinuxStatus;
+    private Handler mUpTimeHandler = new Handler() {
+        public void handleMessage(Message msg) {
+            switch (msg.what) {
+                case EVENT_UPDATE_TIME:
+                    updateTimes();
+                    sendEmptyMessageDelayed(EVENT_UPDATE_TIME, 1000);
+                    break;
+            }
+        }
+    };
 
     public static void show(Fragment host) {
         final FragmentManager manager = host.getChildFragmentManager();
@@ -115,7 +131,14 @@ public class BootleggersInfoDialogFragment  extends InstrumentedDialogFragment {
         showPreferenceWhenAvaliable(BOOTLEGGERS_RELEASE_TITLE,BOOTLEGGERS_RELEASE_PREFERENCE, bootleggersRelease);
         showPreferenceWhenAvaliable(BOOTLEGGERS_MUSICODENAME_TITLE,BOOTLEGGERS_MUSICODENAME_PREFERENCE, bootleggersMusiCodename);
         showPreferenceWhenAvaliable(SELINUX_STATUS_TITLE,SELINUX_STATUS_PREFERENCE, selinuxStatus);
+        mUpTimeHandler.sendEmptyMessage(EVENT_UPDATE_TIME);
         return builder.setView(mRootView).create();
+    }
+
+    @Override
+    public void onDestroy() {
+        mUpTimeHandler.removeCallbacksAndMessages(null);
+        super.onDestroy();
     }
 
     public void setText(int viewId, String text) {
@@ -163,6 +186,31 @@ public class BootleggersInfoDialogFragment  extends InstrumentedDialogFragment {
         if (view != null) {
             view.setOnClickListener(listener);
         }
+    }
+
+    void updateTimes() {
+        long ut = SystemClock.elapsedRealtime() / 1000;
+
+        if (ut == 0) {
+            ut = 1;
+        }
+        showPreferenceWhenAvaliable(SYSTEM_UPTIME_TITLE, SYSTEM_UPTIME_PREFERENCE, convert(ut));
+    }
+
+    private String pad(int n) {
+        if (n >= 10) {
+            return String.valueOf(n);
+        } else {
+            return "0" + String.valueOf(n);
+        }
+    }
+
+    private String convert(long t) {
+        int s = (int)(t % 60);
+        int m = (int)((t / 60) % 60);
+        int h = (int)((t / 3600));
+
+        return pad(h) + ":" + pad(m) + ":" + pad(s);
     }
 
     private void initializeSystemProperties() {

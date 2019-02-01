@@ -107,6 +107,19 @@
             android:textColor="?android:attr/colorAccent"
             android:clickable="true"/>
 
+        <!-- Up time -->
+        <TextView
+            style="@style/device_info_dialog_label"
+            android:id="@+id/status_up_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/status_up_time"/>
+        <TextView
+            style="@style/device_info_dialog_value"
+            android:id="@+id/status_up_time_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
         <!-- SELinux status -->
         <TextView
             style="@style/device_info_dialog_label"
