@@ -188,7 +188,7 @@ public class BootleggersInfoDialogFragment  extends InstrumentedDialogFragment {
         }
 
         //Preparing the date string, taken from com.android.settingslib.DeviceInfoUtils
-        String zipbuildate = bootleggersVersion.substring(bootleggersVersion.length() - 8);
+        String zipbuildate = bootleggersVersion.substring(bootleggersVersion.length() - 15);
         if (!zipbuildate.isEmpty()) {
             try {
                 SimpleDateFormat template = new SimpleDateFormat("yyyyMMdd");
