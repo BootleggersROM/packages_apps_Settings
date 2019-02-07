@@ -191,6 +191,13 @@
           android:key="vibrate_on_touch"
           android:title="@string/vibrate_on_touch_title"
           android:summary="@string/vibrate_on_touch_summary" />
+        
+        <!-- Volume Panel on Left -->        
+        <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+             android:key="audio_panel_view_position"
+             android:title="@string/volume_panel_on_left_title"
+             android:summary="@string/volume_panel_on_left_summary"
+             android:defaultValue="false" />
 
         <!-- Dock speaker plays -->
         <DropDownPreference

@@ -268,6 +268,10 @@
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
     <string name="ringtone1_title">Phone ringtone - SIM 1</string>
     <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+    
+    <!-- Volume Panel on Left -->
+    <string name="volume_panel_on_left_title">Volume Panel on Left</string>
+    <string name="volume_panel_on_left_summary">Change volume panel from right side to left side</string>
 
     <!-- Updates section summary -->
     <string name="system_update_settings_summary">Check if there\'s any update for %s</string>
