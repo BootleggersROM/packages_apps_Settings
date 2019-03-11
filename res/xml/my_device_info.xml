@@ -34,6 +34,14 @@
         android:layout="@layout/settings_entity_header"
         android:selectable="false"/>
 
+    <!-- About us -->
+    <Preference
+        android:key="btlg_about_info"
+        android:order="1"
+        android:title="@string/about_bootleg_small_title"
+	    android:summary="@string/about_bootleg_small_summary"
+        android:fragment="com.bootleggers.dumpster.fragments.AboutBootleggers" />
+
     <!-- Device name -->
     <com.android.settings.widget.ValidatedEditTextPreference
         android:key="device_name"
