@@ -272,4 +272,7 @@
     <!-- Updates section summary -->
     <string name="system_update_settings_summary">Check if there\'s any update for %s</string>
 
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always on when charging</string>
+    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
 </resources>
