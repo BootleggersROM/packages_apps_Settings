@@ -189,12 +189,17 @@ public class BootleggersInfoDialogFragment  extends InstrumentedDialogFragment {
     }
 
     void updateTimes() {
-        long ut = SystemClock.elapsedRealtime() / 1000;
+        long ut = Math.max((SystemClock.elapsedRealtime() / 1000), 1);
 
-        if (ut == 0) {
-            ut = 1;
-        }
-        showPreferenceWhenAvaliable(SYSTEM_UPTIME_TITLE, SYSTEM_UPTIME_PREFERENCE, convert(ut));
+        float deepSleepRatio = Math.max((float) (SystemClock.elapsedRealtime() - SystemClock.uptimeMillis()), 0f)
+                / SystemClock.elapsedRealtime();
+        int deepSleepPercent = Math.round(deepSleepRatio * 100);
+
+        final StringBuilder summary = new StringBuilder();
+        summary.append(convert(ut));
+        summary.append(" ");
+        summary.append(getResources().getString(R.string.status_deep_sleep, deepSleepPercent, "%"));
+        showPreferenceWhenAvaliable(SYSTEM_UPTIME_TITLE, SYSTEM_UPTIME_PREFERENCE, summary.toString());
     }
 
     private String pad(int n) {
