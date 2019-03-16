@@ -53,4 +53,9 @@
     <string name="bootleg_type_unknown">Unsupported. ¯\\_(ツ)_/¯</string>
     <string name="bootleggers_releasetype_skeleton">%s (%s)</string>
 
+    <!-- Notch behavior -->
+    <string name="display_cutout_mode_title">Notch behavior</string>
+    <string name="display_cutout_mode_normal">Default</string>
+    <string name="display_cutout_mode_hidden">Hidden</string>
+
 </resources>
