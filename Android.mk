@@ -21,6 +21,7 @@ LOCAL_USE_AAPT2 := true
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_SRC_FILES += $(call all-java-files-under, ../BootlegDumpster/src)
 LOCAL_SRC_FILES += $(call all-java-files-under, ../SmartNavSettings/src)
+LOCAL_SRC_FILES += $(call all-java-files-under, ../../../external/google/settings/src)
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     android-slices-builders \
@@ -54,7 +55,8 @@ LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     frameworks/support/v7/appcompat/res \
     frameworks/support/v7/recyclerview/res \
     packages/apps/BootlegDumpster/res \
-    packages/apps/SmartNavSettings/res
+    packages/apps/SmartNavSettings/res \
+    external/google/settings/res
 
 LOCAL_FULL_LIBS_MANIFEST_FILES += $(LOCAL_PATH)/AndroidManifest-SmartNav.xml
 
