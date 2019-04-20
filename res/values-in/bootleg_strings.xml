@@ -129,7 +129,11 @@
     <string name="app_ops_app_start_foreground">mulai di latar depan</string>
     <string name="app_ops_answer_phone_calls">menjawab panggilan</string>
     <string name="app_ops_run_any_in_background">berjalan di latar belakang</string>
+    <string name="app_ops_change_wifi_state">ubah status WiFi</string>
+    <string name="app_ops_request_delete_packages">hapus paket</string>
+    <string name="app_ops_bind_accessibility_service">tautkan ke aksesibilitas</string>
     <string name="app_ops_start_foreground">mulai di latar depan</string>
+    <string name="app_ops_bluetooth_scan">pemindaian bluetooth</string>
     <string name="app_ops_boot_completed">mulai otomatis</string>
     <!-- MSIM Manual provisioning -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
@@ -148,6 +152,7 @@
     <string name="sub_activate_failed">Aktivasi gagal.</string>
     <string name="sub_deactivate_success">SIM dinonaktifkan.</string>
     <string name="sub_deactivate_failed">Penonaktifan gagal.</string>
+    <string name="available_sims_title">Kartu SIM yang tersedia</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_data">Data seluler</string>
     <string name="data_usage_app_restrict_data_summary">Mengaktifkan penggunaan data selular</string>
@@ -156,6 +161,7 @@
     <!-- Custom light color -->
     <string name="custom_light_title">Warna cahaya</string>
     <string name="custom_light_on_time_title">Durasi lampu aktif selama led berkedip (ms)</string>
+    <string name="custom_light_off_time_title">Durasi lampu mati saat led berkedip (ms)\"</string>
     <string name="show_light_on_zen_title">Blink ketika mode do not disturb</string>
     <!-- Sizes for pattern lockscreen -->
     <string name="lock_settings_picker_pattern_size_message">Pilih ukuran pola</string>
@@ -198,4 +204,8 @@
     <!-- Full gestures -->
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
     <!-- Updates section summary -->
+    <!-- Changelog error -->
+    <!-- Doze on charge -->
+    <!-- Thermal control per app -->
+    <!-- Whether the keyguard will directly show the lock entry -->
 </resources>

@@ -227,4 +227,12 @@
     <string name="ringtone1_title">电话铃声 - SIM 1</string>
     <string name="ringtone2_title">电话铃声 - SIM 2</string>
     <!-- Updates section summary -->
+    <string name="system_update_settings_summary">检查是否有任何 %s 的更新</string>
+    <!-- Changelog error -->
+    <!-- Doze on charge -->
+    <!-- Thermal control per app -->
+    <string name="thermal_control_per_app_games">游戏</string>
+    <string name="thermal_control_per_app_browser">浏览器</string>
+    <string name="thermal_control_per_app_camera">相机</string>
+    <!-- Whether the keyguard will directly show the lock entry -->
 </resources>

@@ -33,8 +33,8 @@
     <string name="applying_theme_toast">テーマを適用中です。しばらくお待ち下さい...</string>
     <string name="substratum_installed_title">Substratum 適応中の Android システムにオーバーレイが適用されているため、このオプションは無効になります。この機能を使用する場合は、全てのオーバーレイをアンインストールして下さい。</string>
     <!-- Force use system themes even with subs overlays -->
-    <string name="force_allow_system_themes_title">Substratumと一緒にシステムのテーマとフォントを許可する</string>
-    <string name="force_allow_system_themes_summary">Substratumオーバーレイのインストールの有無に関わらずのテーマとフォントオプションの使用を許可する</string>
+    <string name="force_allow_system_themes_title">Substratum と一緒にシステムのテーマとフォントを許可する</string>
+    <string name="force_allow_system_themes_summary">Substratum オーバーレイのインストールの有無に関わらずのテーマとフォントオプションの使用を許可する</string>
     <string name="force_theme_warning_title">注意</string>
     <string name="force_theme_warning_message">このブロックは、あなたが私たちの主機能に副機能を混在させる時に、テーマに関連するバグを私たちやテーマ作成者に報告するのを避けるために配置されています。よって、これを有効にすることによって、あなたは起こりうる全ての責任を負うことに同意し、いかなる方法でも私たちは責任を負いません。</string>
     <!-- Bootleggers Dialog -->
@@ -96,7 +96,7 @@
     <string name="app_ops_toast_window">トーストメッセージ</string>
     <string name="app_ops_use_alarm_volume">アラームの音量</string>
     <string name="app_ops_use_audio_focus">音声フォーカス</string>
-    <string name="app_ops_use_bluetooth_volume">Bluetoothの音量</string>
+    <string name="app_ops_use_bluetooth_volume">Bluetooth の音量</string>
     <string name="app_ops_use_master_volume">主音量</string>
     <string name="app_ops_use_media_buttons">メディアボタン</string>
     <string name="app_ops_use_media_volume">メディアの音量</string>
@@ -137,7 +137,7 @@
     <string name="app_ops_bluetooth_scan">Bluetooth のスキャン</string>
     <string name="app_ops_boot_completed">自動実行</string>
     <!-- MSIM Manual provisioning -->
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g>は<xliff:g id="status" example="disabled">%2$s</xliff:g>です</string>
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> は <xliff:g id="status" example="disabled">%2$s</xliff:g> です</string>
     <string name="sim_enabled">有効</string>
     <string name="sim_disabled">無効</string>
     <string name="sim_missing">挿入されていないか、問題があります。</string>
@@ -146,19 +146,19 @@
     <string name="sim_enabler_need_switch_data_service">この SIM は無効になり、SIM <xliff:g id="slotid">%1$s</xliff:g> がデータサービスに使用されます。続けてもよろしいですか?</string>
     <string name="sim_enabler_airplane_on">機内モードが ON になっている間はこの操作を実行することはできません</string>
     <string name="sim_enabler_in_call">通話中はこの操作を実行することはできません</string>
-    <string name="sim_enabler_both_inactive">全てのSIMカードを無効にはできません</string>
+    <string name="sim_enabler_both_inactive">全ての SIM カードを無効にはできません</string>
     <string name="sim_enabler_enabling">アクティベート中\u2026</string>
     <string name="sim_enabler_disabling">アクティベート解除中\u2026</string>
-    <string name="sub_activate_success">SIMをアクティベートしました</string>
+    <string name="sub_activate_success">SIM をアクティベートしました</string>
     <string name="sub_activate_failed">アクティベーションに失敗しました</string>
-    <string name="sub_deactivate_success">SIMをアクティベート解除しました</string>
+    <string name="sub_deactivate_success">SIM をアクティベート解除しました</string>
     <string name="sub_deactivate_failed">アクティベート解除に失敗しました</string>
     <string name="available_sims_title">利用可能な SIM カード</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_data">モバイルデータ</string>
     <string name="data_usage_app_restrict_data_summary">モバイルデータ使用量を有効化する</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fiデータ使用量</string>
-    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fiデータ使用量を有効化する</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi データ使用量</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi データ使用量を有効化する</string>
     <!-- Custom light color -->
     <string name="custom_light_title">ライトカラー</string>
     <string name="custom_light_on_time_title">LED の点滅している時の光っている時間 (ms)</string>
@@ -192,9 +192,9 @@
     <string name="expanded_desktop_style_description">既定の拡張デスクトップスタイルを選択する</string>
     <string name="expanded_desktop_title">拡張デスクトップの設定</string>
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-    <string name="show_cpu_info">CPU情報を表示</string>
+    <string name="show_cpu_info">CPU 情報を表示</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-    <string name="show_cpu_info_summary">現在のCPU情報をオーバーレイ表示する</string>
+    <string name="show_cpu_info_summary">現在の CPU 情報をオーバーレイ表示する</string>
     <!-- Android debugging notification -->
     <string name="adb_notify">デバッグ通知</string>
     <string name="adb_notify_summary">USB デバッグまたはネットワークデバッグが有効になっている時に通知を表示する</string>
@@ -226,4 +226,12 @@
     <string name="ringtone1_title">着信音 - SIM 1</string>
     <string name="ringtone2_title">着信音 - SIM 2</string>
     <!-- Updates section summary -->
+    <string name="system_update_settings_summary">%s の更新があるか確認する</string>
+    <!-- Changelog error -->
+    <!-- Doze on charge -->
+    <!-- Thermal control per app -->
+    <string name="thermal_control_per_app_games">ゲーム</string>
+    <string name="thermal_control_per_app_browser">ブラウザ</string>
+    <string name="thermal_control_per_app_camera">カメラ</string>
+    <!-- Whether the keyguard will directly show the lock entry -->
 </resources>

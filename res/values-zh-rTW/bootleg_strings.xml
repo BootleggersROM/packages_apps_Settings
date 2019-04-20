@@ -40,4 +40,8 @@
     <!-- Full gestures -->
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
     <!-- Updates section summary -->
+    <!-- Changelog error -->
+    <!-- Doze on charge -->
+    <!-- Thermal control per app -->
+    <!-- Whether the keyguard will directly show the lock entry -->
 </resources>

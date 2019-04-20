@@ -227,4 +227,11 @@
     <string name="ringtone1_title">Dzwonek telefonu dla karty SIM 1</string>
     <string name="ringtone2_title">Dzwonek telefonu dla karty SIM 2</string>
     <!-- Updates section summary -->
+    <!-- Changelog error -->
+    <!-- Doze on charge -->
+    <!-- Thermal control per app -->
+    <string name="thermal_control_per_app_games">Gry</string>
+    <string name="thermal_control_per_app_browser">Przeglądarka</string>
+    <string name="thermal_control_per_app_camera">Aparat</string>
+    <!-- Whether the keyguard will directly show the lock entry -->
 </resources>

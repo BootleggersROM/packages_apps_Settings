@@ -226,4 +226,11 @@
     <string name="ringtone1_title">Telefon-csengőhang a SIM 1-hez</string>
     <string name="ringtone2_title">Telefon-csengőhang a SIM 2-höz</string>
     <!-- Updates section summary -->
+    <!-- Changelog error -->
+    <!-- Doze on charge -->
+    <!-- Thermal control per app -->
+    <string name="thermal_control_per_app_games">Játékok</string>
+    <string name="thermal_control_per_app_browser">Böngésző</string>
+    <string name="thermal_control_per_app_camera">Kamera</string>
+    <!-- Whether the keyguard will directly show the lock entry -->
 </resources>
