@@ -71,6 +71,8 @@
     <string name="app_ops_draw_on_top">mostrar sobre otras aplicaciones</string>
     <string name="app_ops_get_usage_stats">obtener estadísticas de uso</string>
     <string name="app_ops_keep_device_awake">mantener despierto</string>
+    <string name="app_ops_monitor_location">controlar ubicación</string>
+    <string name="app_ops_high_power_location">controlar ubicación precisa</string>
     <string name="app_ops_make_phone_call">realizar llamada</string>
     <string name="app_ops_modify_calendar">actualizar calendario</string>
     <string name="app_ops_modify_call_log">actualizar el registro de llamadas</string>
@@ -80,6 +82,7 @@
     <string name="app_ops_mute_unmute_microphone">silenciar/no silenciar micrófono</string>
     <string name="app_ops_play_audio">reproducir audio</string>
     <string name="app_ops_post_notification">mostrar notificaciones</string>
+    <string name="app_ops_cell_scan">escanear red celular</string>
     <string name="app_ops_project_media">proyectar multimedia</string>
     <string name="app_ops_read_calendar">leer el calendario</string>
     <string name="app_ops_read_call_log">leer el registro de llamadas</string>
@@ -125,7 +128,14 @@
     <string name="app_ops_picture_in_picture">pip</string>
     <string name="app_ops_app_start_foreground">inicio en primer plano</string>
     <string name="app_ops_answer_phone_calls">contestar llamadas</string>
+    <string name="app_ops_run_any_in_background">ejecutar en segundo plano</string>
+    <string name="app_ops_change_wifi_state">cambiar estado de Wi-Fi</string>
+    <string name="app_ops_request_delete_packages">eliminar paquetes</string>
+    <string name="app_ops_bind_accessibility_service">unir a accesibilidad</string>
+    <string name="app_ops_accept_handover">aceptar entrega</string>
+    <string name="app_ops_manage_ipsec_tunnels">administrar túneles ip</string>
     <string name="app_ops_start_foreground">inicio en primer plano</string>
+    <string name="app_ops_bluetooth_scan">escaneo bluetooth</string>
     <string name="app_ops_boot_completed">iniciar automáticamente</string>
     <!-- MSIM Manual provisioning -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> es <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
@@ -144,6 +154,7 @@
     <string name="sub_activate_failed">Error de activación.</string>
     <string name="sub_deactivate_success">Tarjeta SIM desacativada.</string>
     <string name="sub_deactivate_failed">Error de desactivación.</string>
+    <string name="available_sims_title">Tarjetas SIM disponibles</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_data">Datos móviles</string>
     <string name="data_usage_app_restrict_data_summary">Habilitar el uso de datos móviles</string>
@@ -152,6 +163,8 @@
     <!-- Custom light color -->
     <string name="custom_light_title">Color del Led</string>
     <string name="custom_light_on_time_title">Tiempo de duracion de la pulsacion del led (ms)</string>
+    <string name="custom_light_off_time_title">Tiempo de apagado durante el pulso de led (ms)\"</string>
+    <string name="value_equals_default">pred</string>
     <string name="show_light_on_zen_title">Parpadeo durante no molestar</string>
     <!-- Sizes for pattern lockscreen -->
     <string name="lock_settings_picker_pattern_size_message">Elije un tamaño de patrón</string>
@@ -167,6 +180,7 @@
     <string name="screenshot_sound_summary">Reproducir sonido cuando se toma una captura de pantalla</string>
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">Escritorio expandido</string>
+    <string name="expanded_desktop_pref_summary">Ajustar escritorio espandido globalmente o por app</string>
     <string name="expanded_hide_nothing">No ocultar nada</string>
     <string name="expanded_hide_status">Ocultar la barra de estado</string>
     <string name="expanded_hide_navigation">Ocultar la barra de navegación</string>
@@ -183,19 +197,49 @@
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
     <string name="show_cpu_info_summary">Muestra la información actual del procesador en la pantalla</string>
     <!-- Android debugging notification -->
+    <string name="adb_notify">Notificación de depuración</string>
+    <string name="adb_notify_summary">Mostrar una notificación cuando esté activada la depuración por USB o red</string>
     <!-- Android debugging over network -->
+    <string name="adb_over_network">ADB sobre la red</string>
+    <string name="adb_over_network_summary">Activar la depuración TCP/IP sobre las interfaces de red (Wi\u2011Fi, redes USB). Esta configuración se restablece al reiniciar el dispositivo</string>
+    <string name="adb_over_network_warning">ADVERTENCIA: Cuando se activa ADB sobre red, su teléfono está expuesto a acceso no autorizado en todas las redes conectadas!!\n\n Sólo use esta función en redes en las que confía.\n\n Está seguro de activar esta función?</string>
+    <string name="adb_over_network_disallowed_error">ERROR: ¡ADB a través de la red sólo se puede activar cuando estés conectado a una red Wi\u2011Fi o por USB!</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Procesos en segundo plano</string>
+    <string name="battery_stats_reset">Restablecer estadísticas</string>
     <string name="battery_stats_message">Las estadísticas del historial de la batería serán restablecidas</string>
+    <string name="ok_string">Aceptar</string>
     <!-- Font picker -->
+    <string name="font_picker_title">Fuente del sistema</string>
+    <string name="disable_fonts_installed_title">El selector de fuentes no está disponible para evitar conflictos con Substratum. Desinstala si deseas utilizar el selector de fuentes del sistema.</string>
     <string name="font_picker_progress">Aplicando nueva fuente\u2026</string>
     <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">Silenciado, sin sonido multimedia</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">Habilitado (silenciado, sin sonido multimedia)</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Vincular tono y volumen de notificaciones</string>
     <!-- Full gestures -->
+    <string name="full_gesture_mode_title">Activar el control completo mediante gestos</string>
+    <string name="full_gesture_mode_summary">Este modo desactivará el botón de retroceso, a partir de ahora podrás realizar esta función deslizando de izquierda a derecha en la barra de navegación. Para acceder a la multitarea, desliza de derecha a izquierda. En caso de querer pulsar el botón de inicio, puedes tocar el cualquier espacio vacío de la barra de navegación. Si estás usando el teclado virtual, podrás mover el cursor del texto si deslizas el dedo en la barra de navegación.</string>
+    <string name="full_gesture_mode_dt2s_title">Activar el doble toque para apagar la pantalla</string>
+    <string name="full_gesture_mode_dt2s_summary">Tocar en un espacio vacío de la barra de la navegación para apagar la pantalla.</string>
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
+    <string name="ringtone1_title">Tono de llamada - SIM 1</string>
+    <string name="ringtone2_title">Tono de llamada - SIM 2</string>
     <!-- Updates section summary -->
+    <string name="system_update_settings_summary">Comprueba si hay alguna actualización para %s</string>
     <!-- Changelog error -->
+    <string name="changelog_error">No se ha podido cargar la lista de cambios</string>
     <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Siempre encendido al cargar</string>
+    <string name="doze_on_charge_summary">Mantener pantalla ambiente encendida al cargar</string>
     <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Perfil de optimización</string>
+    <string name="thermal_control_per_app_default">Sin optimización</string>
+    <string name="thermal_control_per_app_benchmark">Alto rendimiento</string>
+    <string name="thermal_control_per_app_video_playback">Reproducción de vídeo</string>
+    <string name="thermal_control_per_app_dialer">Marcador telefónico</string>
     <!-- Whether the keyguard will directly show the lock entry -->
+    <string name="directly_show_lock">Desbloqueo directo</string>
+    <string name="directly_show_lock_summary">Omite el deslizamiento para desbloquear la pantalla e inicia inmediatamente la entrada del pin</string>
 </resources>

@@ -228,10 +228,20 @@
     <!-- Updates section summary -->
     <string name="system_update_settings_summary">%s の更新があるか確認する</string>
     <!-- Changelog error -->
+    <string name="changelog_error">更新履歴を読み込めませんでした</string>
     <!-- Doze on charge -->
+    <string name="doze_on_charge_title">充電時は常に有効</string>
+    <string name="doze_on_charge_summary">充電時は常時 Doze 画面を表示する</string>
     <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">最適化のプロファイル</string>
+    <string name="thermal_control_per_app_default">最適化なし</string>
+    <string name="thermal_control_per_app_benchmark">パフォーマンス</string>
     <string name="thermal_control_per_app_games">ゲーム</string>
     <string name="thermal_control_per_app_browser">ブラウザ</string>
+    <string name="thermal_control_per_app_video_playback">ビデオ再生</string>
+    <string name="thermal_control_per_app_dialer">ダイヤラー</string>
     <string name="thermal_control_per_app_camera">カメラ</string>
     <!-- Whether the keyguard will directly show the lock entry -->
+    <string name="directly_show_lock">直接ロックを解除</string>
+    <string name="directly_show_lock_summary">ロック解除のスワイプをスキップしてすぐに PIN 入力画面を表示する</string>
 </resources>

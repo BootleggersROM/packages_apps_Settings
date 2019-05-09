@@ -229,10 +229,20 @@
     <!-- Updates section summary -->
     <string name="system_update_settings_summary">%s için güncelleme olup olmadığını kontrol edin</string>
     <!-- Changelog error -->
+    <string name="changelog_error">Değişiklikler yüklenemiyor</string>
     <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Şarj olurken her zaman açık</string>
+    <string name="doze_on_charge_summary">Şarj olurken her zaman doze ekranını göster</string>
     <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Optimizasyon profili</string>
+    <string name="thermal_control_per_app_default">Optimizasyon yok</string>
+    <string name="thermal_control_per_app_benchmark">Performans</string>
     <string name="thermal_control_per_app_games">Oyunlar</string>
     <string name="thermal_control_per_app_browser">Tarayıcı</string>
+    <string name="thermal_control_per_app_video_playback">Video oynatma</string>
+    <string name="thermal_control_per_app_dialer">Telefon</string>
     <string name="thermal_control_per_app_camera">Kamera</string>
     <!-- Whether the keyguard will directly show the lock entry -->
+    <string name="directly_show_lock">Doğrudan kilit açma</string>
+    <string name="directly_show_lock_summary">Ekran kilidini açmak için kaydırmayı atlayın ve hemen tuş girişine başlayın</string>
 </resources>

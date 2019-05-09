@@ -3,6 +3,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Fingerprint location message -->
     <!-- Bootleggers version -->
+    <string name="bootleggers_version_default">未知的</string>
     <!-- Bootleg Dumpster -->
     <!-- Advanced night mode brightness -->
     <string name="night_bright_disabled">已停用</string>

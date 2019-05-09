@@ -229,10 +229,20 @@
     <!-- Updates section summary -->
     <string name="system_update_settings_summary">Проверьте, есть ли обновление для %s</string>
     <!-- Changelog error -->
+    <string name="changelog_error">Ошибка загрузки списка изменений</string>
     <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Всегда включен во время зарядки</string>
+    <string name="doze_on_charge_summary">Всё время показывать экран Doze во время зарядки батареи</string>
     <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Профиль оптимизации</string>
+    <string name="thermal_control_per_app_default">Без оптимизации</string>
+    <string name="thermal_control_per_app_benchmark">Производительность</string>
     <string name="thermal_control_per_app_games">Игры</string>
     <string name="thermal_control_per_app_browser">Браузер</string>
+    <string name="thermal_control_per_app_video_playback">Воспроизведение видео</string>
+    <string name="thermal_control_per_app_dialer">Телефон (звонки)</string>
     <string name="thermal_control_per_app_camera">Камера</string>
     <!-- Whether the keyguard will directly show the lock entry -->
+    <string name="directly_show_lock">Быстрая разблокировка</string>
+    <string name="directly_show_lock_summary">Пропустите свайп вверх, чтобы разблокировать экран и немедленно начать ввод ключа</string>
 </resources>

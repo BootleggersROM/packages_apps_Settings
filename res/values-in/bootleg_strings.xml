@@ -132,6 +132,8 @@
     <string name="app_ops_change_wifi_state">ubah status WiFi</string>
     <string name="app_ops_request_delete_packages">hapus paket</string>
     <string name="app_ops_bind_accessibility_service">tautkan ke aksesibilitas</string>
+    <string name="app_ops_accept_handover">terima handover</string>
+    <string name="app_ops_manage_ipsec_tunnels">mengatur penghubung ip</string>
     <string name="app_ops_start_foreground">mulai di latar depan</string>
     <string name="app_ops_bluetooth_scan">pemindaian bluetooth</string>
     <string name="app_ops_boot_completed">mulai otomatis</string>
@@ -162,6 +164,7 @@
     <string name="custom_light_title">Warna cahaya</string>
     <string name="custom_light_on_time_title">Durasi lampu aktif selama led berkedip (ms)</string>
     <string name="custom_light_off_time_title">Durasi lampu mati saat led berkedip (ms)\"</string>
+    <string name="value_equals_default">def</string>
     <string name="show_light_on_zen_title">Blink ketika mode do not disturb</string>
     <!-- Sizes for pattern lockscreen -->
     <string name="lock_settings_picker_pattern_size_message">Pilih ukuran pola</string>
@@ -177,6 +180,7 @@
     <string name="screenshot_sound_summary">Memainkan efek suara ketika tangkap layar diambil</string>
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">Perluas desktop</string>
+    <string name="expanded_desktop_pref_summary">Setel desktop yang diperluas secara global atau per-aplikasi</string>
     <string name="expanded_hide_nothing">Jangan Sembunyikan Apapun</string>
     <string name="expanded_hide_status">Sembunyikan Status bar</string>
     <string name="expanded_hide_navigation">Sembunyikan Navigation Bar</string>
@@ -193,19 +197,52 @@
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
     <string name="show_cpu_info_summary">Tampilan hamparan layar menunjukkan informasi CPU</string>
     <!-- Android debugging notification -->
+    <string name="adb_notify">Pemberitahuan debugging</string>
+    <string name="adb_notify_summary">Tampilkan pemberitahuan bila USB atau jaringan debugging diaktifkan</string>
     <!-- Android debugging over network -->
+    <string name="adb_over_network">ADB melalui jaringan</string>
+    <string name="adb_over_network_summary">Aktifkan TCP/IP debug melalui antarmuka jaringan (Wi-Fi, jaringan USB). Pengaturan ini direset pada saat dinyalakan ulang</string>
+    <string name="adb_over_network_warning">PERINGATAN: Ketika ADB melalui jaringan diaktifkan, ponsel Anda terbuka terhadap \"gangguan\" pada semua jaringan yang terhubung!\n\nHanya gunakan fitur ini ketika Anda terhubung pada jaringan tepercaya\n\nApakah Anda benar-benar ingin mengaktifkan fungsi ini?</string>
+    <string name="adb_over_network_disallowed_error">EROR: ADB lewat jaringan hanya akan hidup jika terkoneksi pada Wi\u2011Fi atau jaringan USB!</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Proses di latar belakang</string>
+    <string name="battery_stats_reset">Atur ulang statistik</string>
     <string name="battery_stats_message">Riwayat penggunaan Baterai akan di reset</string>
+    <string name="ok_string">Ok</string>
     <!-- Font picker -->
+    <string name="font_picker_title">Fon sistem</string>
+    <string name="disable_fonts_installed_title">Pemlih font tidak tersedia untuk menghindari konflik dengan Substratum. Copot pemasangannya jika Anda ingin menggunakan pemilih font.</string>
     <string name="font_picker_progress">Menerapkan font baru\u2026</string>
     <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">Diam, tidak ada media</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">Hidup, (diam, tidak ada media)</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Hubungkan volume nada dering &amp; notifikasi</string>
     <!-- Full gestures -->
+    <string name="full_gesture_mode_title">Aktifkan mode penuh gerakan</string>
+    <string name="full_gesture_mode_summary">Mode ini juga akan menonaktifkan tombol kembali dan kamu akan dapat memicu aksi tombol kembali oleh usap kiri pada bilah navigasi. Usap kanan masih akan memicu tindakan aplikasi terakhir dan geseran kiri akan memindahkan aplikasi. Untuk ke beranda, kamu akan dapat mengetuk ruang kosong bilah navigasi, tidak hanya tombol beranda. ketika keyboard muncul, tekan lama bilah navigasi pindah ke kursor teks.</string>
+    <string name="full_gesture_mode_dt2s_title">Aktifkan ketuk dua kali untuk tidur</string>
+    <string name="full_gesture_mode_dt2s_summary">Tap ruang navbar kosong tetapi bukan tombol home untuk mematikan layar.</string>
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
+    <string name="ringtone1_title">Nada dering telepon - SIM 1</string>
+    <string name="ringtone2_title">Nada dering telepon - SIM 2</string>
     <!-- Updates section summary -->
+    <string name="system_update_settings_summary">Periksa apakah ada pembaruan untuk% s</string>
     <!-- Changelog error -->
+    <string name="changelog_error">Tidak dapat memuat log perubahan</string>
     <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Selalu nyala saat mengisi</string>
+    <string name="doze_on_charge_summary">Tampilkan layar tidur sepanjang waktu saat mengisi daya</string>
     <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Profil pengoptimalan</string>
+    <string name="thermal_control_per_app_default">Tidak ada optimisasi</string>
+    <string name="thermal_control_per_app_benchmark">Performa</string>
+    <string name="thermal_control_per_app_games">Permainan</string>
+    <string name="thermal_control_per_app_browser">Peramban</string>
+    <string name="thermal_control_per_app_video_playback">Pemutar Video</string>
+    <string name="thermal_control_per_app_dialer">Pemanggil</string>
+    <string name="thermal_control_per_app_camera">Kamera</string>
     <!-- Whether the keyguard will directly show the lock entry -->
+    <string name="directly_show_lock">Buka Langsung</string>
+    <string name="directly_show_lock_summary">Lewati usapan untuk membuka kunci layar dan segera mulai masukkan kunci</string>
 </resources>

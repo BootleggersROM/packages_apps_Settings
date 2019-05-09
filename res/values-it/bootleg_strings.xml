@@ -206,7 +206,7 @@
     <string name="adb_over_network_disallowed_error">ERRORE: ADB tramite la rete può essere attivato solo quando è collegato a una rete Wi\u2011Fi o USB!</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Processi in background</string>
-    <string name="battery_stats_reset">Reset delle statistiche</string>
+    <string name="battery_stats_reset">Ripristino delle statistiche</string>
     <string name="battery_stats_message">Le statistiche della batteria stanno per essere azzerate</string>
     <string name="ok_string">Ok</string>
     <!-- Font picker -->
@@ -221,7 +221,7 @@
     <!-- Full gestures -->
     <string name="full_gesture_mode_title">Attiva la modalità gesti completa</string>
     <string name="full_gesture_mode_summary">Questa modalità disattiva il pulsante Indietro e puoi attivare un\'azione del pulsante Indietro con uno scorrimento a sinistra sulla barra di navigazione. Il tasto destro attiva l\'ultima app e lo scorrimento delle app recenti. Per tornare sulla Home puoi toccare qualsiasi spazio vuoto della barra di navigazione, non solo il pulsante Home. Quando viene visualizzata la tastiera, premi a lungo sulla barra di navigazione per spostare il cursore del testo.</string>
-    <string name="full_gesture_mode_dt2s_title">Attiva il doppio tocco per dormire</string>
+    <string name="full_gesture_mode_dt2s_title">Attiva il doppio tocco per spegnere lo schermo</string>
     <string name="full_gesture_mode_dt2s_summary">Toccare uno spazio vuoto della barra di navigazione, ma non il tasto home per spegnere lo schermo.</string>
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
     <string name="ringtone1_title">Suoneria telefono - SIM 1</string>
@@ -229,10 +229,20 @@
     <!-- Updates section summary -->
     <string name="system_update_settings_summary">Controlla se c\'è un aggiornamento per %s</string>
     <!-- Changelog error -->
+    <string name="changelog_error">Impossibile caricare le modifiche</string>
     <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Schermo sempre attivo durante la ricarica</string>
+    <string name="doze_on_charge_summary">Tieni sempre acceso lo schermo durante la ricarica</string>
     <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Ottimizzazione profilo</string>
+    <string name="thermal_control_per_app_default">Nessuna ottimizzazione</string>
+    <string name="thermal_control_per_app_benchmark">Prestazioni</string>
     <string name="thermal_control_per_app_games">Giochi</string>
     <string name="thermal_control_per_app_browser">Browser</string>
+    <string name="thermal_control_per_app_video_playback">Riproduzione video</string>
+    <string name="thermal_control_per_app_dialer">Telefono</string>
     <string name="thermal_control_per_app_camera">Camera</string>
     <!-- Whether the keyguard will directly show the lock entry -->
+    <string name="directly_show_lock">Sblocco diretto</string>
+    <string name="directly_show_lock_summary">Salta lo scorrimento per sbloccare lo schermo e mostra immediatamente l\'immissione del codice</string>
 </resources>
