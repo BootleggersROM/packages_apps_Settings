@@ -244,4 +244,5 @@
     <!-- Whether the keyguard will directly show the lock entry -->
     <string name="directly_show_lock">直接ロックを解除</string>
     <string name="directly_show_lock_summary">ロック解除のスワイプをスキップしてすぐに PIN 入力画面を表示する</string>
+    <!-- Aggressive battery -->
 </resources>

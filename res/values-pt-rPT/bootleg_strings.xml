@@ -46,4 +46,5 @@
     <!-- Doze on charge -->
     <!-- Thermal control per app -->
     <!-- Whether the keyguard will directly show the lock entry -->
+    <!-- Aggressive battery -->
 </resources>

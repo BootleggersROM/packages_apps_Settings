@@ -226,11 +226,23 @@
     <string name="ringtone1_title">Telefon-csengőhang a SIM 1-hez</string>
     <string name="ringtone2_title">Telefon-csengőhang a SIM 2-höz</string>
     <!-- Updates section summary -->
+    <string name="system_update_settings_summary">Ellenőrizze, hogy van-e frissítés a következőhöz: %s</string>
     <!-- Changelog error -->
+    <string name="changelog_error">Nem lehet betölteni a változáslistát</string>
     <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Állandóan bekapcsolva töltés közben</string>
+    <string name="doze_on_charge_summary">Töltés során jelenítse meg a gyorstöltés képernyőt</string>
     <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Optimalizálási profilok</string>
+    <string name="thermal_control_per_app_default">Nincs optimalizálás</string>
+    <string name="thermal_control_per_app_benchmark">Teljesítménycentrikus</string>
     <string name="thermal_control_per_app_games">Játékok</string>
     <string name="thermal_control_per_app_browser">Böngésző</string>
+    <string name="thermal_control_per_app_video_playback">Videólejátszás</string>
+    <string name="thermal_control_per_app_dialer">Tárcsázó</string>
     <string name="thermal_control_per_app_camera">Kamera</string>
     <!-- Whether the keyguard will directly show the lock entry -->
+    <string name="directly_show_lock">Közvetlen feloldás</string>
+    <string name="directly_show_lock_summary">Hagyja ki a csúsztatással való feloldást és azonnal kezdje a kódos belépéssel</string>
+    <!-- Aggressive battery -->
 </resources>

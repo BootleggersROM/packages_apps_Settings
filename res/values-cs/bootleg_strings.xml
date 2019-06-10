@@ -245,4 +245,5 @@
     <!-- Whether the keyguard will directly show the lock entry -->
     <string name="directly_show_lock">Odemknout přímo</string>
     <string name="directly_show_lock_summary">Přeskočit odemčení obrazovky přejetím a okamžitě spustit zadávání</string>
+    <!-- Aggressive battery -->
 </resources>

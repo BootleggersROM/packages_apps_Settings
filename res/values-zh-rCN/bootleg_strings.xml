@@ -229,10 +229,15 @@
     <!-- Updates section summary -->
     <string name="system_update_settings_summary">检查是否有任何 %s 的更新</string>
     <!-- Changelog error -->
+    <string name="changelog_error">无法加载更新日志</string>
     <!-- Doze on charge -->
+    <string name="doze_on_charge_title">充电时始终开启</string>
+    <string name="doze_on_charge_summary">充电时总是显示 Doze 界面</string>
     <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">优化配置文件</string>
     <string name="thermal_control_per_app_games">游戏</string>
     <string name="thermal_control_per_app_browser">浏览器</string>
     <string name="thermal_control_per_app_camera">相机</string>
     <!-- Whether the keyguard will directly show the lock entry -->
+    <!-- Aggressive battery -->
 </resources>

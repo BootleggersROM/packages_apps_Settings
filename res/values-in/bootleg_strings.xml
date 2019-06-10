@@ -245,4 +245,5 @@
     <!-- Whether the keyguard will directly show the lock entry -->
     <string name="directly_show_lock">Buka Langsung</string>
     <string name="directly_show_lock_summary">Lewati usapan untuk membuka kunci layar dan segera mulai masukkan kunci</string>
+    <!-- Aggressive battery -->
 </resources>

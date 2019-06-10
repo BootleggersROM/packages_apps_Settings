@@ -242,4 +242,5 @@
     <!-- Whether the keyguard will directly show the lock entry -->
     <string name="directly_show_lock">Desbloqueo directo</string>
     <string name="directly_show_lock_summary">Omite el deslizamiento para desbloquear la pantalla e inicia inmediatamente la entrada del pin</string>
+    <!-- Aggressive battery -->
 </resources>

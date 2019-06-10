@@ -245,4 +245,5 @@
     <!-- Whether the keyguard will directly show the lock entry -->
     <string name="directly_show_lock">Doğrudan kilit açma</string>
     <string name="directly_show_lock_summary">Ekran kilidini açmak için kaydırmayı atlayın ve hemen tuş girişine başlayın</string>
+    <!-- Aggressive battery -->
 </resources>

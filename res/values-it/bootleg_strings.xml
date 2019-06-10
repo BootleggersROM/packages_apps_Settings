@@ -245,4 +245,5 @@
     <!-- Whether the keyguard will directly show the lock entry -->
     <string name="directly_show_lock">Sblocco diretto</string>
     <string name="directly_show_lock_summary">Salta lo scorrimento per sbloccare lo schermo e mostra immediatamente l\'immissione del codice</string>
+    <!-- Aggressive battery -->
 </resources>

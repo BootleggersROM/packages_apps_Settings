@@ -245,4 +245,5 @@
     <!-- Whether the keyguard will directly show the lock entry -->
     <string name="directly_show_lock">Быстрая разблокировка</string>
     <string name="directly_show_lock_summary">Пропустите свайп вверх, чтобы разблокировать экран и немедленно начать ввод ключа</string>
+    <!-- Aggressive battery -->
 </resources>

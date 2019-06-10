@@ -234,4 +234,5 @@
     <string name="thermal_control_per_app_browser">Przeglądarka</string>
     <string name="thermal_control_per_app_camera">Aparat</string>
     <!-- Whether the keyguard will directly show the lock entry -->
+    <!-- Aggressive battery -->
 </resources>
