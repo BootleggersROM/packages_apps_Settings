@@ -229,11 +229,30 @@
     <!-- Updates section summary -->
     <string name="system_update_settings_summary">Verificar se existe uma atualização para %s</string>
     <!-- Changelog error -->
+    <string name="changelog_error">Não foi possível abrir a lista de mudanças</string>
     <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Tela sempre ligada durante o carregamento</string>
+    <string name="doze_on_charge_summary">Mostrar protetor de tela durante o carregamento</string>
     <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Perfil de otimização</string>
+    <string name="thermal_control_per_app_default">Sem otimização</string>
+    <string name="thermal_control_per_app_benchmark">Performance</string>
     <string name="thermal_control_per_app_games">Jogos</string>
     <string name="thermal_control_per_app_browser">Navegador</string>
+    <string name="thermal_control_per_app_video_playback">Reprodução de vídeos</string>
+    <string name="thermal_control_per_app_dialer">Discador</string>
     <string name="thermal_control_per_app_camera">Câmera</string>
     <!-- Whether the keyguard will directly show the lock entry -->
+    <string name="directly_show_lock">Desbloqueio direto</string>
+    <string name="directly_show_lock_summary">Desativa o deslizamento e inicie diretamente na tela da senha</string>
     <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Bateria Agressiva</string>
+    <string name="aggressive_battery_summary">Economia de bateria mais restrita</string>
+    <string name="aggressive_battery_warning_text">Essas são opções de economia de bateria. Elas podem interferir com serviços feitos para segundo plano, como aplicativos de navegação. Você pode permitir esses aplicativos nas opções de bateria do aplicativo.</string>
+    <string name="aggressive_idle_title">Inativo Agressivo</string>
+    <string name="aggressive_idle_summary">Entrar no modo de inatividade mais frequentemente</string>
+    <string name="aggressive_standby_title">Standby Agressivo</string>
+    <string name="aggressive_standby_summary">Restringir aplicativos em segundo plano</string>
+    <string name="aggressive_battery_saver_title">Ativar automaticamente a economia de bateria </string>
+    <string name="aggressive_battery_saver_summary">Ativar Bateria Agressiva automaticamente com a economia de bateria ligada</string>
 </resources>
