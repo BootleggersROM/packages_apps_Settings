@@ -145,6 +145,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.bootleggers.dumpster.MainDump;
 import com.bootleggers.dumpster.fragments.PowerMenuSettings;
+import com.bootleggers.dumpster.fragments.BootlegWelcome;
 
 public class SettingsGateway {
 
@@ -273,6 +274,7 @@ public class SettingsGateway {
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             MainDump.class.getName(),
             PowerMenuSettings.class.getName(),
+            BootlegWelcome.class.getName(),
             RunningServices.class.getName(),
             NavigationSettingsActivity.class.getName(),
             SmartbarSettingsActivity.class.getName(),
