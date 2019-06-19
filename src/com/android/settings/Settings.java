@@ -188,4 +188,5 @@ public class Settings extends SettingsActivity {
     // Custom additions.
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
     public static class OmniJawsSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class BootlegWelcomeActivity extends SettingsActivity { /* empty */ }
 }

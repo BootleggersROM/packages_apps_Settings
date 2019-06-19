@@ -150,6 +150,7 @@ import com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.bootleggers.dumpster.MainDump;
+import com.bootleggers.dumpster.fragments.BootlegWelcome;
 import com.bootleggers.dumpster.fragments.PowerMenuSettings;
 import com.bootleggers.dumpster.external.OmniJawsSettings;
 
@@ -291,6 +292,7 @@ public class SettingsGateway {
             DarkModeSettingsFragment.class.getName(),
             MainDump.class.getName(),
             PowerMenuSettings.class.getName(),
+            BootlegWelcome.class.getName(),
             RunningServices.class.getName(),
             OmniJawsSettings.class.getName()
     };

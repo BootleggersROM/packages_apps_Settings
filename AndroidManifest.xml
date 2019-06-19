@@ -991,6 +991,15 @@
                        android:value="true" />
         </activity>
 
+        <activity android:name="com.bootleggers.dumpster.fragments.BootlegWelcome"
+                  android:exported="true"
+                  android:theme="@style/BootlegWelcomeTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+
         <activity
             android:name="SettingsLicenseActivity"
             android:label="@string/settings_license_activity_title"
