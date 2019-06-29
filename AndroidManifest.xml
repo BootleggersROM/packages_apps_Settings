@@ -3465,6 +3465,15 @@
                 android:value="com.bootleggers.dumpster.fragments.PowerMenuSettings" />
         </activity>
 	    <activity android:name=".deviceinfo.Changelog" />
+
+        <!-- Gaming mode -->
+        <receiver android:name="com.bootleggers.dumpster.external.GamingModeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.GAMING_MODE_TURN_OFF" />
+                <action android:name="android.intent.action.GAMING_MODE_TURN_ON" />
+            </intent-filter>
+        </receiver>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
