@@ -235,9 +235,24 @@
     <string name="doze_on_charge_summary">充电时总是显示 Doze 界面</string>
     <!-- Thermal control per app -->
     <string name="thermal_control_per_app">优化配置文件</string>
+    <string name="thermal_control_per_app_default">不优化</string>
+    <string name="thermal_control_per_app_benchmark">性能</string>
     <string name="thermal_control_per_app_games">游戏</string>
     <string name="thermal_control_per_app_browser">浏览器</string>
+    <string name="thermal_control_per_app_video_playback">视频回放</string>
+    <string name="thermal_control_per_app_dialer">电话</string>
     <string name="thermal_control_per_app_camera">相机</string>
     <!-- Whether the keyguard will directly show the lock entry -->
+    <string name="directly_show_lock">直接解锁</string>
+    <string name="directly_show_lock_summary">跳过滑动解锁屏幕直接开始输入密码</string>
     <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">极限省电</string>
+    <string name="aggressive_battery_summary">更严格的电量节省措施</string>
+    <string name="aggressive_battery_warning_text">这是电量节省特性。它可能会干扰原计划在空闲状态时运行的服务, 如导航应用。你可以将这些应用列入白名单, 使其在应用电池设置中免受影响。</string>
+    <string name="aggressive_idle_title">Idle 主动调整</string>
+    <string name="aggressive_idle_summary">更频繁地进入设备空闲状态并且唤醒更少</string>
+    <string name="aggressive_standby_title">极限待机</string>
+    <string name="aggressive_standby_summary">限制应用程序后台运行</string>
+    <string name="aggressive_battery_saver_title">省电模式时自动启用 </string>
+    <string name="aggressive_battery_saver_summary">当使用省电模式时自动开启极限省电</string>
 </resources>

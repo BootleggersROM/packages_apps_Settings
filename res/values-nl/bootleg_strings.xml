@@ -15,6 +15,7 @@
     <!-- Build types, now with translations -->
     <!-- App Ops Categories -->
     <!-- App ops labels -->
+    <string name="app_ops_activate_vpn">VPN</string>
     <!-- MSIM Manual provisioning -->
     <!-- Per-app data restrictions -->
     <!-- Custom light color -->

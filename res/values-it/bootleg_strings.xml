@@ -246,4 +246,13 @@
     <string name="directly_show_lock">Sblocco diretto</string>
     <string name="directly_show_lock_summary">Salta lo scorrimento per sbloccare lo schermo e mostra immediatamente l\'immissione del codice</string>
     <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Batteria aggressiva</string>
+    <string name="aggressive_battery_summary">Risparmio della batteria più aggressivo</string>
+    <string name="aggressive_battery_warning_text">Queste sono funzionalità di risparmio energetico. Possono interferire con i servizi destinati a funzionare in modalità inattiva, ad esempio le app di navigazione. Puoi autorizzare queste app a non influire sulle impostazioni della batteria dell\'app.</string>
+    <string name="aggressive_idle_title">Idle aggressivo</string>
+    <string name="aggressive_idle_summary">Mette il dispositivo inattivo più frequentemente per ridurre il risveglio</string>
+    <string name="aggressive_standby_title">Standby aggressivo</string>
+    <string name="aggressive_standby_summary">Limita l\'esecuzione in background delle applicazioni</string>
+    <string name="aggressive_battery_saver_title">Abilita automaticamente insieme al risparmio energetico </string>
+    <string name="aggressive_battery_saver_summary">Abilita automaticamente la batteria aggressiva quando il risparmio energetico viene attivato</string>
 </resources>

@@ -246,4 +246,13 @@
     <string name="directly_show_lock">Быстрая разблокировка</string>
     <string name="directly_show_lock_summary">Пропустите свайп вверх, чтобы разблокировать экран и немедленно начать ввод ключа</string>
     <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Агрессивное энергосбережение</string>
+    <string name="aggressive_battery_summary">Более строгая экономия батареи</string>
+    <string name="aggressive_battery_warning_text">Это функции энергосбережения. Включение этих режимов может мешать службам, предназначенным для работы в режиме ожидания, например, навигационным приложениям. Вы можете включить эти приложения в белый список в настройках батареи приложения.</string>
+    <string name="aggressive_idle_title">Агрессивный режим ожидания</string>
+    <string name="aggressive_idle_summary">Чаще входить в режим ожидания и реже просыпаться</string>
+    <string name="aggressive_standby_title">Ограничение работы в фоне</string>
+    <string name="aggressive_standby_summary">Ограничить работу приложений в фоне</string>
+    <string name="aggressive_battery_saver_title">Включать автоматически в режиме экономии заряда </string>
+    <string name="aggressive_battery_saver_summary">Автоматически включать агрессивное энергосбережение в режиме экономии батареи</string>
 </resources>

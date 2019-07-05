@@ -6,7 +6,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">端末左側にある指紋認証センサーを探します</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right">端末右側にある指紋認証センサーを探します</string>
     <!-- Bootleggers version -->
-    <string name="bootleggers_version">Bootleggers バージョン</string>
+    <string name="bootleggers_version">Bootleggersバージョン</string>
     <string name="bootleggers_version_default">不明</string>
     <!-- Bootleg Dumpster -->
     <string name="bootleg_dumpster_summary">壊れたものが置かれた場所</string>
@@ -33,7 +33,7 @@
     <string name="applying_theme_toast">テーマを適用中です。しばらくお待ち下さい...</string>
     <string name="substratum_installed_title">Substratum 適応中の Android システムにオーバーレイが適用されているため、このオプションは無効になります。この機能を使用する場合は、全てのオーバーレイをアンインストールして下さい。</string>
     <!-- Force use system themes even with subs overlays -->
-    <string name="force_allow_system_themes_title">Substratum と一緒にシステムのテーマとフォントを許可する</string>
+    <string name="force_allow_system_themes_title">Substratum と一緒にシステムのテーマとフォントを許可</string>
     <string name="force_allow_system_themes_summary">Substratum オーバーレイのインストールの有無に関わらずのテーマとフォントオプションの使用を許可する</string>
     <string name="force_theme_warning_title">注意</string>
     <string name="force_theme_warning_message">このブロックは、あなたが私たちの主機能に副機能を混在させる時に、テーマに関連するバグを私たちやテーマ作成者に報告するのを避けるために配置されています。よって、これを有効にすることによって、あなたは起こりうる全ての責任を負うことに同意し、いかなる方法でも私たちは責任を負いません。</string>
@@ -54,7 +54,7 @@
     <string name="app_ops_cat_messaging">メッセージ</string>
     <string name="app_ops_cat_media">メディア</string>
     <string name="app_ops_cat_device">端末</string>
-    <string name="app_ops_cat_bootup">ブート時の実行</string>
+    <string name="app_ops_cat_bootup">ブート</string>
     <!-- App ops labels -->
     <string name="app_ops_access_camera">カメラ</string>
     <string name="app_ops_coarse_location">おおよその位置情報</string>
@@ -140,7 +140,7 @@
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> は <xliff:g id="status" example="disabled">%2$s</xliff:g> です</string>
     <string name="sim_enabled">有効</string>
     <string name="sim_disabled">無効</string>
-    <string name="sim_missing">挿入されていないか、問題があります。</string>
+    <string name="sim_missing">未検出または問題が発生しています</string>
     <string name="sim_enabler_need_disable_sim">SIM カードはアクティベート解除されます。続けますか?</string>
     <string name="sim_enabler_will_disable_sim_title">注意</string>
     <string name="sim_enabler_need_switch_data_service">この SIM は無効になり、SIM <xliff:g id="slotid">%1$s</xliff:g> がデータサービスに使用されます。続けてもよろしいですか?</string>
@@ -161,10 +161,10 @@
     <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi データ使用量を有効化する</string>
     <!-- Custom light color -->
     <string name="custom_light_title">ライトカラー</string>
-    <string name="custom_light_on_time_title">LED の点滅している時の光っている時間 (ms)</string>
+    <string name="custom_light_on_time_title">LED 点滅時の光っている時間 (ms)</string>
     <string name="custom_light_off_time_title">LED 点滅時の消えている時間 (ms)</string>
     <string name="value_equals_default">既定</string>
-    <string name="show_light_on_zen_title">マナーモードの間はライトを点滅させる</string>
+    <string name="show_light_on_zen_title">マナーモードの間はライトを点滅</string>
     <!-- Sizes for pattern lockscreen -->
     <string name="lock_settings_picker_pattern_size_message">パターンサイズを選択する</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -199,7 +199,7 @@
     <string name="adb_notify">デバッグ通知</string>
     <string name="adb_notify_summary">USB デバッグまたはネットワークデバッグが有効になっている時に通知を表示する</string>
     <!-- Android debugging over network -->
-    <string name="adb_over_network">ネットワーク経由の ADB</string>
+    <string name="adb_over_network">ネット経由の ADB</string>
     <string name="adb_over_network_summary">ネットワークインターフェース (Wi\u2011Fi、USB ネットワーク) 経由での TCP/IP デバッグを有効にします。この設定は再起動時にリセットされます。</string>
     <string name="adb_over_network_warning">警告: ネットワーク経由での ADB を有効にするとあなたの携帯電話は接続している全てのネットワークから侵入できるようになります。\n\nこの機能は信頼されたネットワークに接続している時にのみ使用して下さい。\n\nこの機能を本当に有効にしますか?</string>
     <string name="adb_over_network_disallowed_error">エラー: ネットワーク経由の ADB は Wi-Fi または USB ネットワークに接続されている場合にのみ有効にできます</string>
@@ -252,6 +252,6 @@
     <string name="aggressive_idle_summary">より頻繁に端末をアイドルにしてスリープ解除を減らす</string>
     <string name="aggressive_standby_title">アグレッシブスタンバイ</string>
     <string name="aggressive_standby_summary">バックグラウンド実行するアプリを制限する</string>
-    <string name="aggressive_battery_saver_title">自動有効 </string>
+    <string name="aggressive_battery_saver_title">自動有効</string>
     <string name="aggressive_battery_saver_summary">バッテリーセーバー使用時は自動で有効化する</string>
 </resources>

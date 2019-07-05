@@ -245,4 +245,13 @@
     <string name="directly_show_lock">Mở khóa trực tiếp</string>
     <string name="directly_show_lock_summary">Bỏ qua chế độ trượt để mở khóa và bắt đầu nhập mã PIN ngay lập tức</string>
     <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Chế độ tiết kiệm pin tích cực</string>
+    <string name="aggressive_battery_summary">Thêm tiết kiệm pin</string>
+    <string name="aggressive_battery_warning_text">Đây là các tính năng tiết kiệm năng lượng. Họ có thể ảnh hưởng đến các dịch vụ nhằm chạy ở chế độ nhàn rỗi, như các ứng dụng điều hướng. Bạn có thể danh sách trắng các ứng dụng này bị ảnh hưởng trong cài đặt pin của ứng dụng.</string>
+    <string name="aggressive_idle_title">Nhàn rỗi</string>
+    <string name="aggressive_idle_summary">Kích hoạt tăng tần số nhàn rỗi và tự bật màn hình ít hơn</string>
+    <string name="aggressive_standby_title">Chờ đợi tích cực</string>
+    <string name="aggressive_standby_summary">Hạn chế ứng dụng chạy nền</string>
+    <string name="aggressive_battery_saver_title">Tự động bật khi trình tiết kiệm pin </string>
+    <string name="aggressive_battery_saver_summary">Tự động bật Pin tích cực khi sử dụng trình tiết kiệm pin</string>
 </resources>

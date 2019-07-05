@@ -246,4 +246,13 @@
     <string name="directly_show_lock">Doğrudan kilit açma</string>
     <string name="directly_show_lock_summary">Ekran kilidini açmak için kaydırmayı atlayın ve hemen tuş girişine başlayın</string>
     <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Agresif pil</string>
+    <string name="aggressive_battery_summary">Daha iyi pil tasarrufu</string>
+    <string name="aggressive_battery_warning_text">Bunlar güç tasarrufu özellikleridir. Gezinme çubuğu uygulamaları gibi boşta çalışmayı amaçlayan servislere müdahale edebilirler. Bu uygulamaları, pil ayarlarından etkilenmekten beyaz listeye alabilirsiniz.</string>
+    <string name="aggressive_idle_title">Agresif boşta durumu</string>
+    <string name="aggressive_idle_summary">Cihaz daha sık boşta kalır ve daha az uyanır</string>
+    <string name="aggressive_standby_title">Agresif bekleme</string>
+    <string name="aggressive_standby_summary">Uygulamaların arkaplan da çalışmasını engeller</string>
+    <string name="aggressive_battery_saver_title">Pil tasarrufu için otomatik etkinleştir </string>
+    <string name="aggressive_battery_saver_summary">Pil tasarrufunu kullanırken agresif pili otomatik olarak etkinleştirir</string>
 </resources>
