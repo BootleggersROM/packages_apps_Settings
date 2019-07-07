@@ -182,6 +182,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.bootleggers.dumpster.MainDump;
 import com.bootleggers.dumpster.external.OmniJawsSettings;
+import com.bootleggers.dumpster.fragments.SmartPixels;
 
 public class SettingsGateway {
 
@@ -352,7 +353,8 @@ public class SettingsGateway {
             TurnScreenOnDetails.class.getName(),
             MainDump.class.getName(),
             OmniJawsSettings.class.getName(),
-            RunningServices.class.getName()
+            RunningServices.class.getName(),
+            SmartPixels.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -397,6 +399,7 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.BootlegDumpsterActivity.class.getName(),
             Settings.OmniJawsSettingsActivity.class.getName(),
-            Settings.DevRunningServicesActivity.class.getName()
+            Settings.DevRunningServicesActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName()
     };
 }
