@@ -25,6 +25,7 @@ import com.android.settings.PrivacySettings;
 import com.android.settings.Settings;
 import com.android.settings.Settings.FlingSettingsActivity;
 import com.android.settings.Settings.NavigationSettingsActivity;
+import com.android.settings.Settings.GamingModeActivity;
 import com.android.settings.Settings.PulseSettingsActivity;
 import com.android.settings.Settings.SmartbarSettingsActivity;
 import com.android.settings.TestingSettings;
@@ -145,6 +146,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.android.settings.livedisplay.LiveDisplaySettings;
 
 import com.bootleggers.dumpster.MainDump;
+import com.bootleggers.dumpster.external.GamingMode;
 import com.bootleggers.dumpster.fragments.PowerMenuSettings;
 import com.bootleggers.dumpster.fragments.BootlegWelcome;
 
@@ -280,8 +282,9 @@ public class SettingsGateway {
             NavigationSettingsActivity.class.getName(),
             SmartbarSettingsActivity.class.getName(),
             FlingSettingsActivity.class.getName(),
-            PulseSettingsActivity.class.getName()
+            PulseSettingsActivity.class.getName(),
             LiveDisplaySettings.class.getName(),
+            GamingMode.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -325,6 +328,7 @@ public class SettingsGateway {
             Settings.NavigationSettingsActivity.class.getName(),
             Settings.SmartbarSettingsActivity.class.getName(),
             Settings.FlingSettingsActivity.class.getName(), 
-            Settings.PulseSettingsActivity.class.getName()
+            Settings.PulseSettingsActivity.class.getName(),
+            Settings.GamingModeActivity.class.getName()
     };
 }
