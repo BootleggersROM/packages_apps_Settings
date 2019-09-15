@@ -158,4 +158,7 @@
     <string name="current_battery_capacity">Current capacity</string>
     <string name="designed_battery_capacity">Maximum capacity</string>
     <string name="battery_charge_cycles">Charge cycles completed</string>
+
+    <!-- Battery temperature -->
+    <string name="battery_temp">Battery temperature</string>
 </resources>
