@@ -3282,11 +3282,9 @@
                   android:label="@string/bootleg_dumpster_title"
                   android:icon="@drawable/ic_homepage_bootlegdump"
                   android:parentActivityName="com.android.settings">
-            <intent-filter android:priority="10">
+            <intent-filter>
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
-            <meta-data android:name="com.android.settings.category"
-                       android:value="com.android.settings.category.ia.homepage"/>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                        android:value="com.bootleggers.dumpster.MainDump"/>
             <meta-data android:name="com.android.settings.summary"
