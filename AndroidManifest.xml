@@ -3316,6 +3316,20 @@
                 android:value="com.android.settings.gestures.GlobalActionsPanelSettings" />
         </activity>
 
+        <!-- Gaming mode -->
+        <activity android:name=".Settings$GamingModeActivity"
+            android:label="@string/gaming_mode_title"
+            android:taskAffinity="com.android.settings"
+            android:parentActivityName="Settings">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.GAMING_MODE_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.bootleggers.dumpster.fragments.GamingMode" />
+        </activity>
+
+
         <!-- This is the longest AndroidManifest.xml ever. -->
 
         <!-- Bootleg Dumpster activity -->
