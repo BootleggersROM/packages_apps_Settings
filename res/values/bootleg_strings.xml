@@ -56,4 +56,6 @@
     <string name="unlock_scramble_pin_layout_title">Scramble numbers</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
 
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Screen refresh rate</string>
 </resources>
