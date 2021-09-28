@@ -161,4 +161,8 @@
 
     <!-- Battery temperature -->
     <string name="battery_temp">Battery temperature</string>
+
+    <!-- Hide apps -->
+    <string name="hide">Hide</string>
+    <string name="unhide">Unhide</string>
 </resources>
