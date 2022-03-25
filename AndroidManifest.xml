@@ -124,6 +124,9 @@
     <uses-permission android:name="com.android.settings.FACE_UNLOCK"/>
     <permission android:name="com.android.settings.FACE_UNLOCK" android:protectionLevel="signatureOrSystem"/>
 
+    <!-- App lock -->
+    <uses-permission android:name="android.permission.MANAGE_APP_LOCK" />
+
     <application
             android:name=".SettingsApplication"
             android:label="@string/settings_label"
@@ -4553,13 +4556,26 @@
             </intent-filter>
         </activity>
 
-        <!-- Bluetooth Timeout -->
-        <receiver android:name="com.android.settingslib.bluetooth.BluetoothTimeoutReceiver"
-            android:exported="true">
+        <!-- App lock -->
+        <activity android:name="com.android.settings.security.applock.AppLockCredentialActivity"
+            android:exported="false"
+            android:permission="android.permission.MANAGE_APP_LOCK"
+            android:excludeFromRecents="true"
+            android:stateNotNeeded="true"
+            android:taskAffinity="com.android.settings.applock"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
             <intent-filter>
-                <action android:name="android.bluetooth.intent.TIMEOUT" />
+                <action android:name="android.app.action.UNLOCK_APP" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-        </receiver>
+        </activity>
+
+        <activity android:name="com.android.settings.security.applock.AppLockSubSettings"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:taskAffinity="com.android.settings.applock"
+            android:launchMode="singleTask" />
 
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
