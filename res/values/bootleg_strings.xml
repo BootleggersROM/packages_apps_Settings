@@ -154,4 +154,7 @@
     <string name="three_finger_gesture">Swipe to screenshot</string>
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
 
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Current capacity</string>
+    <string name="designed_battery_capacity">Maximum capacity</string>
 </resources>
