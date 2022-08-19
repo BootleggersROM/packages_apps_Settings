@@ -24,7 +24,7 @@ import com.android.settings.core.BasePreferenceController;
 
 public class ROMVersionPreferenceController extends BasePreferenceController {
 
-    private static final String PROPERTY_ROM_VERSION = "ro.bootleggers.version";
+    private static final String PROPERTY_ROM_VERSION = "ro.bootleggers.version_number";
 
     public ROMVersionPreferenceController(Context context, String key) {
         super(context, key);
