@@ -12,15 +12,12 @@
 -->
 <resources>
 
-    <!-- BootlegDumpster homepage icon -->
-    <color name="homepage_bootlegdump_background">@*android:color/accent_device_default_light</color>
-
     <!-- Bootleg new logo color scheme -->
     <!--    - Base Colors -->
-    <color name="bootleg_about_base_color">@*android:color/system_accent1_100</color>
-    <color name="bootleg_about_upper_color">@*android:color/system_accent1_200</color>
+    <color name="bootleg_about_base_color">@*android:color/system_accent1_800</color>
+    <color name="bootleg_about_upper_color">@*android:color/system_accent1_700</color>
     <!--    - Logo Colors -->
-    <color name="bootleg_about_text_color">@*android:color/system_accent3_600</color>
-    <color name="bootleg_about_logo_color">@*android:color/system_accent2_600</color>
+    <color name="bootleg_about_text_color">@*android:color/system_accent3_100</color>
+    <color name="bootleg_about_logo_color">@*android:color/system_accent2_100</color>
 
 </resources>
