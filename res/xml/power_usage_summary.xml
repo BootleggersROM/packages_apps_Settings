@@ -52,6 +52,11 @@
         settings:controller="com.android.settings.fuelgauge.BatterySaverController" />
 
     <Preference
+	android:key="sleep_mode"
+	android:title="@string/sleep_mode_title"
+	android:fragment="com.android.settings.fuelgauge.sleepmode.SleepMode" />
+
+    <Preference
         android:fragment="com.android.settings.fuelgauge.SmartBatterySettings"
         android:key="smart_battery_manager"
         android:title="@string/smart_battery_manager_title"
