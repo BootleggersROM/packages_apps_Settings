@@ -40,7 +40,8 @@ public class ROMBuildTypePreferenceController  extends BasePreferenceController 
     @Override
     public CharSequence getSummary() {
         String buildType = SystemProperties.get(BOOTLEGGERS_RELEASETYPE);
-        switch (buildType) {
+        String bootlegReleaseType = buildType.split("-")[0];
+        switch (bootlegReleaseType) {
             case "Shishufied":
                 return mContext.getString(R.string.bootleggers_releasetype_skeleton, buildType, mContext.getString(R.string.bootleg_type_official));
 
