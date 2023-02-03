@@ -155,8 +155,8 @@
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
 
     <!-- Battery health -->
-    <string name="current_battery_capacity">Current capacity</string>
-    <string name="designed_battery_capacity">Maximum capacity</string>
+    <string name="current_battery_capacity">Measured capacity</string>
+    <string name="designed_battery_capacity">Designed capacity</string>
     <string name="battery_charge_cycles">Charge cycles completed</string>
 
     <!-- Battery temperature -->
