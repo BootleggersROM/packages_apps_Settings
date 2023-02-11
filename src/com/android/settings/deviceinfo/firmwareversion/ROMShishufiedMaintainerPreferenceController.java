@@ -36,7 +36,7 @@ public class ROMShishufiedMaintainerPreferenceController  extends BasePreference
     @Override
     public int getAvailabilityStatus() {
         String buildType = SystemProperties.get(BOOTLEGGERS_RELEASETYPE);
-        if (buildType == "Shishufied") {
+        if (buildType.equals("Shishufied")) {
             return AVAILABLE;
         }
         return CONDITIONALLY_UNAVAILABLE;
