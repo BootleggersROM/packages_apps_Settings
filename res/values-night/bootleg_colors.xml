@@ -20,4 +20,7 @@
     <color name="bootleg_about_text_color">@*android:color/system_accent3_100</color>
     <color name="bootleg_about_logo_color">@*android:color/system_accent2_100</color>
 
+    <!-- Device specific doze package -->
+    <string name="config_customDozePackage" translatable="false"></string>
+
 </resources>
