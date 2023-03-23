@@ -99,6 +99,7 @@ android_library {
         "Settings-change-ids",
         "VendorSupport-preference",
         "faceunlock_framework",
+        "SystemUIUnfoldLib",
     ],
 
     libs: [
