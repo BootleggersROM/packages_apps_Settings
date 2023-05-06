@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 The Evolution X Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bootleg_dumpster_title">Bootleg Dumpster</string>
+    <string name="bootleg_dumpster_summary">Çeşitli özelleştirmeler</string>
+    <string name="rom_version_title">Bootleggers sürümü</string>
+    <string name="bootleggers_build_date">İnşa tarihi</string>
+    <string name="device_maintainer">Sorumlu</string>
+    <string name="bootleg_type_official">Resmi</string>
+    <string name="bootleg_type_unofficial">Resmi değil</string>
+    <string name="bootleg_type_unknown">Desteklenmiyor. ¯\\_(ツ)_/¯</string>
+    <string name="bootleggers_releasetype_skeleton" formatted="false">%1s (%2s)</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Tabletinizin ön tarafında bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Telefonunuzun önündeki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Telefonunuzun önündeki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Tabletinizin arkasında bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Cihazınızın arkasındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Telefonunuzun arkasındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Tabletinizin önündeki parmak izi sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Cihazınızın önündeki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Telefonunuzun önündeki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Tabletinizin arkasındaki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Cihazınızın arkasındaki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Telefonunuzun arkasındaki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Tabletinizin yan tarafındaki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Cihazınızın yan tarafındaki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Telefonunuzun yan tarafındaki sensörüne dokunun.</string>
+    <string name="unlock_scramble_pin_layout_title">Karışık düzen</string>
+    <string name="unlock_scramble_pin_layout_summary">Cihaz kilidini açarken PIN düzenini karıştır</string>
+    <string name="min_refresh_rate_title">Minimum yenileme hızı</string>
+    <string name="max_refresh_rate_title">Maksimum yenileme hızı</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Mevcut yüz taramasını kaldır ve yeni bir tarama oluştur</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Yüz taramasını yeniden yap</string>
+    <string name="face_redo_confirm_btn">Yeniden yap</string>
+    <string name="face_redo_warning_msg">Mevcut yüz taramasını kaldırıp yeni bir tane oluşturmak istiyor musunuz?</string>
+    <string name="face_unlock_method_title">Kilit ekranında yüz kilidi açmaya izin ver</string>
+    <string name="face_unlock_method_default">Ekran açıldığında</string>
+    <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
+    <string name="skip_biometric_auth_confirmation_title">Manuel onaylamayı atla</string>
+    <string name="power_button_torch_title">Hızlı el feneri</string>
+    <string name="power_button_torch_summary">Ekran kapalıyken güç tuşuna uzun süreli basıldığında el feneri etkinleştirilir</string>
+    <string name="app_volume">Uygulama ses düzeyi</string>
+    <string name="app_volume_title">Uygulama başına ses kontrolü</string>
+    <string name="app_volume_summary">Her uygulama için farklı ses seviyeleri ayarlamanıza izin verin. NOT: Bu çoklu ses odağını etkinleştirir</string>
+    <string name="other_controls_title">Diğer kontroller</string>
+    <string name="fullscreen_gestures_title">Tam ekran hareketleri</string>
+    <string name="fullscreen_gestures_summary">Gezinme çubuğunu ve klavye boşluğunu gizle</string>
+    <string name="gesture_navbar_length_title">Tuş uzunluğu</string>
+    <string name="short_label">Kısa</string>
+    <string name="long_label">Uzun</string>
+    <string name="screenshot_shutter_sound_title">Ekran görüntüsü sesi</string>
+    <string name="adaptive_playback_screen_title">Uyarlanabilir oynatma</string>
+    <string name="adaptive_playback_enabled">Uyarlanabilir oynatmayı kullan</string>
+    <string name="adaptive_playback_disabled_summary">Kapalı</string>
+    <string name="adaptive_playback_timeout_title">Zaman aşımı kullan</string>
+    <string name="adaptive_playback_timeout_none">Zaman aşımı yok</string>
+    <string name="adaptive_playback_timeout_none_summary">Açık (zaman aşımı yok)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 saniye</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Açık (30 saniye)</string>
+    <string name="adaptive_playback_timeout_1_min">1 dakika</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Açık (1 minute)</string>
+    <string name="adaptive_playback_timeout_2_min">2 dakika</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Açık (2 dakika)</string>
+    <string name="adaptive_playback_timeout_5_min">5 dakika</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Açık (5 dakika)</string>
+    <string name="adaptive_playback_timeout_10_min">10 dakika</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Açık (10 dakika)</string>
+    <string name="wifi_timeout">WiFi zaman aşımı</string>
+    <string name="wifi_timeout_summary">WiFi\'yi otomatik olarak kapatma</string>
+    <string name="wifi_timeout_summary_auto">Bağlantılı bir ağ yoksa WiFi <xliff:g id="timeout_description">%1$s</xliff:g> sonra kapanacak</string>
+    <string name="bluetooth_timeout">Bluetooth zaman aşımı</string>
+    <string name="bluetooth_timeout_summary">Bluetooth\'u otomatik olarak kapatma</string>
+    <string name="bluetooth_timeout_summary_auto">Hiçbir cihaz bağlı değilse Bluetooth <xliff:g id="timeout_description">%1$s</xliff:g> sonra kapanacak</string>
+    <string name="custom_timeout_summary_never">Asla</string>
+    <string name="custom_timeout_summary_15secs">15 saniye</string>
+    <string name="custom_timeout_summary_30secs">30 saniye</string>
+    <string name="custom_timeout_summary_1min">1 dakika</string>
+    <string name="custom_timeout_summary_2mins">2 dakika</string>
+    <string name="custom_timeout_summary_5mins">5 dakika</string>
+    <string name="custom_timeout_summary_10mins">10 dakika</string>
+    <string name="custom_timeout_summary_30mins">30 dakika</string>
+    <string name="custom_timeout_summary_1hour">1 saat</string>
+    <string name="custom_timeout_summary_2hours">2 saat</string>
+    <string name="custom_timeout_summary_4hours">4 saat</string>
+    <string name="custom_timeout_summary_8hours">8 saat</string>
+    <string name="captive_portal_title">Bağlantı kontrolü</string>
+    <string name="captive_portal_summary">Google ile iletişime geçerek cihazın internete bağlanıp bağlanamayacağını belirleyin. Ayrıca sabit portalları tespit etmek için kullanılır.</string>
+    <string name="battery_stats_reset">İstatistikleri sıfırla?</string>
+    <string name="battery_stats_message">Pil kullanım verileri kaybolacak</string>
+    <string name="platform_revision">Platform</string>
+    <string name="total_ram">Toplam kullanılabilir RAM</string>
+    <string name="copied_to_clipboard">Panoya kopyalandı</string>
+    <string name="longpress_to_clipboard">Kopyalamak için uzun basın</string>
+    <string name="three_finger_gesture">Ekran görüntüsü almak için kaydırın</string>
+    <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızı ekran üzerinde kaydırın</string>
+    <string name="current_battery_capacity">Ölçülen kapasite</string>
+    <string name="designed_battery_capacity">En yüksek kapasite</string>
+    <string name="battery_charge_cycles">Tamamlanan şarj döngüsü</string>
+    <string name="battery_temp">Pil sıcaklığı</string>
+    <string name="hide">Gizle</string>
+    <string name="unhide">Göster</string>
+    <string name="app_lock_title">Uygulama kilidi</string>
+    <string name="app_lock_authentication_dialog_title">Kilidi aç</string>
+    <string name="enable_debugging">Hata ayıklamayı etkinleştir</string>
+    <string name="disable_debugging">Hata ayıklamayı devre dışı bırak</string>
+    <string name="app_lock_packages_title">Korunan uygulamalar</string>
+    <string name="app_lock_packages_summary">Parmak izi veya cihaz kimlik bilgileriyle korunacak uygulamaları seçin</string>
+    <string name="app_lock_timeout_title">Otomatik kilitleme süresi</string>
+    <string name="app_lock_timeout_summary">Kilidi açılan bir uygulamanın arka planda ne kadar süre sonra kilitleneceği</string>
+    <string name="app_lock_timeout_5secs">5 saniye</string>
+    <string name="app_lock_timeout_10secs">10 saniye</string>
+    <string name="app_lock_timeout_30secs">30 saniye</string>
+    <string name="app_lock_timeout_1min">1 dakika</string>
+    <string name="app_lock_timeout_5mins">5 dakika</string>
+    <string name="app_lock_timeout_10mins">10 dakika</string>
+    <string name="app_lock_timeout_30mins">30 dakika</string>
+    <string name="app_lock_notifications_title">Bildirimleri daralt</string>
+    <string name="app_lock_notifications_summary">Uygulama kilitlendiğinde bildirim içeriği gizlenecek ve daraltılacaktır.
+           Mevcut bildirimler ve yeni bildirimler yeniden düzenlenecektir.
+           Uyarı bildirimleri otomatik olarak devre dışı bırakılır.    </string>
+    <string name="app_lock_notifications_disabled_summary">Önce bir uygulama koruyun</string>
+    <string name="app_lock_biometrics_allowed_title">Kilidi açmak için parmak izi kullan</string>
+    <string name="app_lock_footer_text">Baloncuklar zaman aşımından sonra otomatik olarak yok sayılacak</string>
+    <string name="enable_protection">Korumayı etkinleştir</string>
+    <string name="pocket_judge_title">Cep algılama</string>
+    <string name="pocket_judge_summary">Cihaz cebinizdeyken ekran ve tuş girişlerini engelle</string>
+    <string name="increasing_ring_volume_option_title">Artan zil sesi</string>
+    <string name="increasing_ring_min_volume_title">Başlangıç sesi</string>
+    <string name="increasing_ring_ramp_up_time_title">Yükselme süresi</string>
+    <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın\u2019s VPN bağlantısını kullanmasına izin ver</string>
+    <string name="unlock_quick_unlock_control_title">Hızlı kilit açma</string>
+    <string name="unlock_quick_unlock_control_summary">Doğru PIN/Şifre girildiğinde otomatik olarak kilidi aç</string>
+    <string name="radio_info_title">Radyo bilgisi</string>
+</resources>

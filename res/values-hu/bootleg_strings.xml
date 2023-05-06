@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 The Evolution X Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bootleg_dumpster_summary">Ahová a legérdekesebb cuccokat rejtették</string>
+    <string name="rom_version_title">Bootleggers verziója</string>
+    <string name="bootleggers_build_date">A kiadás dátuma</string>
+    <string name="device_maintainer">Aki a felelős ezért a készülékért</string>
+    <string name="bootleg_type_official">Hivatalos</string>
+    <string name="bootleg_type_unofficial">Nem hivatalos</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Az ujjlenyomat-olvasót a telefonja előlapján találhatja meg.</string>
+    <string name="unlock_scramble_pin_layout_summary">Összekeveri a beviteli mezőn a számok elrendezését az eszköz feloldásakor</string>
+    <string name="short_label">Rövid</string>
+    <string name="long_label">Hosszú</string>
+    <string name="screenshot_shutter_sound_title">A Képernyőmentés hangja</string>
+    <string name="adaptive_playback_disabled_summary">Kikapcsolás</string>
+    <string name="adaptive_playback_timeout_1_min">1 perc</string>
+    <string name="adaptive_playback_timeout_2_min">2 perc</string>
+    <string name="adaptive_playback_timeout_5_min">5 perc</string>
+    <string name="adaptive_playback_timeout_10_min">10 perc</string>
+    <string name="custom_timeout_summary_never">Soha</string>
+    <string name="custom_timeout_summary_1min">1 perc</string>
+    <string name="custom_timeout_summary_2mins">2 perc</string>
+    <string name="custom_timeout_summary_5mins">5 perc</string>
+    <string name="custom_timeout_summary_10mins">10 perc</string>
+    <string name="hide">Elrejtés</string>
+    <string name="app_lock_authentication_dialog_title">Feloldás</string>
+    <string name="app_lock_timeout_5secs">5 másodperc</string>
+    <string name="app_lock_timeout_10secs">10 másodperc</string>
+    <string name="app_lock_timeout_1min">1 perc</string>
+    <string name="app_lock_timeout_5mins">5 perc</string>
+    <string name="app_lock_timeout_10mins">10 perc</string>
+    <string name="pocket_judge_title">Zsebérzékelés</string>
+    <string name="pocket_judge_summary">A képernyő és a gombok általi véletlen bevitelek blokkolása, ha a készülék a zsebben van</string>
+    <string name="unlock_quick_unlock_control_title">Gyors-feloldás</string>
+</resources>

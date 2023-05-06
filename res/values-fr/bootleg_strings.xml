@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 The Evolution X Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bootleg_dumpster_summary">Où sont placées les fonctionnalités buggées</string>
+    <string name="rom_version_title">Version de Bootleggers</string>
+    <string name="bootleggers_build_date">Date de compilation</string>
+    <string name="device_maintainer">Qui blâmer (Mainteneur)</string>
+    <string name="bootleg_type_official">Officiel</string>
+    <string name="bootleg_type_unofficial">Non officiel</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Localisez le lecteur d\'empreintes digitales à l\'avant de votre téléphone.</string>
+    <string name="unlock_scramble_pin_layout_summary">Disposer aléatoirement les touches lors du déverrouillage</string>
+    <string name="short_label">Court</string>
+    <string name="long_label">Long</string>
+    <string name="screenshot_shutter_sound_title">Son de capture d\'écran</string>
+    <string name="adaptive_playback_disabled_summary">Désactivé</string>
+    <string name="adaptive_playback_timeout_1_min">1 minute</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+    <string name="custom_timeout_summary_never">Jamais</string>
+    <string name="custom_timeout_summary_1min">1 minute</string>
+    <string name="custom_timeout_summary_2mins">2 minutes</string>
+    <string name="custom_timeout_summary_5mins">5 minutes</string>
+    <string name="custom_timeout_summary_10mins">10 minutes</string>
+    <string name="hide">Masquer</string>
+    <string name="app_lock_authentication_dialog_title">Déverrouiller</string>
+    <string name="app_lock_timeout_5secs">5 secondes</string>
+    <string name="app_lock_timeout_10secs">10 secondes</string>
+    <string name="app_lock_timeout_1min">1 minute</string>
+    <string name="app_lock_timeout_5mins">5 minutes</string>
+    <string name="app_lock_timeout_10mins">10 minutes</string>
+    <string name="pocket_judge_title">Détection de mise en poche</string>
+    <string name="pocket_judge_summary">Bloquer l\'utilisation des boutons ou de l\'écran lorsque l\'appareil est dans une poche</string>
+    <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
+</resources>

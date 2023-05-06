@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 The Evolution X Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bootleg_dumpster_summary">الاشياء المتنوعة</string>
+    <string name="rom_version_title">إصدار Bootleggers</string>
+    <string name="bootleggers_build_date">تاريخ الإنشاء</string>
+    <string name="device_maintainer">من تلوم (المعيل)</string>
+    <string name="bootleg_type_official">رسمي</string>
+    <string name="bootleg_type_unofficial">غير رسمي</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">حدد مكان مستشعر بصمة الإصبع في الجزء الأمامي من هاتفك.</string>
+    <string name="unlock_scramble_pin_layout_summary">ترتيب أزررار الأرقام لرمز التعريف الشخصي بصورة عشوائية عند فك قفل الجهاز</string>
+    <string name="short_label">قصير</string>
+    <string name="long_label">طويل</string>
+    <string name="screenshot_shutter_sound_title">صوت لقطة الشاشة</string>
+    <string name="adaptive_playback_disabled_summary">إيقاف</string>
+    <string name="adaptive_playback_timeout_1_min">1 دقيقة</string>
+    <string name="adaptive_playback_timeout_2_min">2 دقيقة</string>
+    <string name="adaptive_playback_timeout_5_min">5 دقائق</string>
+    <string name="adaptive_playback_timeout_10_min">10 دقائق</string>
+    <string name="custom_timeout_summary_never">ابداً</string>
+    <string name="custom_timeout_summary_1min">1 دقيقة</string>
+    <string name="custom_timeout_summary_2mins">2 دقيقة</string>
+    <string name="custom_timeout_summary_5mins">5 دقائق</string>
+    <string name="custom_timeout_summary_10mins">10 دقائق</string>
+    <string name="hide">إخفاء</string>
+    <string name="app_lock_authentication_dialog_title">الغاء القفل</string>
+    <string name="app_lock_timeout_5secs">5 ثانية</string>
+    <string name="app_lock_timeout_10secs">10 ثانية</string>
+    <string name="app_lock_timeout_1min">1 دقيقة</string>
+    <string name="app_lock_timeout_5mins">5 دقائق</string>
+    <string name="app_lock_timeout_10mins">10 دقائق</string>
+    <string name="pocket_judge_title">استشعار الجيب</string>
+    <string name="pocket_judge_summary">الغاء تفعيل الشاشة و أزرار الإدخال عندما يكون الجهاز في الجيب</string>
+    <string name="unlock_quick_unlock_control_title">فتح سريع للقفل</string>
+</resources>

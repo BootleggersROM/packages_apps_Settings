@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 The Evolution X Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bootleg_dumpster_summary">Там, де розміщено розбитий матеріал</string>
+    <string name="rom_version_title">Bootleggers версія</string>
+    <string name="bootleggers_build_date">Дата збірки</string>
+    <string name="device_maintainer">Хто винен (Maintainer)</string>
+    <string name="bootleg_type_official">Офіційна</string>
+    <string name="bootleg_type_unofficial">Неофіційна</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Знайдіть сканер відбитків пальців на передній панелі вашого смартфона.</string>
+    <string name="unlock_scramble_pin_layout_summary">Перемішувати розкладку PIN-коду підчас розблокування пристрою</string>
+    <string name="short_label">Короткий</string>
+    <string name="long_label">Довгий</string>
+    <string name="screenshot_shutter_sound_title">Звук знімку екрана</string>
+    <string name="adaptive_playback_disabled_summary">Вимкнено</string>
+    <string name="adaptive_playback_timeout_1_min">1 хвилина</string>
+    <string name="adaptive_playback_timeout_2_min">2 хвилини</string>
+    <string name="adaptive_playback_timeout_5_min">5 хвилин</string>
+    <string name="adaptive_playback_timeout_10_min">10 хвилин</string>
+    <string name="custom_timeout_summary_never">Ніколи</string>
+    <string name="custom_timeout_summary_1min">1 хвилина</string>
+    <string name="custom_timeout_summary_2mins">2 хвилини</string>
+    <string name="custom_timeout_summary_5mins">5 хвилин</string>
+    <string name="custom_timeout_summary_10mins">10 хвилин</string>
+    <string name="hide">Приховати</string>
+    <string name="app_lock_authentication_dialog_title">Розблокування</string>
+    <string name="app_lock_timeout_5secs">5 секунд</string>
+    <string name="app_lock_timeout_10secs">10 секунд</string>
+    <string name="app_lock_timeout_1min">1 хвилина</string>
+    <string name="app_lock_timeout_5mins">5 хвилин</string>
+    <string name="app_lock_timeout_10mins">10 хвилин</string>
+    <string name="pocket_judge_title">Виявлення телефону в кишені</string>
+    <string name="pocket_judge_summary">Заблокувати екран і кнопки, коли пристрій перебуває в кишені</string>
+    <string name="unlock_quick_unlock_control_title">Швидке розблокування</string>
+</resources>

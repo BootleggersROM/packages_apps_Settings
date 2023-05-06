@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 The Evolution X Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bootleg_dumpster_summary">がらくた置き場</string>
+    <string name="rom_version_title">Bootleggers バージョン</string>
+    <string name="bootleggers_build_date">ビルド日時</string>
+    <string name="device_maintainer">責任者 (メンテナー)</string>
+    <string name="bootleg_type_official">公式</string>
+    <string name="bootleg_type_unofficial">非公式</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">端末前面にある指紋認証センサーを探します</string>
+    <string name="unlock_scramble_pin_layout_summary">端末のロック解除時に PIN レイアウトをランダムにする</string>
+    <string name="short_label">短い</string>
+    <string name="long_label">長い</string>
+    <string name="screenshot_shutter_sound_title">スクリーンショットの音</string>
+    <string name="adaptive_playback_disabled_summary">OFF</string>
+    <string name="adaptive_playback_timeout_1_min">1分</string>
+    <string name="adaptive_playback_timeout_2_min">2分</string>
+    <string name="adaptive_playback_timeout_5_min">5分</string>
+    <string name="adaptive_playback_timeout_10_min">10分</string>
+    <string name="custom_timeout_summary_never">なし</string>
+    <string name="custom_timeout_summary_1min">1分</string>
+    <string name="custom_timeout_summary_2mins">2分</string>
+    <string name="custom_timeout_summary_5mins">5分</string>
+    <string name="custom_timeout_summary_10mins">10分</string>
+    <string name="hide">非表示</string>
+    <string name="app_lock_authentication_dialog_title">ロック解除</string>
+    <string name="app_lock_timeout_5secs">5秒</string>
+    <string name="app_lock_timeout_10secs">10秒</string>
+    <string name="app_lock_timeout_1min">1分</string>
+    <string name="app_lock_timeout_5mins">5分</string>
+    <string name="app_lock_timeout_10mins">10分</string>
+    <string name="pocket_judge_title">ポケット検出</string>
+    <string name="pocket_judge_summary">ポケットに入っている時にタッチやボタン入力を無効化する</string>
+    <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
+</resources>

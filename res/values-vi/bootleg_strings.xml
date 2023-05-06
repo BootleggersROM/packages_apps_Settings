@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 The Evolution X Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bootleg_dumpster_summary">Nơi đặt những thứ bị hỏng</string>
+    <string name="rom_version_title">Phiên bản Bootleggers</string>
+    <string name="bootleggers_build_date">Ngày dựng</string>
+    <string name="device_maintainer">Ai là người chịu trách nhiệm (Người duy trì)</string>
+    <string name="bootleg_type_official">Chính thức</string>
+    <string name="bootleg_type_unofficial">Không chính thức</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Xác định vị trí cảm biến vân tay ở mặt trước điện thoại của bạn.</string>
+    <string name="unlock_scramble_pin_layout_summary">Bố trí PIN ngẫu nhiên khi mở khoá thiết bị</string>
+    <string name="short_label">Ngắn</string>
+    <string name="long_label">Dài</string>
+    <string name="screenshot_shutter_sound_title">Âm thanh chụp ảnh màn hình</string>
+    <string name="adaptive_playback_disabled_summary">Tắt</string>
+    <string name="adaptive_playback_timeout_1_min">1 phút</string>
+    <string name="adaptive_playback_timeout_2_min">2 phút</string>
+    <string name="adaptive_playback_timeout_5_min">5 phút</string>
+    <string name="adaptive_playback_timeout_10_min">10 phút</string>
+    <string name="wifi_timeout_summary_auto">WiFi sẽ tắt sau <xliff:g id="timeout_description">%1$s</xliff:g> nếu không có mạng nào được kết nối</string>
+    <string name="bluetooth_timeout">Thời gian chờ Bluetooth</string>
+    <string name="bluetooth_timeout_summary">Không tự động tắt Bluetooth</string>
+    <string name="bluetooth_timeout_summary_auto">Bluetooth sẽ tắt sau <xliff:g id="timeout_description">%1$s</xliff:g> nếu không có thiết bị nào được kết nối</string>
+    <string name="custom_timeout_summary_never">Không bao giờ</string>
+    <string name="custom_timeout_summary_15secs">15 giây</string>
+    <string name="custom_timeout_summary_1min">1 phút</string>
+    <string name="custom_timeout_summary_2mins">2 phút</string>
+    <string name="custom_timeout_summary_5mins">5 phút</string>
+    <string name="custom_timeout_summary_10mins">10 phút</string>
+    <string name="custom_timeout_summary_30mins">30 phút</string>
+    <string name="custom_timeout_summary_1hour">1 giờ</string>
+    <string name="custom_timeout_summary_2hours">2 giờ</string>
+    <string name="custom_timeout_summary_4hours">4 giờ</string>
+    <string name="custom_timeout_summary_8hours">8 giờ</string>
+    <string name="captive_portal_title">Kiểm tra kết nối</string>
+    <string name="captive_portal_summary">Xác định xem thiết bị có thể kết nối với Internet hay không bằng cách kết nối với dịch vụ Google. Cũng được sử dụng để phát hiện các cổng kết nối cố định.</string>
+    <string name="battery_stats_reset">Đặt lại thống kê pin?</string>
+    <string name="battery_stats_message">Dữ liệu thống kê pin sẽ bị mất</string>
+    <string name="platform_revision">Nền tảng</string>
+    <string name="total_ram">Tổng số RAM khả dụng</string>
+    <string name="copied_to_clipboard">Đã sao chép vào khay nhớ tạm</string>
+    <string name="longpress_to_clipboard">Nhấn giữ để sao chép</string>
+    <string name="three_finger_gesture">Vuốt để chụp ảnh màn hình</string>
+    <string name="three_finger_gesture_summary">Vuốt ba ngón tay để chụp ảnh màn hình</string>
+    <string name="hide">Ẩn</string>
+    <string name="app_lock_authentication_dialog_title">Mở khóa</string>
+    <string name="app_lock_timeout_5secs">5 giây</string>
+    <string name="app_lock_timeout_10secs">10 giây</string>
+    <string name="app_lock_timeout_1min">1 phút</string>
+    <string name="app_lock_timeout_5mins">5 phút</string>
+    <string name="app_lock_timeout_10mins">10 phút</string>
+    <string name="app_lock_timeout_30mins">30 phút</string>
+    <string name="pocket_judge_title">Phát hiện trong túi</string>
+    <string name="pocket_judge_summary">Chặn bật màn hình và các nút bấm khi thiết bị ở trong túi</string>
+    <string name="unlock_quick_unlock_control_title">Mở khóa nhanh</string>
+</resources>

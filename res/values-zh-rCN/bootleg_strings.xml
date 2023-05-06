@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 The Evolution X Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bootleg_dumpster_title">Bootleg 设置</string>
+    <string name="bootleg_dumpster_summary">自定义个性化设置</string>
+    <string name="rom_version_title">Bootleggers 版本</string>
+    <string name="bootleggers_build_date">编译日期</string>
+    <string name="device_maintainer">谁是主要负责人(维护者)</string>
+    <string name="bootleg_type_official">官方</string>
+    <string name="bootleg_type_unofficial">非官方</string>
+    <string name="bootleg_type_unknown">不支持 ¯\\_(ツ)_/¯</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">您可以在平板正面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">您可以在手机正面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">您可以在手机正面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">在您的平板背面找到指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">您可以在设备背面找到指纹传感器</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">您可以在手机背面找到指纹传感器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">轻触位于平板正面的指纹传感器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">轻触位于设备正面的指纹传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">轻触手机正面的指纹传感器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">轻触平板背面的指纹传感器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">轻触位于设备背面的指纹传感器</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">触摸位于手机背面的指纹传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">触摸位于平板侧面的指纹传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">触摸位于设备侧面的指纹传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">触摸位于手机侧面的指纹传感器。</string>
+    <string name="unlock_scramble_pin_layout_title">乱序号码</string>
+    <string name="unlock_scramble_pin_layout_summary">当解锁设备时使用乱序 PIN 布局</string>
+    <string name="min_refresh_rate_title">最低刷新率</string>
+    <string name="max_refresh_rate_title">最高刷新率</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">移除现有的人脸数据并重新录入</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">重新录入人脸数据</string>
+    <string name="face_redo_confirm_btn">撤销</string>
+    <string name="face_redo_warning_msg">是否要移除现有的人脸数据并重新录入？</string>
+    <string name="face_unlock_method_title">允许在锁定屏幕使用人脸识别解锁</string>
+    <string name="face_unlock_method_default">屏幕开启时</string>
+    <string name="face_unlock_method_swipe">在锁屏界面上划动时</string>
+    <string name="skip_biometric_auth_confirmation_title">跳过手动确认</string>
+    <string name="power_button_torch_title">快捷手电筒</string>
+    <string name="power_button_torch_summary">屏幕关闭时，长按电源键将启用手电筒</string>
+    <string name="app_volume">应用音量</string>
+    <string name="app_volume_title">应用独立音量控制</string>
+    <string name="app_volume_summary">允许为每个应用设置不同的音量级别。注意：这将启用多音频重点</string>
+    <string name="other_controls_title">其他设置</string>
+    <string name="fullscreen_gestures_title">全屏手势</string>
+    <string name="fullscreen_gestures_summary">隐藏导航条和键盘下的扩展区。</string>
+    <string name="gesture_navbar_length_title">导航栏长度</string>
+    <string name="short_label">短</string>
+    <string name="long_label">长</string>
+    <string name="screenshot_shutter_sound_title">截图提示音</string>
+    <string name="adaptive_playback_screen_title">自适应播放</string>
+    <string name="adaptive_playback_enabled">开启自适应播放</string>
+    <string name="adaptive_playback_disabled_summary">关闭</string>
+    <string name="adaptive_playback_timeout_title">使用超时</string>
+    <string name="adaptive_playback_timeout_none">不限时</string>
+    <string name="adaptive_playback_timeout_none_summary">开启(不限时)</string>
+    <string name="adaptive_playback_timeout_30_secs">30秒</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">开启 (30秒)</string>
+    <string name="adaptive_playback_timeout_1_min">1分钟</string>
+    <string name="adaptive_playback_timeout_1_min_summary">开启 (1 分钟)</string>
+    <string name="adaptive_playback_timeout_2_min">2 分钟</string>
+    <string name="adaptive_playback_timeout_2_min_summary">开启 (2 分钟)</string>
+    <string name="adaptive_playback_timeout_5_min">5 分钟</string>
+    <string name="adaptive_playback_timeout_5_min_summary">开启 (5 分钟)</string>
+    <string name="adaptive_playback_timeout_10_min">10 分钟</string>
+    <string name="adaptive_playback_timeout_10_min_summary">开启 (10 分钟)</string>
+    <string name="wifi_timeout">WiFi连接超时</string>
+    <string name="wifi_timeout_summary">不自动关闭 WiFi</string>
+    <string name="wifi_timeout_summary_auto">如果没有网络连接，WiFi 将在 <xliff:g id="timeout_description">%1$s</xliff:g> 后关闭</string>
+    <string name="bluetooth_timeout">蓝牙连接超时</string>
+    <string name="bluetooth_timeout_summary">不自动关闭蓝牙</string>
+    <string name="bluetooth_timeout_summary_auto">如果没有设备连接，蓝牙将在<xliff:g id="timeout_description">%1$s</xliff:g>后关闭</string>
+    <string name="custom_timeout_summary_never">从不</string>
+    <string name="custom_timeout_summary_15secs">15 秒</string>
+    <string name="custom_timeout_summary_30secs">30秒</string>
+    <string name="custom_timeout_summary_1min">1分钟</string>
+    <string name="custom_timeout_summary_2mins">2 分钟</string>
+    <string name="custom_timeout_summary_5mins">5 分钟</string>
+    <string name="custom_timeout_summary_10mins">10 分钟</string>
+    <string name="custom_timeout_summary_30mins">30 分钟</string>
+    <string name="custom_timeout_summary_1hour">1小时</string>
+    <string name="custom_timeout_summary_2hours">2 小时</string>
+    <string name="custom_timeout_summary_4hours">4 小时</string>
+    <string name="custom_timeout_summary_8hours">8 小时</string>
+    <string name="captive_portal_title">连通性检查</string>
+    <string name="captive_portal_summary">通过与 Google 服务器连接以确定设备是否连接到互联网。 同样用于检测强制网络门户。</string>
+    <string name="battery_stats_reset">重置统计数据?</string>
+    <string name="battery_stats_message">电池使用数据将被重置</string>
+    <string name="platform_revision">平台</string>
+    <string name="total_ram">总计可用内存</string>
+    <string name="copied_to_clipboard">复制到剪贴板</string>
+    <string name="longpress_to_clipboard">长按复制</string>
+    <string name="three_finger_gesture">划动截图</string>
+    <string name="three_finger_gesture_summary">三指划动截图</string>
+    <string name="current_battery_capacity">测量容量</string>
+    <string name="designed_battery_capacity">电池设计容量</string>
+    <string name="battery_charge_cycles">电池循环次数</string>
+    <string name="battery_temp">电池温度</string>
+    <string name="hide">隐藏</string>
+    <string name="unhide">取消隐藏</string>
+    <string name="app_lock_title">应用锁</string>
+    <string name="app_lock_authentication_dialog_title">解锁​​​​</string>
+    <string name="enable_debugging">启用调试</string>
+    <string name="disable_debugging">禁用调试</string>
+    <string name="app_lock_packages_title">受保护的应用</string>
+    <string name="app_lock_packages_summary">选择使用生物识别或设备凭据保护的应用</string>
+    <string name="app_lock_timeout_title">超时自动锁定</string>
+    <string name="app_lock_timeout_summary">后台解锁应用的持续时间</string>
+    <string name="app_lock_timeout_5secs">5 秒</string>
+    <string name="app_lock_timeout_10secs">10 秒</string>
+    <string name="app_lock_timeout_30secs">30秒</string>
+    <string name="app_lock_timeout_1min">1分钟</string>
+    <string name="app_lock_timeout_5mins">5 分钟</string>
+    <string name="app_lock_timeout_10mins">10 分钟</string>
+    <string name="app_lock_timeout_30mins">30 分钟</string>
+    <string name="app_lock_notifications_title">编辑通知</string>
+    <string name="app_lock_notifications_summary">          当应用程序被锁定时，通知内容将被隐藏并折叠。
+          现有的通知以及新的通知将被重新编辑。
+          浮动通知将被自动禁用。
+    </string>
+    <string name="app_lock_notifications_disabled_summary">首先保护应用程序</string>
+    <string name="app_lock_biometrics_allowed_title">启用生物识别解锁</string>
+    <string name="app_lock_footer_text">通知气泡将在超时后自动消失</string>
+    <string name="enable_protection">启用锁定</string>
+    <string name="pocket_judge_title">检测设备是否在口袋中</string>
+    <string name="pocket_judge_summary">当设备在口袋中时屏蔽屏幕和按键操作</string>
+    <string name="increasing_ring_volume_option_title">增加铃声音量</string>
+    <string name="increasing_ring_min_volume_title">开机音量</string>
+    <string name="increasing_ring_ramp_up_time_title">增强时间</string>
+    <string name="tethering_allow_vpn_upstreams_title">允许客户端使用 VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">允许热点客户端使用此设备\u2019的 VPN 连接</string>
+    <string name="unlock_quick_unlock_control_title">快速解锁</string>
+    <string name="unlock_quick_unlock_control_summary">输入正确的密码/密码后自动解锁</string>
+    <string name="radio_info_title">广播信息</string>
+</resources>

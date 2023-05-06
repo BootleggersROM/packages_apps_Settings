@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 The Evolution X Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bootleg_dumpster_title">Tomberon Bootleg</string>
+    <string name="bootleg_dumpster_summary">Unde lucrurile stricate sunt puse</string>
+    <string name="rom_version_title">Versiunea Bootleggers</string>
+    <string name="bootleggers_build_date">Dată versiune</string>
+    <string name="device_maintainer">Pe cine să dai vina (Deţinător)</string>
+    <string name="bootleg_type_official">Oficial</string>
+    <string name="bootleg_type_unofficial">Neoficial</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Găsiți senzorul de amprentă pe partea din faţă a telefonului.</string>
+    <string name="unlock_scramble_pin_layout_summary">Amestecă așezarea în pagină a ecranului de PIN atunci când se deblochează dispozitivul</string>
+    <string name="short_label">Scurt</string>
+    <string name="long_label">Lung</string>
+    <string name="screenshot_shutter_sound_title">Sunet captură de ecran</string>
+    <string name="adaptive_playback_disabled_summary">Oprit</string>
+    <string name="adaptive_playback_timeout_1_min">1 minut</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_5_min">5 minute</string>
+    <string name="adaptive_playback_timeout_10_min">10 minute</string>
+    <string name="custom_timeout_summary_never">Niciodată</string>
+    <string name="custom_timeout_summary_1min">1 minut</string>
+    <string name="custom_timeout_summary_2mins">2 minutos</string>
+    <string name="custom_timeout_summary_5mins">5 minute</string>
+    <string name="custom_timeout_summary_10mins">10 minute</string>
+    <string name="hide">Esconder</string>
+    <string name="app_lock_authentication_dialog_title">Desbloquear</string>
+    <string name="app_lock_timeout_5secs">5 secunde</string>
+    <string name="app_lock_timeout_10secs">10 secunde</string>
+    <string name="app_lock_timeout_1min">1 minut</string>
+    <string name="app_lock_timeout_5mins">5 minute</string>
+    <string name="app_lock_timeout_10mins">10 minute</string>
+    <string name="pocket_judge_title">Detectare buzunar</string>
+    <string name="pocket_judge_summary">Blochează ecranul și butoanele atunci când dispozitivul este în buzunar</string>
+    <string name="unlock_quick_unlock_control_title">Deblocare rapidă</string>
+</resources>
