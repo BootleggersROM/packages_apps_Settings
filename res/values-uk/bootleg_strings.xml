@@ -45,4 +45,6 @@
     <string name="pocket_judge_title">Виявлення телефону в кишені</string>
     <string name="pocket_judge_summary">Заблокувати екран і кнопки, коли пристрій перебуває в кишені</string>
     <string name="unlock_quick_unlock_control_title">Швидке розблокування</string>
+    <string name="search">Пошук</string>
+    <string name="selinux_status_disabled">Вимкнено</string>
 </resources>

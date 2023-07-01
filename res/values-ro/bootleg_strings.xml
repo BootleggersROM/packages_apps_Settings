@@ -46,4 +46,6 @@
     <string name="pocket_judge_title">Detectare buzunar</string>
     <string name="pocket_judge_summary">Blochează ecranul și butoanele atunci când dispozitivul este în buzunar</string>
     <string name="unlock_quick_unlock_control_title">Deblocare rapidă</string>
+    <string name="search">Caută</string>
+    <string name="selinux_status_disabled">Dezactivat</string>
 </resources>

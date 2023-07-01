@@ -21,7 +21,17 @@
     <string name="device_maintainer">Кто во всем виноват (Сопровождающий)</string>
     <string name="bootleg_type_official">Официальный</string>
     <string name="bootleg_type_unofficial">Неофициальная</string>
+    <string name="bootleg_type_unknown">Не поддерживается. ¯\\_(ツ)_/¯</string>
+    <string name="bootleggers_releasetype_skeleton" formatted="false">%1s (%2s)</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Найдите сканер отпечатков пальцев на лицевой панели вашего планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Найдите сканер отпечатков пальцев на передней панели устройства.</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="default">Найдите сканер отпечатков пальцев на вашем телефоне.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Найдите сканер отпечатков пальцев на обратной стороне вашего планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Найдите датчик отпечатков пальцев на задней панели устройства.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Найдите сканер отпечатков на задней стороне вашего устройства.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Прикоснетесь к сенсору на вашем устройстве.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Touch the sensor on the front of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Touch the sensor on the front of your phone.</string>
     <string name="unlock_scramble_pin_layout_summary">Переставлять кнопки ввода PIN-кода в случайном порядке</string>
     <string name="short_label">Короткий</string>
     <string name="long_label">Долго</string>
@@ -46,4 +56,6 @@
     <string name="pocket_judge_title">Режим \"В кармане\"</string>
     <string name="pocket_judge_summary">Блокировать экран и физ. кнопки, когда устройство находится в кармане</string>
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="search">Поиск</string>
+    <string name="selinux_status_disabled">Отключено</string>
 </resources>

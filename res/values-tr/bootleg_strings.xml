@@ -145,4 +145,7 @@
     <string name="unlock_quick_unlock_control_title">Hızlı kilit açma</string>
     <string name="unlock_quick_unlock_control_summary">Doğru PIN/Şifre girildiğinde otomatik olarak kilidi aç</string>
     <string name="radio_info_title">Radyo bilgisi</string>
+    <string name="background_processes_settings_title">Arkaplan işlemleri</string>
+    <string name="search">Ara</string>
+    <string name="selinux_status_disabled">Devre dışı</string>
 </resources>

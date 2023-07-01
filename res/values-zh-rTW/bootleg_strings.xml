@@ -31,4 +31,5 @@
     <string name="app_lock_timeout_1min">1 分鐘</string>
     <string name="app_lock_timeout_5mins">5 分鐘</string>
     <string name="app_lock_timeout_10mins">10 分鐘</string>
+    <string name="selinux_status_disabled">已停用</string>
 </resources>

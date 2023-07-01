@@ -21,29 +21,132 @@
     <string name="device_maintainer">Kogo obwiniać (Opiekun)</string>
     <string name="bootleg_type_official">Oficjalny</string>
     <string name="bootleg_type_unofficial">Nieoficjalny</string>
+    <string name="bootleg_type_unknown">Nieobsługiwane. &lt;unk&gt; \\_(&lt;unk&gt;)_/ &lt;unk&gt;</string>
+    <string name="bootleggers_releasetype_skeleton" formatted="false">%1s (%2s)</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Zlokalizuj czytnik linii papilarnych z przodu twojego tabletu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Zlokalizuj czytnik linii papilarnych z przodu twojego telefonu.</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="default">Zlokalizuj czytnik linii papilarnych z przodu twojego telefonu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Zlokalizuj czytnik linii papilarnych z tyłu twojego tabletu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Zlokalizuj czytnik linii papilarnych z tyłu twojego tabletu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Zlokalizuj czytnik linii papilarnych z tyłu twojego telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Dotknij czujnika znajdującego się z przodu twojego tabletu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Dotknij czujnika znajdującego się z przodu twojego urządzenia.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Dotknij czujnika znajdującego się z przodu twojego telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Dotknij czujnika znajdującego się z tyłu twojego tabletu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Dotknij czujnika znajdującego się z tyłu twojego urządzenia.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Dotknij czujnika znajdującego się z tyłu twojego telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Dotknij czujnika znajdującego się z boku twojego tabletu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Dotknij czujnika znajdującego się z boku twojego urządzenia.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Dotknij czujnika znajdującego się z boku twojego telefonu.</string>
+    <string name="unlock_scramble_pin_layout_title">Zwijanie numerów</string>
     <string name="unlock_scramble_pin_layout_summary">Pomieszaj układ cyfr przy wpisywaniu kodu PIN</string>
+    <string name="min_refresh_rate_title">Minimalna częstotliwość odświeżania</string>
+    <string name="max_refresh_rate_title">Maksymalna częstotliwość odświeżania</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Usuń istniejący skan twarzy i utwórz nowy</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Zeskanuj twarz ponownie</string>
+    <string name="face_redo_confirm_btn">Ponów</string>
+    <string name="face_redo_warning_msg">Czy chcesz usunąć istniejący skan twarzy i utworzyć nowy?</string>
+    <string name="face_unlock_method_title">Zezwól na odblokawanie twarzą na ekranie blokady</string>
+    <string name="face_unlock_method_default">Kiedy ekran jest włączony</string>
+    <string name="face_unlock_method_swipe">Podczas przesuwania po ekranie blokady</string>
+    <string name="skip_biometric_auth_confirmation_title">Pomiń potwierdzenie</string>
+    <string name="power_button_torch_title">Szybkie uruchomienie latarki</string>
+    <string name="power_button_torch_summary">Kiedy ekran jest wyłączony, dłuższe przytrzymanie przycisku zasilania włącza latarkę</string>
+    <string name="app_volume">Głośność aplikacji</string>
+    <string name="app_volume_title">Regulacja głośnoći dla konkretnej aplikacji</string>
+    <string name="app_volume_summary">Pozwala na ustawianie różnych poziomów głośności dla każdej aplikacji. UWAGA: Umożliwi to skupienie wielu dźwięków</string>
+    <string name="other_controls_title">Inne ustawienia</string>
+    <string name="fullscreen_gestures_title">Gesty pełnoekranowe</string>
+    <string name="fullscreen_gestures_summary">Ukryj belkę gestów i przestrzeń pod klawiaturą</string>
+    <string name="gesture_navbar_length_title">Długość paska gestów</string>
     <string name="short_label">Krótkie</string>
     <string name="long_label">Długie</string>
     <string name="screenshot_shutter_sound_title">Dźwięk zrzutu ekranu</string>
+    <string name="adaptive_playback_screen_title">Odtwarzanie adaptacyjne</string>
+    <string name="adaptive_playback_enabled">Użyj odtwarzania adaptacyjnego</string>
     <string name="adaptive_playback_disabled_summary">Wyłączony</string>
+    <string name="adaptive_playback_timeout_title">Użyj limitu czasu</string>
+    <string name="adaptive_playback_timeout_none">Brak limitu czasu</string>
+    <string name="adaptive_playback_timeout_none_summary">Włączony (bez limitu)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 sekund</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Włączone (30 sekund)</string>
     <string name="adaptive_playback_timeout_1_min">1 minuta</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Włączone (1 minuta)</string>
     <string name="adaptive_playback_timeout_2_min">2 minuty</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Włączone (2 minuty)</string>
     <string name="adaptive_playback_timeout_5_min">5 minut</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Włączone (5 minut)</string>
     <string name="adaptive_playback_timeout_10_min">10 minut</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Włączone (10 minut)</string>
+    <string name="wifi_timeout">Limit czasu WiFi</string>
+    <string name="wifi_timeout_summary">Nie wyłączaj automatycznie WiFi</string>
+    <string name="wifi_timeout_summary_auto">Wi-Fi zostanie wyłączone po czasie <xliff:g id="timeout_description">%1$s</xliff:g>, jeśli nie ma połączenia</string>
+    <string name="bluetooth_timeout">Automatyczne wyłączanie Bluetooth</string>
+    <string name="bluetooth_timeout_summary">Nie wyłączaj automatycznie Bluetooth</string>
+    <string name="bluetooth_timeout_summary_auto">Bluetooth zostanie wyłączone po czasie <xliff:g id="timeout_description">%1$s</xliff:g> jeśli żadne urządzenie nie będzie połączone</string>
     <string name="custom_timeout_summary_never">Nigdy</string>
+    <string name="custom_timeout_summary_15secs">15 sekund</string>
+    <string name="custom_timeout_summary_30secs">30 sekund</string>
     <string name="custom_timeout_summary_1min">1 minuta</string>
     <string name="custom_timeout_summary_2mins">2 minuty</string>
     <string name="custom_timeout_summary_5mins">5 minut</string>
     <string name="custom_timeout_summary_10mins">10 minut</string>
+    <string name="custom_timeout_summary_30mins">30 minut</string>
+    <string name="custom_timeout_summary_1hour">1 godzina</string>
+    <string name="custom_timeout_summary_2hours">2 godziny</string>
+    <string name="custom_timeout_summary_4hours">4 godziny</string>
+    <string name="custom_timeout_summary_8hours">8 godzin</string>
+    <string name="captive_portal_title">Kontrola połączenia</string>
+    <string name="captive_portal_summary">Określ, czy urządzenie może połączyć się z internetem, poprzez kontakt z Google. Używane również do wykrywania portali typu captive.</string>
+    <string name="battery_stats_reset">Zresetuj statystyki?</string>
+    <string name="battery_stats_message">Statystyki użycia baterii zostaną wyzerowane</string>
+    <string name="platform_revision">Platforma</string>
+    <string name="total_ram">Całkowita dostępna pamięć RAM</string>
+    <string name="copied_to_clipboard">Skopiowano do schowka</string>
+    <string name="longpress_to_clipboard">Przytrzymaj, aby skopiować</string>
+    <string name="three_finger_gesture">Przesuń, aby zrobić zrzut ekranu</string>
+    <string name="three_finger_gesture_summary">Przesuń trzema palcami w dół, aby wykonać zrzut ekranu</string>
+    <string name="current_battery_capacity">Zmierzona pojemność</string>
+    <string name="designed_battery_capacity">Fabryczna pojemność baterii</string>
+    <string name="battery_charge_cycles">Ukończone cykle ładowania</string>
+    <string name="battery_temp">Temperatura baterii</string>
     <string name="hide">Ukryj</string>
+    <string name="unhide">Usuń z ukrytych</string>
+    <string name="app_lock_title">Blokowanie aplikacji</string>
     <string name="app_lock_authentication_dialog_title">Odblokuj</string>
+    <string name="enable_debugging">Włącz debugowanie</string>
+    <string name="disable_debugging">Wyłącz debugowanie</string>
+    <string name="app_lock_packages_title">Chronione aplikacje</string>
+    <string name="app_lock_packages_summary">Wybierz aplikacje do ochrony za pomocą danych biometrycznych lub danych logowania urządzenia</string>
+    <string name="app_lock_timeout_title">Czas automatycznego blokowania</string>
+    <string name="app_lock_timeout_summary">Czas, po którym odblokowana aplikacja w tle powinna zostać zablokowana</string>
     <string name="app_lock_timeout_5secs">5 sekund</string>
     <string name="app_lock_timeout_10secs">10 sekund</string>
+    <string name="app_lock_timeout_30secs">30 sekund</string>
     <string name="app_lock_timeout_1min">1 minuta</string>
     <string name="app_lock_timeout_5mins">5 minut</string>
     <string name="app_lock_timeout_10mins">10 minut</string>
+    <string name="app_lock_timeout_30mins">30 minut</string>
+    <string name="app_lock_notifications_title">Zwiń powiadomienia</string>
+    <string name="app_lock_notifications_summary">          Zawartość powiadomień zostanie ukryta i zwinięta, gdy aplikacja zostanie zablokowana.
+          Istniejące powiadomienia, jak również nowe powiadomienia zostaną zmienione.
+          Wyskakujące powiadomienia zostaną automatycznie wyłączone.
+    </string>
+    <string name="app_lock_notifications_disabled_summary">Najpierw zabezpiecz aplikację</string>
+    <string name="app_lock_biometrics_allowed_title">Włącz dane biometryczne do odblokowywania</string>
+    <string name="app_lock_footer_text">Dymki zostaną automatycznie odrzucone po przekroczeniu limitu czasowego</string>
+    <string name="enable_protection">Włącz ochronę</string>
     <string name="pocket_judge_title">Wykrywanie kieszeni</string>
     <string name="pocket_judge_summary">Zablokuj funkcje ekranu i przycisków, gdy urządzenie jest w kieszeni</string>
+    <string name="increasing_ring_volume_option_title">Narastająca głośność dzwonka</string>
+    <string name="increasing_ring_min_volume_title">Głośność początkowa</string>
+    <string name="increasing_ring_ramp_up_time_title">Czas podgłaśniania dzwonka</string>
+    <string name="tethering_allow_vpn_upstreams_title">Zezwól podłączonym urządzeniom na korzystanie z VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Zezwól urządzeniom, podłączonym do udostępnionej sieci, na wysyłanie pakietów, poprzez VPN tego urządzenia</string>
     <string name="unlock_quick_unlock_control_title">Szybkie odblokowanie</string>
+    <string name="unlock_quick_unlock_control_summary">Odblokuj automatycznie, kiedy zostanie podany prawidłowy PIN/hasło</string>
+    <string name="radio_info_title">Informacje radiowe</string>
+    <string name="background_processes_settings_title">Procesy pracujące w tle</string>
+    <string name="search">Szukaj</string>
+    <string name="selinux_status_disabled">Wyłączony</string>
 </resources>

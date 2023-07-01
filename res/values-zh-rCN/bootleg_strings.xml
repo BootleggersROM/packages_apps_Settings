@@ -22,6 +22,7 @@
     <string name="bootleg_type_official">官方</string>
     <string name="bootleg_type_unofficial">非官方</string>
     <string name="bootleg_type_unknown">不支持 ¯\\_(ツ)_/¯</string>
+    <string name="bootleggers_releasetype_skeleton" formatted="false">%1s (%2s)</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">您可以在平板正面找到指纹传感器。</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">您可以在手机正面找到指纹传感器。</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="default">您可以在手机正面找到指纹传感器。</string>
@@ -145,4 +146,7 @@
     <string name="unlock_quick_unlock_control_title">快速解锁</string>
     <string name="unlock_quick_unlock_control_summary">输入正确的密码/密码后自动解锁</string>
     <string name="radio_info_title">广播信息</string>
+    <string name="background_processes_settings_title">后台进程</string>
+    <string name="search">搜索​​​​</string>
+    <string name="selinux_status_disabled">禁用</string>
 </resources>

@@ -46,4 +46,6 @@
     <string name="pocket_judge_title">Detekce uložení v kapse</string>
     <string name="pocket_judge_summary">Blokovat obrazovku a hardwarová tlačítka, když je zařízení v kapse</string>
     <string name="unlock_quick_unlock_control_title">Rychlé odemknutí</string>
+    <string name="search">Hledat</string>
+    <string name="selinux_status_disabled">Zakázáno</string>
 </resources>

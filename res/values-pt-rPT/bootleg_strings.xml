@@ -15,4 +15,5 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="bootleg_dumpster_title">A lixeira Bootleg</string>
+    <string name="selinux_status_disabled">Desactivado</string>
 </resources>

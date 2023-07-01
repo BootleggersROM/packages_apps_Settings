@@ -45,4 +45,6 @@
     <string name="pocket_judge_title">ポケット検出</string>
     <string name="pocket_judge_summary">ポケットに入っている時にタッチやボタン入力を無効化する</string>
     <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
+    <string name="search">検索</string>
+    <string name="selinux_status_disabled">無効</string>
 </resources>

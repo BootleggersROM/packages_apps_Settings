@@ -45,4 +45,6 @@
     <string name="pocket_judge_title">استشعار الجيب</string>
     <string name="pocket_judge_summary">الغاء تفعيل الشاشة و أزرار الإدخال عندما يكون الجهاز في الجيب</string>
     <string name="unlock_quick_unlock_control_title">فتح سريع للقفل</string>
+    <string name="search">بحث</string>
+    <string name="selinux_status_disabled">معطل</string>
 </resources>

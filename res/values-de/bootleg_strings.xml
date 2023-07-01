@@ -21,25 +21,132 @@
     <string name="device_maintainer">Die Schuldigen (Maintainer)</string>
     <string name="bootleg_type_official">Offiziell</string>
     <string name="bootleg_type_unofficial">Inoffiziell</string>
+    <string name="bootleg_type_unknown">Nicht unterstützt. ¯\\_(ツ)_/¯</string>
+    <string name="bootleggers_releasetype_skeleton" formatted="false">%1s (%2s)</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Suchen Sie den Fingerabdrucksensor auf der Vorderseite des Tablets.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Finde den Fingerabdrucksensor auf der Vorderseite des Geräts.</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="default">Finden Sie den Fingerabdrucksensor auf der Vorderseite des Telefons.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Suchen Sie den Fingerabdrucksensor auf der Rückseite Ihres Tablets.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Suchen Sie den Fingerabdrucksensor auf der Rückseite Ihres Geräts.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Suchen Sie den Fingerabdrucksensor auf der Rückseite Ihres Telefons.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Berühren Sie den Sensor auf der Vorderseite Ihres Tablets.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Berühren Sie den Sensor auf der Vorderseite Ihres Geräts.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Berühren Sie den Sensor auf der Vorderseite Ihres Telefons.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Berühren Sie den Sensor auf der Rückseite Ihres Tablets.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Berühren Sie den Sensor auf der Rückseite Ihres Geräts.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Berühren Sie den Sensor auf der Rückseite Ihres Telefons.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Berühren Sie den Sensor an der Seite Ihres Tablets.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Berühren Sie den Sensor an der Seite Ihres Geräts.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Berühren Sie den Sensor an der Seite Ihres Telefons.</string>
+    <string name="unlock_scramble_pin_layout_title">Zahlen durchmischen</string>
     <string name="unlock_scramble_pin_layout_summary">Durchmischen der Zahlen beim Entsperren des Gerätes</string>
+    <string name="min_refresh_rate_title">Minimale Bildwiederholrate</string>
+    <string name="max_refresh_rate_title">Maximale Bildwiederholrate</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Bestehenden Gesichtsscan entfernen und einen neuen Scan erstellen</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Gesichtsscan wiederholen</string>
+    <string name="face_redo_confirm_btn">Wiederholen</string>
+    <string name="face_redo_warning_msg">Möchten Sie den vorhandenen Gesichtsscan löschen und einen neuen Scan erstellen?</string>
+    <string name="face_unlock_method_title">Gesichtsentsperrung auf Sperrbildschirm zulassen</string>
+    <string name="face_unlock_method_default">Wenn der Bildschirm eingeschaltet ist</string>
+    <string name="face_unlock_method_swipe">Beim Wischen auf dem Sperrbildschirm</string>
+    <string name="skip_biometric_auth_confirmation_title">Manuelle Bestätigung überspringen</string>
+    <string name="power_button_torch_title">Schnellstart der Taschenlampe</string>
+    <string name="power_button_torch_summary">Wenn der Bildschirm ausgeschaltet ist, kann die Taschenlampe durch langes Drücken des Power-Knopfes aktiviert werden</string>
+    <string name="app_volume">App-Lautstärke</string>
+    <string name="app_volume_title">Per-App Lautstärkensteuerung</string>
+    <string name="app_volume_summary">Erlaube die Einstellung verschiedener Lautstärkepegel für jede App. HINWEIS: Dies wird den Multi-Audio-Fokus aktivieren</string>
+    <string name="other_controls_title">Andere Steuerungen</string>
+    <string name="fullscreen_gestures_title">Vollbildgesten</string>
+    <string name="fullscreen_gestures_summary">Navigationsleisten-Pille und leeren Tastaturbereich ausblenden</string>
+    <string name="gesture_navbar_length_title">Pillenlänge</string>
     <string name="short_label">Kurz</string>
     <string name="long_label">Lang</string>
     <string name="screenshot_shutter_sound_title">Ton bei Bildschirmfoto</string>
+    <string name="adaptive_playback_screen_title">Adaptive Medienwiedergabe</string>
+    <string name="adaptive_playback_enabled">Adaptive Medienwiedergabe verwenden</string>
     <string name="adaptive_playback_disabled_summary">Aus</string>
+    <string name="adaptive_playback_timeout_title">Abschalten nach</string>
+    <string name="adaptive_playback_timeout_none">Nicht Abschalten</string>
+    <string name="adaptive_playback_timeout_none_summary">Ein (kein Timeout)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 Sekunden</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">An (30 Sekunden)</string>
     <string name="adaptive_playback_timeout_1_min">1 Minute</string>
+    <string name="adaptive_playback_timeout_1_min_summary">An (1 Minute)</string>
+    <string name="adaptive_playback_timeout_2_min">2 Minuten</string>
+    <string name="adaptive_playback_timeout_2_min_summary">An (2 Minuten)</string>
     <string name="adaptive_playback_timeout_5_min">5 Minuten</string>
+    <string name="adaptive_playback_timeout_5_min_summary">An (5 Minuten)</string>
     <string name="adaptive_playback_timeout_10_min">10 Minuten</string>
+    <string name="adaptive_playback_timeout_10_min_summary">An (10 Minuten)</string>
+    <string name="wifi_timeout">WLAN-Abschaltung</string>
+    <string name="wifi_timeout_summary">WLAN nie automatisch ausschalten</string>
+    <string name="wifi_timeout_summary_auto">WLAN wird nach <xliff:g id="timeout_description">%1$s</xliff:g> ausgeschaltet, sofern kein Netzwerk verbunden ist</string>
+    <string name="bluetooth_timeout">Bluetooth-Abschaltung</string>
+    <string name="bluetooth_timeout_summary">Bluetooth nie automatisch ausschalten</string>
+    <string name="bluetooth_timeout_summary_auto">Bluetooth wird nach <xliff:g id="timeout_description">%1$s</xliff:g> ausgeschaltet, sofern kein Gerät verbunden ist</string>
     <string name="custom_timeout_summary_never">Nie</string>
+    <string name="custom_timeout_summary_15secs">15 Sekunden</string>
+    <string name="custom_timeout_summary_30secs">30 Sekunden</string>
     <string name="custom_timeout_summary_1min">1 Minute</string>
+    <string name="custom_timeout_summary_2mins">2 Minuten</string>
     <string name="custom_timeout_summary_5mins">5 Minuten</string>
     <string name="custom_timeout_summary_10mins">10 Minuten</string>
+    <string name="custom_timeout_summary_30mins">30 Minuten</string>
+    <string name="custom_timeout_summary_1hour">1 Stunde</string>
+    <string name="custom_timeout_summary_2hours">2 Stunden</string>
+    <string name="custom_timeout_summary_4hours">4 Stunden</string>
+    <string name="custom_timeout_summary_8hours">8 Stunden</string>
+    <string name="captive_portal_title">Verbindungscheck</string>
+    <string name="captive_portal_summary">Feststellen, ob das Gerät eine Verbindung zum Internet herstellen kann, indem es Google kontaktiert. Wird auch zur Erkennung unverschlüsselter Portale verwendet.</string>
+    <string name="battery_stats_reset">Statistik zurücksetzen?</string>
+    <string name="battery_stats_message">Daten zur Akkunutzung gehen verloren</string>
+    <string name="platform_revision">Plattform</string>
+    <string name="total_ram">Insgesamt verfügbarer RAM</string>
+    <string name="copied_to_clipboard">In die Zwischenablage kopiert</string>
+    <string name="longpress_to_clipboard">Gedrückt halten zum Kopieren</string>
+    <string name="three_finger_gesture">Wischen um Screenshot zu erstellen</string>
+    <string name="three_finger_gesture_summary">Mit drei Fingern nach unten wischen, um einen Screenshot zu machen</string>
+    <string name="current_battery_capacity">Gemessene Kapazität</string>
+    <string name="designed_battery_capacity">Vorgesehene Kapazität</string>
+    <string name="battery_charge_cycles">Durchgeführte Ladezyklen</string>
+    <string name="battery_temp">Batterietemperatur</string>
+    <string name="hide">Ausblenden</string>
+    <string name="unhide">Einblenden</string>
+    <string name="app_lock_title">App-Sperre</string>
+    <string name="app_lock_authentication_dialog_title">Entsperren</string>
+    <string name="enable_debugging">Debugging aktivieren</string>
+    <string name="disable_debugging">Debugging deaktivieren</string>
+    <string name="app_lock_packages_title">Geschützte Apps</string>
+    <string name="app_lock_packages_summary">Anwendungen auswählen, die mittels biometrischer oder konventioneller Eingaben geschützt werden sollen</string>
+    <string name="app_lock_timeout_title">Zeit bis zur automatischen Sperrung</string>
+    <string name="app_lock_timeout_summary">Dauer, nach der eine entsperrte App im Hintergrund wieder gesperrt wird</string>
     <string name="app_lock_timeout_5secs">5 Sekunden</string>
     <string name="app_lock_timeout_10secs">10 Sekunden</string>
+    <string name="app_lock_timeout_30secs">30 Sekunden</string>
     <string name="app_lock_timeout_1min">1 Minute</string>
     <string name="app_lock_timeout_5mins">5 Minuten</string>
     <string name="app_lock_timeout_10mins">10 Minuten</string>
+    <string name="app_lock_timeout_30mins">30 Minuten</string>
+    <string name="app_lock_notifications_title">Benachrichtigungen zensieren</string>
+    <string name="app_lock_notifications_summary">          Benachrichtigungsinhalte werden ausgeblendet und eingeklappt, wenn die Anwendung gesperrt ist.
+          Vorhandene Benachrichtigungen sowie neue Benachrichtigungen werden verborgen.
+          Heads-up-Benachrichtigungen werden automatisch deaktiviert.
+    </string>
+    <string name="app_lock_notifications_disabled_summary">Schütze zuerst eine Anwendung</string>
+    <string name="app_lock_biometrics_allowed_title">Biometrische Authentifizierung aktivieren</string>
+    <string name="app_lock_footer_text">Bubbles werden nach dem Timeout automatisch geschlossen</string>
+    <string name="enable_protection">Schutz aktivieren</string>
     <string name="pocket_judge_title">Taschenerkennung</string>
     <string name="pocket_judge_summary">Verhindert Bildschirm und Tasteneingaben, wenn sich das Gerät in einer Tasche befindet</string>
+    <string name="increasing_ring_volume_option_title">Ansteigende Klingeltonlautstärke</string>
+    <string name="increasing_ring_min_volume_title">Anfangslautstärke</string>
+    <string name="increasing_ring_ramp_up_time_title">Anstiegszeit</string>
+    <string name="tethering_allow_vpn_upstreams_title">Geräten erlauben, VPNs zu verwenden</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Erlaube Hotspot-Clients die VPN-Verbindung dieses Gerätes\u2019 für ausgehende Verbindungen zu nutzen</string>
     <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
+    <string name="unlock_quick_unlock_control_summary">Automatisch entsperren, wenn PIN/Passwort korrekt eingegeben wird</string>
+    <string name="radio_info_title">Empfangsinformationen</string>
+    <string name="background_processes_settings_title">Hintergrundprozesse</string>
+    <string name="search">Suche</string>
+    <string name="selinux_status_disabled">Deaktiviert</string>
 </resources>

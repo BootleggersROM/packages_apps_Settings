@@ -14,12 +14,5 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="bootleg_dumpster_summary">Where the broken stuff is placed</string>
-    <string name="device_maintainer">Who to blame (Maintainer)</string>
-    <string name="adaptive_playback_disabled_summary">끔</string>
-    <string name="custom_timeout_summary_never">안함</string>
-    <string name="app_lock_timeout_5secs">5 초</string>
-    <string name="app_lock_timeout_10secs">10 초</string>
-    <string name="search">검색</string>
-    <string name="selinux_status_disabled">비활성화</string>
+    <string name="selinux_status_disabled">முடக்கப்பட்டது</string>
 </resources>

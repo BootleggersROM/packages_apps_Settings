@@ -66,4 +66,6 @@
     <string name="pocket_judge_title">Phát hiện trong túi</string>
     <string name="pocket_judge_summary">Chặn bật màn hình và các nút bấm khi thiết bị ở trong túi</string>
     <string name="unlock_quick_unlock_control_title">Mở khóa nhanh</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="selinux_status_disabled">Đã tắt</string>
 </resources>

@@ -46,4 +46,6 @@
     <string name="pocket_judge_title">Rilevamento telefono in tasca</string>
     <string name="pocket_judge_summary">Blocca lo schermo e i pulsanti quando il dispositivo è in tasca</string>
     <string name="unlock_quick_unlock_control_title">Sblocco rapido</string>
+    <string name="search">Ricerca</string>
+    <string name="selinux_status_disabled">Disabilitato</string>
 </resources>

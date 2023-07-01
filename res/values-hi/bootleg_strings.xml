@@ -28,4 +28,6 @@
     <string name="app_lock_timeout_1min">1 मिनट</string>
     <string name="app_lock_timeout_5mins">5 मिनट</string>
     <string name="app_lock_timeout_10mins">10 मिनट</string>
+    <string name="search">खोजें</string>
+    <string name="selinux_status_disabled">चालू नहीं है</string>
 </resources>
